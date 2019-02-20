@@ -77,6 +77,7 @@ class App extends Component {
   render() {
     return (
       <div>
+        <ReactFCCtest />
         {/* <div className="button">
           <Button onClick={this.clickHandler.bind(this)}>Change Data</Button>
         </div> */}
