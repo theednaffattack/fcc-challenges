@@ -1,0 +1,13 @@
+.Tooltip {
+  border: 1px solid #757575;
+  box-shadow: none;
+  display: table;
+  position: absolute;
+  padding: 8px;
+  text-align: left;
+  font-size: 16px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  pointer-events: none;
+  white-space: nowrap;
+}

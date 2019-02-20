@@ -5,11 +5,15 @@ import styled from "styled-components";
 import { minHeight, minWidth, space } from "styled-system";
 import * as d3 from "d3";
 
+import { Legend } from "./Legend";
 import { Bars } from "./ChartComponents.js";
 import "./treemap.css";
 // import data from "./flare2.json";
 import data from "./movie_data.json";
 // import data from "./globalTemperature.json";
+
+import Tooltip from "../TooltipV2/tooltip";
+import "../TooltipV2/styles.css";
 
 const Pree = styled.pre`
   font-size: 1.5em;
@@ -22,7 +26,23 @@ const Pree = styled.pre`
 
 export class Treemap extends React.Component {
   constructor(props) {
-    super();
+    super(props);
+    this.color = this.color.bind(this);
+    // this.hideTooltip = this.hideTooltip.bind(this);
+    // this.showTooltip = this.showTooltip.bind(this);
+
+    this.state = {
+      hoveredBar: null,
+      tooltipXPos: null,
+      tooltipYPos: null
+    };
+  }
+
+  hideTooltip() {
+    this.setState({ displayTooltip: false });
+  }
+  showTooltip() {
+    this.setState({ displayTooltip: true });
   }
 
   // updateScale(props) {
@@ -54,7 +74,7 @@ export class Treemap extends React.Component {
     return { plotWidth, plotHeight };
   }
 
-  static color = d3.scaleOrdinal(d3.schemeCategory10); // category20c()
+  color = d3.scaleOrdinal(d3.schemeCategory10); // category20c()
 
   render() {
     // const { xScale, yScale } = this.updateScale(this.props);
@@ -82,8 +102,6 @@ export class Treemap extends React.Component {
 
     const tree = treemap(root);
 
-    // console.log(Object.keys(tree.leaves()[0]));
-
     // const metaData = {
     //   // xScale: xScale,
     //   // yScale: yScale,
@@ -109,16 +127,25 @@ export class Treemap extends React.Component {
     // };
     return (
       <div>
-        <ReactFCCtest />
         <div>
-          <h1 id="title">Title</h1>
+          <h1 id="title">Movie Sales</h1>
         </div>
         <div>
-          <p id="description">Description</p>
+          <p id="description">
+            Top 100 Highest Grossing Movies Grouped By Genre
+          </p>
         </div>
+        {/* <div>
+          <pre>{JSON.stringify(this.state, null, 2)}</pre>
+        </div> */}
 
         <svg width={width} height={height}>
-          <g transform={`translate(${margin.left},${margin.top})`}>
+          {/* OLD LEGEND
+          <g
+            transform={`translate(${this.props.margin.left},${
+              this.props.margin.top
+            })`}
+          >
             <rect width="17" height="17" fill="blue" y="-27" />
             <text
               textAnchor="start"
@@ -128,20 +155,20 @@ export class Treemap extends React.Component {
             >
               Enter
             </text>
-          </g>
+          </g> */}
 
-          <g
+          {/* <g
             className="axisLayer"
             width={plotWidth}
             height={plotHeight}
             transform={`translate(${this.props.margin.left}, ${
               this.props.margin.top
             })`}
-          >
-            {/* <YGrid {...metaData} /> */}
-            {/* <XAxis {...metaData} transform={`translate(0,${plotHeight})`} />
+          > */}
+          {/* <YGrid {...metaData} /> */}
+          {/* <XAxis {...metaData} transform={`translate(0,${plotHeight})`} />
             <YAxis {...metaData} /> */}
-          </g>
+          {/* </g> */}
           {/* <g
             className="plotLayer"
             width={plotWidth}
@@ -152,51 +179,82 @@ export class Treemap extends React.Component {
           >*/}
           {/* <Bars {...metaData} {...plotData} /> */}
           {/*</g> */}
-          <g
-            className="node"
-            // style={{
-            //   background: item.children
-            //     ? Treemap.color(item.data.value)
-            //     : console.log(Object.keys(item)), // "rgba(237,20,61,0.3)", //
-            // left: `${item.x0}px`,
-            // top: `${item.y0}px`,
-            // width: `${Math.max(0, item.x1 - item.x0)}px`,
-            // height: `${Math.max(0, item.y1 - item.y0)}px`
-            // opacity: "0.3"
-            // }}
-          >
-            {tree.leaves().map((item, i) => (
-              <>
-                <rect
-                  key={i}
-                  data-name={item.data.name}
-                  data-value={item.data.value}
-                  data-category={item.data.category}
-                  className="tile"
-                  x={item.x0}
-                  y={item.y0}
-                  width={Math.max(0, item.x1 - item.x0)}
-                  height={Math.max(0, item.y1 - item.y0)}
-                  fill={Treemap.color(item.data.category)}
-                />
+          {tree.leaves().map((item, i) => (
+            <g
+              key={i}
+              className="node"
+              transform={`translate(${this.props.margin.left}, ${
+                this.props.margin.top
+              })`}
+              // style={{
+              //   background: item.children
+              //     ? Treemap.color(item.data.value)
+              //     : "rgba(237,20,61,0.3)", //
+              // left: `${item.x0}px`,
+              // top: `${item.y0}px`,
+              // width: `${Math.max(0, item.x1 - item.x0)}px`,
+              // height: `${Math.max(0, item.y1 - item.y0)}px`
+              // opacity: "0.3"
+              // }}
+            >
+              <rect
+                data-name={item.data.name}
+                data-value={item.data.value}
+                data-category={item.data.category}
+                className="tile"
+                x={item.x0}
+                y={item.y0}
+                width={Math.max(0, item.x1 - item.x0)}
+                height={Math.max(0, item.y1 - item.y0)}
+                fill={this.color(item.data.category)}
+                onMouseOver={datum => {
+                  datum.preventDefault();
+                  let { pageX, pageY } = datum;
+                  this.setState({
+                    hoveredBar: {
+                      value: item.data.value,
+                      name: item.data.name,
+                      category: item.data.category
+                    },
+                    tooltipXPos: pageX,
+                    tooltipYPos: pageY
+                  });
+                }}
+                onMouseOut={datum => this.setState({ hoveredBar: null })}
+              />
+              <text
+                textAnchor="start"
+                dominantBaseline="central"
+                fill="white"
+                y={item.y0}
+                x={item.x0}
+                dy="1.2em"
+                fontSize="1.2em"
+                fontWeight="bold"
+                key={i + item.name + item.size}
+              >
+                {item.data.name}
+              </text>
+            </g>
+          ))}
 
-                <text
-                  textAnchor="start"
-                  dominantBaseline="central"
-                  fill="white"
-                  y={item.y0}
-                  x={item.x0}
-                  dy="1.2em"
-                  fontSize="1.2em"
-                  fontWeight="bold"
-                  key={i + item.name + item.size}
-                >
-                  {item.data.name}
-                </text>
-              </>
-            ))}
+          <g
+            id="legend"
+            transform={`translate(${this.props.margin.left}, ${
+              this.props.margin.top
+            })`}
+          >
+            <Legend id="legend" root={root} color={this.color} />
           </g>
         </svg>
+
+        {this.state.hoveredBar ? (
+          <Tooltip
+            hoveredBar={this.state.hoveredBar}
+            xpos={this.state.tooltipXPos}
+            ypos={this.state.tooltipYPos}
+          />
+        ) : null}
       </div>
     );
   }

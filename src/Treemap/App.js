@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import ReactFCCtest from "react-fcctest";
-import { Box as Base, Flex as BaseFlex, Text } from "rebass";
+import { Box as Base, Button, Flex as BaseFlex, Text } from "rebass";
 import styled from "styled-components";
 import { minHeight, minWidth, space } from "styled-system";
 import * as d3 from "d3";
@@ -77,8 +77,9 @@ class App extends Component {
   render() {
     return (
       <div>
-        <ReactFCCtest />
-        <Text id="title">Fake Title</Text>
+        {/* <div className="button">
+          <Button onClick={this.clickHandler.bind(this)}>Change Data</Button>
+        </div> */}
         {this.state.data ? (
           <Treemap
             className="treemapComponent"
@@ -94,9 +95,6 @@ class App extends Component {
         ) : (
           <p>Not found Data.</p>
         )}
-        <div className="button">
-          <button onClick={this.clickHandler.bind(this)}>Change Data</button>
-        </div>
       </div>
     );
   }

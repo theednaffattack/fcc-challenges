@@ -13,6 +13,7 @@ import NewTimerV2 from "./Timer/NewTimer_v2";
 import BarChartWrapper from "./Heatmap/App";
 import Treemap from "./Treemap/App";
 // import BarChart from "./BarChart/App";
+import Tooltip from "./Tooltip/example";
 
 const Link = styled(BaseLink)`
   ${space}
@@ -44,6 +45,9 @@ const App = () => (
       <Link width={1 / 3} mr={2} to="treemap">
         Treemap
       </Link>
+      <Link width={1 / 3} mr={2} to="tooltip">
+        Tooltip
+      </Link>
     </nav>
     <Router>
       <Home path="/" />
@@ -55,6 +59,7 @@ const App = () => (
       {/* <BarChart path="/barchart" /> */}
       <BarChartWrapper path="/heatmap" />
       <Treemap path="/treemap" />
+      <Tooltip path="/tooltip" />
     </Router>
   </Flex>
 );
