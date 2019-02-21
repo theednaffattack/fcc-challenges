@@ -1,31 +1,27 @@
 self.__precacheManifest = [
   {
-    "revision": "7c057d57b2c328bf4fa2",
-    "url": "/static/css/main.c8b6b0a4.chunk.css"
+    "revision": "79d6eb4f42c61d3b2b40",
+    "url": "/static/css/main.dd095cf8.chunk.css"
   },
   {
-    "revision": "7c057d57b2c328bf4fa2",
-    "url": "/static/js/main.7c057d57.chunk.js"
+    "revision": "79d6eb4f42c61d3b2b40",
+    "url": "/static/js/main.79d6eb4f.chunk.js"
   },
   {
     "revision": "fdfcfda2d9b1bf31db52",
     "url": "/static/js/runtime~main.fdfcfda2.js"
   },
   {
-    "revision": "ca8a4c928b1073d26f7b",
+    "revision": "80310f921c761417b803",
     "url": "/static/css/2.3eb117b2.chunk.css"
   },
   {
-    "revision": "ca8a4c928b1073d26f7b",
-    "url": "/static/js/2.ca8a4c92.chunk.js"
+    "revision": "80310f921c761417b803",
+    "url": "/static/js/2.80310f92.chunk.js"
   },
   {
     "revision": "3946f9fe73921f85ce63735196183592",
     "url": "/static/media/Chord_2.3946f9fe.mp3"
-  },
-  {
-    "revision": "5d5d9eefa31e5e13a6610d9fa7a283bb",
-    "url": "/static/media/logo.5d5d9eef.svg"
   },
   {
     "revision": "b1cfea05e9aeb27be5b041e40c1ca80f",
@@ -96,7 +92,7 @@ self.__precacheManifest = [
     "url": "/static/media/BeepSound.988833bf.wav"
   },
   {
-    "revision": "790c78792621b85bea9d6aeb4e4aaee1",
+    "revision": "496638ff163ba42a0fa50c2855a372d2",
     "url": "/index.html"
   }
 ];

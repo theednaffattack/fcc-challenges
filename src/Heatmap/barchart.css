@@ -1,22 +1,22 @@
 body,
 html {
   width: 100%;
-  heigth: 100%;
+  height: 100%;
   padding: 0x;
   margin: 0;
 }
-.axisLaeyr .xAxis .domain,
-.axisLaeyr .xAxis .tick > line {
+.axisLayer .xAxis .domain,
+.axisLayer .xAxis .tick > line {
   display: none;
 }
-.axisLaeyr .yAxis .domain,
-.axisLaeyr .yAxis .tick > line {
+.axisLayer .yAxis .domain,
+.axisLayer .yAxis .tick > line {
   display: none;
 }
-.axisLaeyr .yGrid .domain {
+.axisLayer .yGrid .domain {
   display: none;
 }
-.axisLaeyr .yGrid .tick > line {
+.axisLayer .yGrid .tick > line {
   stroke-dasharray: 3;
 }
 .button {
@@ -39,7 +39,7 @@ html, body
 	margin 0px
 
 
-.axisLaeyr
+.axisLayer
 	.xAxis
 		.domain, .tick > line
 			display none

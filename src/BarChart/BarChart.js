@@ -96,7 +96,7 @@ class BarChart extends Component {
         </g>
 
         <g
-          className="axisLaeyr"
+          className="axisLayer"
           width={plotWidth}
           height={plotHeight}
           transform={`translate(${this.props.margin.left}, ${

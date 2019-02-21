@@ -63,17 +63,19 @@ class BarChartWrapper extends Component {
       <Flex flexDirection="column" width={1}>
         <ReactFCCtest />
         <Text id="title">Fake Title</Text>
+        <Text id="description">Fake Description</Text>
         {this.state.data ? (
           <BarChart
             className="barChartComponent"
             data={this.state.data}
             width={this.state.body_width}
-            height={430}
+            height={600}
             xFn={d => d.year}
-            yFn={d => d.value}
-            margin={{ top: 60, left: 40, bottom: 20, right: 20 }}
-            paddingInner={0.1}
-            paddingOuter={0.1}
+            xFnToo={d => d.variance}
+            yFn={d => d.month}
+            margin={{ top: 60, left: 60, bottom: 20, right: 20 }}
+            paddingInner={0}
+            paddingOuter={0}
           />
         ) : (
           <p>No Data found</p>

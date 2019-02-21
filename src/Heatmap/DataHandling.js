@@ -1,4 +1,5 @@
 import * as d3 from "d3";
+import heatmap_data from "../data/heatmap_data.json";
 
 const cast = d => {
   Object.keys(d).forEach(function(key) {
@@ -9,11 +10,7 @@ const cast = d => {
 };
 
 const preformat = d => {
-  return {
-    id: d.id,
-    year: d["年"],
-    value: d["値"]
-  };
+  return { baseTemp: heatmap_data["baseTemperature"], ...d };
 };
 
 /*
@@ -31,9 +28,10 @@ export const loadAllData = (callback = () => {} ) => {
 //デモ用ランダムデータ生成ffunction
 
 export const loadAllData = (callback = () => {}) => {
-  var rnd = n => ~~(Math.random() * n);
-  var fakeData = d3.range(1995, 1999 + rnd(10)).map((d, i) => {
-    return { 年: d, 値: rnd(1000) + 1 };
-  });
-  callback(fakeData.map(preformat));
+  // To fake up some quick data
+  // var rnd = n => ~~(Math.random() * n);
+  // var fakeData = d3.range(1995, 1999 + rnd(10)).map((d, i) => {
+  //   return { 年: d, 値: rnd(1000) + 1 };
+  // });
+  callback(heatmap_data.monthlyVariance.map(preformat));
 };
