@@ -5,5 +5,6 @@ export const navList = [
   { url: "pomodoro", name: "Pomodoro" },
   { url: "heatmap", name: "Heatmap" },
   { url: "treemap", name: "Treemap" },
-  { url: "surveyform", name: "Survey Form" }
+  { url: "surveyform", name: "Survey Form" },
+  { url: "productlandingpage", name: "Product Landing Page" }
 ];

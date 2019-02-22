@@ -24,24 +24,14 @@ import NewTimerV2 from "./Timer/NewTimer_v2";
 import BarChartWrapper from "./Heatmap/App";
 import Treemap from "./Treemap/App";
 import SurveyForm from "./SurveyForm";
+import ProductLandingPage from "./ProductLandingPage";
+import TechnicalDocumentation from "./TechnicalDocumentation";
 
 const Button = styled(BaseButton)`
   ${minHeight}
   ${height}
   ${space}
 `;
-
-const Link = styled(BaseLink)`
-  ${space}
-  ${width}
-`;
-/** Demo setup below **/
-const navLinks = [
-  { url: "#", name: "Popmotion" },
-  { url: "#", name: "Pose" },
-  { url: "#", name: "Blog" },
-  { url: "#", name: "GitHub" }
-];
 
 class App extends React.Component {
   constructor(props) {
@@ -74,10 +64,14 @@ class App extends React.Component {
         <Flex
           mx={0}
           flexDirection="row"
-          style={{ border: "3px dotted fuchsia" }}
+          // style={{ border: "3px dotted fuchsia" }}
         >
-          <Nav isOpen={this.state.isOpen} navItems={navLinks} />
-          <Flex mx={5} flexDirection="column">
+          {/* <Nav isOpen={this.state.isOpen} /> */}
+          <Flex
+            flexDirection="column"
+            width={1}
+            // style={{ border: "3px dotted green" }}
+          >
             {/* <NavList /> */}
             <Router>
               <Home path="/" />
@@ -87,17 +81,10 @@ class App extends React.Component {
               <BarChartWrapper path="/heatmap" />
               <Treemap path="/treemap" />
               <SurveyForm path="/surveyform" />
+              <ProductLandingPage path="/productlandingpage" />
+              <TechnicalDocumentation path="/technicaldocumentation" />
             </Router>
           </Flex>
-
-          <Button
-            ml="auto"
-            height="55px"
-            onClick={this.handleClick}
-            width="100px"
-          >
-            menu
-          </Button>
         </Flex>
         {/* </Flex> */}
       </ThemeProvider>
