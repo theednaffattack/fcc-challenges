@@ -39,7 +39,7 @@ const StyledLi = styled.li`
   border: 2px dotted black;
 `;
 
-const Link = styled(BaseLink)`
+const Link = styled.a`
   ${space}
   ${width}
   text-decoration: none !important;
@@ -92,9 +92,9 @@ export default ({ isOpen, navItems }) => (
     <StyledList pt="40px">
       {navItems.map(({ id, subject, description, header, text }) => (
         <NavItem key={header} my={3}>
-          <a className="nav-link" href={"#" + changeCase.snakeCase(subject)}>
+          <Link className="nav-link" href={"#" + changeCase.snakeCase(subject)}>
             <Text color="white">{subject}</Text>
-          </a>
+          </Link>
         </NavItem>
       ))}
     </StyledList>

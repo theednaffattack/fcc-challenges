@@ -79,9 +79,9 @@ export class TechnicalDocumentation extends Component {
               </Ul>
             </Box>
           ))}
-        </Flex>
 
-        <ReactFCCtest />
+          <ReactFCCtest />
+        </Flex>
       </Flex>
     );
   }
