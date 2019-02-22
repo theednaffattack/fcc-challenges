@@ -26,6 +26,7 @@ import Treemap from "./Treemap/App";
 import SurveyForm from "./SurveyForm";
 import ProductLandingPage from "./ProductLandingPage";
 import TechnicalDocumentation from "./TechnicalDocumentation";
+import Portfolio from "./Portfolio";
 
 const Button = styled(BaseButton)`
   ${minHeight}
@@ -83,6 +84,7 @@ class App extends React.Component {
               <SurveyForm path="/surveyform" />
               <ProductLandingPage path="/productlandingpage" />
               <TechnicalDocumentation path="/technicaldocumentation" />
+              <Portfolio path="/portfolio" />
             </Router>
           </Flex>
         </Flex>
