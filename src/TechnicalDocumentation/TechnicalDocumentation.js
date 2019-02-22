@@ -6,7 +6,7 @@ import styled from "styled-components";
 import { color, space, width, minWidth, borders } from "styled-system";
 
 import { Header } from "../Header";
-import SideBarTechnical from "../SideBarTechnical";
+import SideBarTechnical from "./SideBarTechnical";
 
 const Ul = styled.ul`
   list-style-type: none;
