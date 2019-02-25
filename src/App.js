@@ -27,6 +27,7 @@ import SurveyForm from "./SurveyForm";
 import ProductLandingPage from "./ProductLandingPage";
 import TechnicalDocumentation from "./TechnicalDocumentation";
 import Portfolio from "./Portfolio";
+import VxChart from "./VxStockMarketExample";
 
 const Button = styled(BaseButton)`
   ${minHeight}
@@ -85,6 +86,7 @@ class App extends React.Component {
               <ProductLandingPage path="/productlandingpage" />
               <TechnicalDocumentation path="/technicaldocumentation" />
               <Portfolio path="/portfolio" />
+              <VxChart path="/vxchart" />
             </Router>
           </Flex>
         </Flex>

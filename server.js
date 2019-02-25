@@ -2,6 +2,7 @@
 const express = require("express");
 const favicon = require("express-favicon");
 const path = require("path");
+const helmet = require("helmet");
 // init project
 const atob = require("atob");
 const btoa = require("btoa");
@@ -89,6 +90,7 @@ app.use(favicon(__dirname + "/build/favicon.ico"));
 //   res.sendFile(path.join(__dirname, "build", "index.html"));
 // });
 // app.listen(port);
+app.use(helmet());
 app.use(express.static(path.join(__dirname, "build")));
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
