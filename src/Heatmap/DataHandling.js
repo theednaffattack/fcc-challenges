@@ -1,13 +1,13 @@
-import * as d3 from "d3";
+// import * as d3 from "d3";
 import heatmap_data from "../data/heatmap_data.json";
 
-const cast = d => {
-  Object.keys(d).forEach(function(key) {
-    if (!isNaN(+d[key])) d[key] = +d[key];
-  });
+// const cast = d => {
+//   Object.keys(d).forEach(function(key) {
+//     if (!isNaN(+d[key])) d[key] = +d[key];
+//   });
 
-  return d;
-};
+//   return d;
+// };
 
 const preformat = d => {
   return { baseTemp: heatmap_data["baseTemperature"], ...d };

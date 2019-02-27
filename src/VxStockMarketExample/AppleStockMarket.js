@@ -14,12 +14,12 @@ const stock = appleStock.slice(800);
 const height = 800;
 const width = 1000;
 
-const margin = {
-  top: 60,
-  bottom: 60,
-  left: 80,
-  right: 80
-};
+// const margin = {
+//   top: 60,
+//   bottom: 60,
+//   left: 80,
+//   right: 80
+// };
 
 // util
 const formatDate = timeFormat("%b %d, '%y");
@@ -62,8 +62,8 @@ class Area extends React.Component {
       hideTooltip,
       tooltipData,
       tooltipTop,
-      tooltipLeft,
-      events
+      tooltipLeft
+      // events
     } = this.props;
     if (width < 10) return null;
 

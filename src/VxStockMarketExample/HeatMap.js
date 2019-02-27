@@ -1,8 +1,8 @@
 import React from "react";
 import { Group } from "@vx/group";
-import { genBins } from "@vx/mock-data";
+// import { genBins } from "@vx/mock-data";
 import { scaleLinear } from "@vx/scale";
-import { HeatmapCircle, HeatmapRect } from "@vx/heatmap";
+import { HeatmapRect } from "@vx/heatmap";
 
 import heatData from "../data/heatmap_data.json";
 
@@ -10,11 +10,11 @@ let data = heatData;
 
 const hot1 = "#77312f";
 const hot2 = "#f33d15";
-const cool1 = "#122549";
+// const cool1 = "#122549";
 const cool2 = "#b4fbde";
 const bg = "#28272c";
 
-const genData = genBins(16, 16);
+// const genData = genBins(16, 16);
 
 console.log(data);
 
@@ -25,11 +25,11 @@ const max = (data, value = d => d) => {
   //   return Math.max(data["monthlyVariance"].map(x => x[value]));
 };
 
-const min = (data, value = d => d) => {
-  console.log("data.monthlyVariance min");
-  console.log(data);
-  //   return Math.min(data["monthlyVariance"].map(x => x[value]));
-};
+// const min = (data, value = d => d) => {
+//   console.log("data.monthlyVariance min");
+//   console.log(data);
+//   //   return Math.min(data["monthlyVariance"].map(x => x[value]));
+// };
 
 // accessors
 // const bins = d => d.bins;
@@ -37,7 +37,7 @@ const min = (data, value = d => d) => {
 const x = d => d.baseTemperature;
 const y = d => d.monthlyVariance;
 const z = d => d.variance;
-const tempChange = x + z;
+// const tempChange = x + z;
 
 // const colorMax = max(data, d => max(bins(d), count));
 const colorMax = max(data, d => max(d), z);
