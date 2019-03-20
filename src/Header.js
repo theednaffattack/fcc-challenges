@@ -1,16 +1,7 @@
-import React, { Component } from "react";
-import { Box as BoxBase, Button, Flex, Text } from "rebass";
-
-import { Link as BaseLink } from "@reach/router";
+import React from "react";
+import { Box as BoxBase, Flex, Text } from "rebass";
 import styled from "styled-components";
-import {
-  color,
-  space,
-  width,
-  minHeight,
-  minWidth,
-  borders
-} from "styled-system";
+import { space, minHeight } from "styled-system";
 
 const StickyBox = styled(Flex)`
   position: fixed;

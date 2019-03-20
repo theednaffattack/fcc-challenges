@@ -2,16 +2,6 @@ import React, { Component } from "react";
 import { Box, Button, Flex, Text } from "rebass";
 import ReactFCCtest from "react-fcctest";
 import styled from "styled-components";
-import { color, space, width, minWidth, borders } from "styled-system";
-
-import { Checkbox } from "./Checkbox";
-
-const ViewState = styled.pre`
-  ${color}
-  ${space}
-  ${width}
-  ${minWidth}
-`;
 
 const RadioBox = styled.div`
   display: inline-block;
@@ -64,9 +54,9 @@ export class SurveyForm extends Component {
 
   handleRadio(event) {
     console.log(event.target.name);
-    const target = event.target;
-    const value = target.value;
-    const name = target.name || target.id;
+    // const target = event.target;
+    // const value = target.value;
+    // const name = target.name || target.id;
     this.setState({
       [event.target.name]: event.target.value
     });

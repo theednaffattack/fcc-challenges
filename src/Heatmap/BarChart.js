@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import * as d3 from "d3";
-import { XAxis, YAxis, YGrid, Bars } from "./ChartComponents.js";
+import { XAxis, YAxis, Bars } from "./ChartComponents.js";
 
 class BarChart extends Component {
   constructor(props) {
@@ -16,34 +16,34 @@ class BarChart extends Component {
     const xScale = d3.scaleBand();
     const yScale = d3.scaleLinear().nice();
 
-    var scale_y = d3
-      .scaleOrdinal()
-      .domain([
-        "January",
-        "February",
-        "March",
-        "April",
-        "May",
-        "June",
-        "July",
-        "August",
-        "September",
-        "October",
-        "November",
-        "December"
-      ])
-      .range(
-        Array.from(
-          new Array(12),
-          (x, i) =>
-            i * (props.height / 12) + props.margin.top + props.margin.bottom
-        )
-      );
+    // var scale_y = d3
+    //   .scaleOrdinal()
+    //   .domain([
+    //     "January",
+    //     "February",
+    //     "March",
+    //     "April",
+    //     "May",
+    //     "June",
+    //     "July",
+    //     "August",
+    //     "September",
+    //     "October",
+    //     "November",
+    //     "December"
+    //   ])
+    //   .range(
+    //     Array.from(
+    //       new Array(12),
+    //       (x, i) =>
+    //         i * (props.height / 12) + props.margin.top + props.margin.bottom
+    //     )
+    //   );
     // const yScale = d3.scaleOrdinal();
-    const heatScale = d3.scaleLinear();
+    // const heatScale = d3.scaleLinear();
     // const minYear = d3.min(data, d => d.year);
     const xDomain = data.map(props.xFn);
-    const intensityValue = d3.extent(props.xFnToo);
+    // const intensityValue = d3.extent(props.xFnToo);
     const yDomain = [yMin, yMax];
     // const yDomain = [...months];
     // const barWidth = props.width / (monthlyVariance.length / months.length);

@@ -1,8 +1,5 @@
 import React, { Component } from "react";
 import ReactFCCtest from "react-fcctest";
-import { Box as Base, Button, Flex as BaseFlex, Text } from "rebass";
-import styled from "styled-components";
-import { minHeight, minWidth, space } from "styled-system";
 import * as d3 from "d3";
 
 import flare_data from "./flare2.json";
@@ -57,7 +54,7 @@ class App extends Component {
       .sum(d => d.size)
       .sort((a, b) => b.height - a.height || b.size - a.size);
 
-    const tree = treemap(root);
+    // const tree = treemap(root);
 
     this.setState({
       data: treemap(root)

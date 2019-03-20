@@ -2,20 +2,20 @@ import { theme } from "rebass";
 
 import palxColors from "./palxColors.json";
 
-const grays = palxColors.gray.map((color, index) =>
-  Object.assign({}, { ["gray" + index]: color })
-);
+// const grays = palxColors.gray.map((color, index) =>
+//   Object.assign({}, { ["gray" + index]: color })
+// );
 
-const blues = palxColors.blue.map((color, index) =>
-  Object.assign({}, { ["blue" + index]: color })
-);
+// const blues = palxColors.blue.map((color, index) =>
+//   Object.assign({}, { ["blue" + index]: color })
+// );
 
 const indigos = palxColors.indigo.map((color, index) =>
   Object.assign({}, { ["indigo" + index]: color })
 );
 
-console.log("indigos");
-console.log(indigos);
+// console.log("indigos");
+// console.log(indigos);
 // const violets = palxColors.violet.map((color, index) =>
 //   Object.assign({}, { ["violet" + index]: color })
 // );

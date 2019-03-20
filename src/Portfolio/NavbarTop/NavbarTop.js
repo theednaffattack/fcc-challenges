@@ -1,22 +1,8 @@
-import changeCase from "change-case";
 import React from "react";
 import posed from "react-pose";
-import { Box, Flex, Heading, Text } from "rebass";
+import { Box, Flex, Text } from "rebass";
 import styled from "styled-components";
 import { color, space, width, minHeight } from "styled-system";
-
-// graveyard
-// import { Link as BaseLink, Router } from "@reach/router";
-// import { navList } from "./navList";
-
-const SidebarBase = posed.nav({
-  open: {
-    x: "0%",
-    // animate child components with 100ms between entries
-    staggerChildren: 100
-  },
-  closed: { x: "-150%" }
-});
 
 const NavbarTop = styled(Flex)`
   ${color}

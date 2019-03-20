@@ -1,11 +1,9 @@
 import changeCase from "change-case";
 import React, { Component } from "react";
-import { Box, Button, Flex, Heading, Text } from "rebass";
+import { Box, Flex, Heading, Text } from "rebass";
 import ReactFCCtest from "react-fcctest";
 import styled from "styled-components";
-import { color, space, width, minWidth, borders } from "styled-system";
 
-import { Header } from "../Header";
 import SideBarTechnical from "./SideBarTechnical";
 
 const Ul = styled.ul`

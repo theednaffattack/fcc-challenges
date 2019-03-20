@@ -1,27 +1,14 @@
-import changeCase from "change-case";
 import React, { Component } from "react";
 import ReactFCCtest from "react-fcctest";
-import posed from "react-pose";
 import {
   Box as BaseBox,
   Button as BaseButton,
   Card,
   Flex as BaseFlex,
-  Heading,
   Text as BaseText
 } from "rebass";
 import styled from "styled-components";
-import {
-  borders,
-  color,
-  space,
-  width,
-  height,
-  minHeight,
-  minWidth
-} from "styled-system";
-
-import mathfromString from "math-from-string";
+import { borders, space, minHeight } from "styled-system";
 
 import NavbarTop from "./NavbarTop";
 import { initialState, operators, switchNegative } from "./calculation";
@@ -65,13 +52,13 @@ const Str = item => {
   return JSON.stringify(item, null, 2);
 };
 
-const findDecimals = /\./g;
+// const findDecimals = /\./g;
 
 const topRow = "#c5c5c5";
 
 const buttonTestBorder = "1px solid red";
 
-const isOpen = true;
+// const isOpen = true;
 
 export class Calculator extends Component {
   constructor(props) {
@@ -170,17 +157,19 @@ export class Calculator extends Component {
       this.state.window.match(/\./g).length > 0 &&
       value === "."
     ) {
-      let calcTable = this.state.window.split("").map((calcEntry, index) => {
-        if (!isNaN(+calcEntry)) {
-          return "NUMBER";
-        }
-        if (calcEntry === ".") {
-          return "DECIMAL";
-        }
-        if (operators.indexOf(calcEntry) !== -1) {
-          return "OPERATOR";
-        }
-      });
+      let calcTable = this.state.window
+        .split("")
+        .map(function(calcEntry, index) {
+          if (!isNaN(+calcEntry)) {
+            return "NUMBER";
+          }
+          if (calcEntry === ".") {
+            return "DECIMAL";
+          }
+          if (operators.indexOf(calcEntry) !== -1) {
+            return "OPERATOR";
+          }
+        });
       let lastDecimal = calcTable.lastIndexOf("DECIMAL");
       let lastNumber = calcTable.lastIndexOf("NUMBER");
       let lastOperator = calcTable.lastIndexOf("OPERATOR");
@@ -241,8 +230,6 @@ export class Calculator extends Component {
       return this.setState(prevState => {
         return { window: filteredItems.join("") + value };
       });
-
-      console.error("YOIU'VE FAILED TO HANDLE A CASE");
     }
     this.setState((prevState, currentProps) => {
       return { window: prevState.window + value };

@@ -1,20 +1,19 @@
 import React, { Component } from "react";
 // import ReactDOM from "react-dom";
 import ReactFCCtest from "react-fcctest";
-import { Box as Base, Flex as BaseFlex, Text } from "rebass";
+import { Flex as BaseFlex, Text } from "rebass";
 import styled from "styled-components";
-import { minHeight, minWidth, space } from "styled-system";
-import * as d3 from "d3";
+import { minHeight, minWidth } from "styled-system";
 
-import { loadAllData } from "./DataHandling";
-import BarChart from "./BarChart.js";
+// import { loadAllData } from "./DataHandling";
+import NewHeatMap from "./NewHeatMap";
 
 const Flex = styled(BaseFlex)`
   ${minWidth}
   ${minHeight}
 `;
 
-class BarChartWrapper extends Component {
+class HeatMapWrapper extends Component {
   constructor() {
     super();
 
@@ -26,9 +25,9 @@ class BarChartWrapper extends Component {
     window.addEventListener("resize", this.resize().bind(this));
   }
 
-  componentWillMount() {
-    this.load();
-  }
+  // componentWillMount() {
+  //   this.load();
+  // }
 
   resize() {
     let t;
@@ -46,47 +45,27 @@ class BarChartWrapper extends Component {
     };
   }
 
-  load() {
-    loadAllData(this.loaded.bind(this));
-  }
+  // load() {
+  //   loadAllData(this.loaded.bind(this));
+  // }
 
   loaded(data) {
     this.setState({ data: data });
   }
 
-  clickHandler() {
-    this.load();
-  }
+  // clickHandler() {
+  //   this.load();
+  // }
 
   render() {
     return (
-      <Flex flexDirection="column" width={1}>
+      <Flex bg="#eee" alignItems="center" flexDirection="column" width={1}>
+        <NewHeatMap width="1000" height="900" />
         <ReactFCCtest />
-        <Text id="title">Fake Title</Text>
-        <Text id="description">Fake Description</Text>
-        {this.state.data ? (
-          <BarChart
-            className="barChartComponent"
-            data={this.state.data}
-            width={this.state.body_width}
-            height={600}
-            xFn={d => d.year}
-            xFnToo={d => d.variance}
-            yFn={d => d.month}
-            margin={{ top: 60, left: 60, bottom: 20, right: 20 }}
-            paddingInner={0}
-            paddingOuter={0}
-          />
-        ) : (
-          <p>No Data found</p>
-        )}
-        <div className="button">
-          <button onClick={this.clickHandler.bind(this)}>Change Data</button>
-        </div>
       </Flex>
     );
   }
 }
 
-export default BarChartWrapper;
+export default HeatMapWrapper;
 // ReactDOM.render(<App />, document.getElementById("root"));

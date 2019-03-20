@@ -1,0 +1,4470 @@
+[
+  {
+    "year": 1753,
+    "bins": [
+      { "month": 1, "count": -1.366 },
+      { "month": 2, "count": -2.223 },
+      { "month": 3, "count": 0.211 },
+      { "month": 4, "count": -0.958 },
+      { "month": 5, "count": 0.175 },
+      { "month": 6, "count": 1.049 },
+      { "month": 7, "count": 0.464 },
+      { "month": 8, "count": -0.526 },
+      { "month": 9, "count": 0.47 },
+      { "month": 10, "count": -0.61 },
+      { "month": 11, "count": -1.452 },
+      { "month": 12, "count": -4.256 }
+    ]
+  },
+  {
+    "year": 1754,
+    "bins": [
+      { "month": 1, "count": -1.748 },
+      { "month": 2, "count": -4.175 },
+      { "month": 3, "count": -1.448 },
+      { "month": 4, "count": 2.672 },
+      { "month": 5, "count": -0.031 },
+      { "month": 6, "count": 0.826 },
+      { "month": 7, "count": 0.082 },
+      { "month": 8, "count": -1.308 },
+      { "month": 9, "count": -1.773 },
+      { "month": 10, "count": 0.134 },
+      { "month": 11, "count": -0.629 },
+      { "month": 12, "count": -0.362 }
+    ]
+  },
+  {
+    "year": 1755,
+    "bins": [
+      { "month": 1, "count": -2.384 },
+      { "month": 2, "count": -2.962 },
+      { "month": 3, "count": -1.498 },
+      { "month": 4, "count": 0.084 },
+      { "month": 5, "count": 0.784 },
+      { "month": 6, "count": 1.872 },
+      { "month": 7, "count": -0.27 },
+      { "month": 8, "count": -1.369 },
+      { "month": 9, "count": -1.096 },
+      { "month": 10, "count": 0.61 },
+      { "month": 11, "count": -0.772 },
+      { "month": 12, "count": -2.551 }
+    ]
+  },
+  {
+    "year": 1756,
+    "bins": [
+      { "month": 1, "count": 0.554 },
+      { "month": 2, "count": 2.772 },
+      { "month": 3, "count": -0.995 },
+      { "month": 4, "count": 0.94 },
+      { "month": 5, "count": 2.365 },
+      { "month": 6, "count": 1.066 },
+      { "month": 7, "count": -0.741 },
+      { "month": 8, "count": -1.481 },
+      { "month": 9, "count": -0.221 },
+      { "month": 10, "count": -2.177 },
+      { "month": 11, "count": -2.535 },
+      { "month": 12, "count": -3.079 }
+    ]
+  },
+  {
+    "year": 1757,
+    "bins": [
+      { "month": 1, "count": -3.552 },
+      { "month": 2, "count": 0.885 },
+      { "month": 3, "count": -0.588 },
+      { "month": 4, "count": -0.904 },
+      { "month": 5, "count": 0.943 },
+      { "month": 6, "count": 3.635 },
+      { "month": 7, "count": 3.031 },
+      { "month": 8, "count": 2.942 },
+      { "month": 9, "count": 1.807 },
+      { "month": 10, "count": -3.128 },
+      { "month": 11, "count": -2.799 },
+      { "month": 12, "count": -4.085 }
+    ]
+  },
+  {
+    "year": 1758,
+    "bins": [
+      { "month": 1, "count": -5.045 },
+      { "month": 2, "count": -2.02 },
+      { "month": 3, "count": -1.596 },
+      { "month": 4, "count": -2.015 },
+      { "month": 5, "count": -2.437 },
+      { "month": 6, "count": -0.572 },
+      { "month": 7, "count": -0.952 },
+      { "month": 8, "count": -2.996 },
+      { "month": 9, "count": -2.763 },
+      { "month": 10, "count": -6.976 },
+      { "month": 11, "count": 0.036 },
+      { "month": 12, "count": -1.591 }
+    ]
+  },
+  {
+    "year": 1759,
+    "bins": [
+      { "month": 1, "count": 1.665 },
+      { "month": 2, "count": 0.791 },
+      { "month": 3, "count": -0.933 },
+      { "month": 4, "count": -3.226 },
+      { "month": 5, "count": -1.923 },
+      { "month": 6, "count": -0.25 },
+      { "month": 7, "count": -2.33 },
+      { "month": 8, "count": -0.139 },
+      { "month": 9, "count": -0.204 },
+      { "month": 10, "count": -1.408 },
+      { "month": 11, "count": -2.637 },
+      { "month": 12, "count": -4.66 }
+    ]
+  },
+  {
+    "year": 1760,
+    "bins": [
+      { "month": 1, "count": -4.089 },
+      { "month": 2, "count": -0.4 },
+      { "month": 3, "count": -3.389 },
+      { "month": 4, "count": -1.827 },
+      { "month": 5, "count": -1.498 },
+      { "month": 6, "count": -1.651 },
+      { "month": 7, "count": -2.058 },
+      { "month": 8, "count": -0.97 },
+      { "month": 9, "count": -1.695 },
+      { "month": 10, "count": -2.816 },
+      { "month": 11, "count": -1.405 },
+      { "month": 12, "count": -2.479 }
+    ]
+  },
+  {
+    "year": 1761,
+    "bins": [
+      { "month": 1, "count": -2.906 },
+      { "month": 2, "count": -0.101 },
+      { "month": 3, "count": 0.726 },
+      { "month": 4, "count": -1.955 },
+      { "month": 5, "count": 1.372 },
+      { "month": 6, "count": 3.331 },
+      { "month": 7, "count": 4.471 },
+      { "month": 8, "count": 0.355 },
+      { "month": 9, "count": -0.387 },
+      { "month": 10, "count": -2.267 },
+      { "month": 11, "count": -1.781 },
+      { "month": 12, "count": -6.084 }
+    ]
+  },
+  {
+    "year": 1762,
+    "bins": [
+      { "month": 1, "count": 3.413 },
+      { "month": 2, "count": 1.968 },
+      { "month": 3, "count": -1.68 },
+      { "month": 4, "count": -0.229 },
+      { "month": 5, "count": -1.263 },
+      { "month": 6, "count": -0.021 },
+      { "month": 7, "count": 0.084 },
+      { "month": 8, "count": -1.092 },
+      { "month": 9, "count": -2.625 },
+      { "month": 10, "count": -3.415 },
+      { "month": 11, "count": -0.523 },
+      { "month": 12, "count": -2.116 }
+    ]
+  },
+  {
+    "year": 1763,
+    "bins": [
+      { "month": 1, "count": -2.222 },
+      { "month": 2, "count": -2.097 },
+      { "month": 3, "count": -3.653 },
+      { "month": 4, "count": -1.317 },
+      { "month": 5, "count": -1.383 },
+      { "month": 6, "count": -1.285 },
+      { "month": 7, "count": 1.797 },
+      { "month": 8, "count": -0.766 },
+      { "month": 9, "count": -1.564 },
+      { "month": 10, "count": -3.969 },
+      { "month": 11, "count": -2.062 },
+      { "month": 12, "count": -0.186 }
+    ]
+  },
+  {
+    "year": 1764,
+    "bins": [
+      { "month": 1, "count": -0.763 },
+      { "month": 2, "count": 2.684 },
+      { "month": 3, "count": -0.214 },
+      { "month": 4, "count": -1.417 },
+      { "month": 5, "count": -1.021 },
+      { "month": 6, "count": -1.81 },
+      { "month": 7, "count": -1.903 },
+      { "month": 8, "count": -1.394 },
+      { "month": 9, "count": -1.1 },
+      { "month": 10, "count": 0.852 },
+      { "month": 11, "count": -0.102 },
+      { "month": 12, "count": 2.059 }
+    ]
+  },
+  {
+    "year": 1765,
+    "bins": [
+      { "month": 1, "count": 1.161 },
+      { "month": 2, "count": -0.1 },
+      { "month": 3, "count": 0.893 },
+      { "month": 4, "count": 0.594 },
+      { "month": 5, "count": -0.445 },
+      { "month": 6, "count": -2.72 },
+      { "month": 7, "count": -0.539 },
+      { "month": 8, "count": -0.503 },
+      { "month": 9, "count": -0.826 },
+      { "month": 10, "count": -1.188 },
+      { "month": 11, "count": -0.321 },
+      { "month": 12, "count": -0.843 }
+    ]
+  },
+  {
+    "year": 1766,
+    "bins": [
+      { "month": 1, "count": -3.393 },
+      { "month": 2, "count": 0.935 },
+      { "month": 3, "count": 0.025 },
+      { "month": 4, "count": -0.43 },
+      { "month": 5, "count": 0.013 },
+      { "month": 6, "count": -0.022 },
+      { "month": 7, "count": -0.918 },
+      { "month": 8, "count": 0.104 },
+      { "month": 9, "count": 0.532 },
+      { "month": 10, "count": -0.656 },
+      { "month": 11, "count": 1.438 },
+      { "month": 12, "count": -0.959 }
+    ]
+  },
+  {
+    "year": 1767,
+    "bins": [
+      { "month": 1, "count": -3.186 },
+      { "month": 2, "count": 0.099 },
+      { "month": 3, "count": 1.227 },
+      { "month": 4, "count": -1.926 },
+      { "month": 5, "count": -0.744 },
+      { "month": 6, "count": 1.423 },
+      { "month": 7, "count": -0.84 },
+      { "month": 8, "count": 1.303 },
+      { "month": 9, "count": 0.076 },
+      { "month": 10, "count": -0.09 },
+      { "month": 11, "count": 1.92 },
+      { "month": 12, "count": -2.231 }
+    ]
+  },
+  {
+    "year": 1768,
+    "bins": [
+      { "month": 1, "count": -4.652 },
+      { "month": 2, "count": -3.224 },
+      { "month": 3, "count": -3.548 },
+      { "month": 4, "count": -1.183 },
+      { "month": 5, "count": -1.942 },
+      { "month": 6, "count": -0.788 },
+      { "month": 7, "count": -0.107 },
+      { "month": 8, "count": -0.885 },
+      { "month": 9, "count": -0.925 },
+      { "month": 10, "count": -1.299 },
+      { "month": 11, "count": -1.154 },
+      { "month": 12, "count": -0.579 }
+    ]
+  },
+  {
+    "year": 1769,
+    "bins": [
+      { "month": 1, "count": -0.242 },
+      { "month": 2, "count": -1.149 },
+      { "month": 3, "count": -0.835 },
+      { "month": 4, "count": 0.746 },
+      { "month": 5, "count": 1.868 },
+      { "month": 6, "count": 1.891 },
+      { "month": 7, "count": 0.124 },
+      { "month": 8, "count": 0.017 },
+      { "month": 9, "count": -0.333 },
+      { "month": 10, "count": -3.788 },
+      { "month": 11, "count": -3.204 },
+      { "month": 12, "count": -4.437 }
+    ]
+  },
+  {
+    "year": 1770,
+    "bins": [
+      { "month": 1, "count": -0.73 },
+      { "month": 2, "count": 0.362 },
+      { "month": 3, "count": -3.908 },
+      { "month": 4, "count": 1.752 },
+      { "month": 5, "count": -0.977 },
+      { "month": 6, "count": -1.677 },
+      { "month": 7, "count": -2.671 },
+      { "month": 8, "count": -1.889 },
+      { "month": 9, "count": -0.778 },
+      { "month": 10, "count": -0.422 },
+      { "month": 11, "count": -0.101 },
+      { "month": 12, "count": 1.019 }
+    ]
+  },
+  {
+    "year": 1771,
+    "bins": [
+      { "month": 1, "count": 2.507 },
+      { "month": 2, "count": -3.972 },
+      { "month": 3, "count": -2.9 },
+      { "month": 4, "count": -2.397 },
+      { "month": 5, "count": -1.648 },
+      { "month": 6, "count": 0.902 },
+      { "month": 7, "count": -0.28 },
+      { "month": 8, "count": 0.807 },
+      { "month": 9, "count": -0.297 },
+      { "month": 10, "count": 1.193 },
+      { "month": 11, "count": -1.046 },
+      { "month": 12, "count": -0.759 }
+    ]
+  },
+  {
+    "year": 1772,
+    "bins": [
+      { "month": 1, "count": -1.426 },
+      { "month": 2, "count": -2.229 },
+      { "month": 3, "count": -2.906 },
+      { "month": 4, "count": 0.401 },
+      { "month": 5, "count": -1.738 },
+      { "month": 6, "count": -0.998 },
+      { "month": 7, "count": -0.057 },
+      { "month": 8, "count": 0.408 },
+      { "month": 9, "count": -1.479 },
+      { "month": 10, "count": 0.165 },
+      { "month": 11, "count": 1.865 },
+      { "month": 12, "count": 2.282 }
+    ]
+  },
+  {
+    "year": 1773,
+    "bins": [
+      { "month": 1, "count": -3.205 },
+      { "month": 2, "count": -2.37 },
+      { "month": 3, "count": -1.442 },
+      { "month": 4, "count": 0.933 },
+      { "month": 5, "count": 1.432 },
+      { "month": 6, "count": -0.76 },
+      { "month": 7, "count": 0.061 },
+      { "month": 8, "count": -0.14 },
+      { "month": 9, "count": 0.622 },
+      { "month": 10, "count": 0.004 },
+      { "month": 11, "count": -2.526 },
+      { "month": 12, "count": 1.947 }
+    ]
+  },
+  {
+    "year": 1774,
+    "bins": [
+      { "month": 1, "count": -2.839 },
+      { "month": 2, "count": 1.019 },
+      { "month": 3, "count": -0.332 },
+      { "month": 4, "count": 1.849 },
+      { "month": 5, "count": 4.937 },
+      { "month": 6, "count": 1.797 },
+      { "month": 7, "count": 2.136 },
+      { "month": 8, "count": 0.539 },
+      { "month": 9, "count": -0.865 },
+      { "month": 10, "count": -0.773 },
+      { "month": 11, "count": -3.202 },
+      { "month": 12, "count": -2.984 }
+    ]
+  },
+  {
+    "year": 1775,
+    "bins": [
+      { "month": 1, "count": 1.531 },
+      { "month": 2, "count": 2.493 },
+      { "month": 3, "count": 1.732 },
+      { "month": 4, "count": -0.608 },
+      { "month": 5, "count": -0.11 },
+      { "month": 6, "count": -1.559 },
+      { "month": 7, "count": 0.011 },
+      { "month": 8, "count": 0.696 },
+      { "month": 9, "count": -0.917 },
+      { "month": 10, "count": 0.974 },
+      { "month": 11, "count": 2.114 },
+      { "month": 12, "count": -2.103 }
+    ]
+  },
+  {
+    "year": 1776,
+    "bins": [
+      { "month": 1, "count": -3.611 },
+      { "month": 2, "count": 0.986 },
+      { "month": 3, "count": -1.39 },
+      { "month": 4, "count": -1.074 },
+      { "month": 5, "count": -0.981 },
+      { "month": 6, "count": 0.674 },
+      { "month": 7, "count": -0.565 },
+      { "month": 8, "count": 1.08 },
+      { "month": 9, "count": -1.447 },
+      { "month": 10, "count": -1.284 },
+      { "month": 11, "count": -0.671 },
+      { "month": 12, "count": 1.177 }
+    ]
+  },
+  {
+    "year": 1777,
+    "bins": [
+      { "month": 1, "count": 3.156 },
+      { "month": 2, "count": 0.914 },
+      { "month": 3, "count": -0.8 },
+      { "month": 4, "count": -2.536 },
+      { "month": 5, "count": -0.254 },
+      { "month": 6, "count": -1.601 },
+      { "month": 7, "count": -2.05 },
+      { "month": 8, "count": -1.33 },
+      { "month": 9, "count": -0.935 },
+      { "month": 10, "count": -2.691 },
+      { "month": 11, "count": -0.974 },
+      { "month": 12, "count": -0.746 }
+    ]
+  },
+  {
+    "year": 1778,
+    "bins": [
+      { "month": 1, "count": -0.376 },
+      { "month": 2, "count": 1.866 },
+      { "month": 3, "count": -1.76 },
+      { "month": 4, "count": 2.026 },
+      { "month": 5, "count": -0.276 },
+      { "month": 6, "count": -0.125 },
+      { "month": 7, "count": 0.378 },
+      { "month": 8, "count": -1.472 },
+      { "month": 9, "count": 1.002 },
+      { "month": 10, "count": -1.79 },
+      { "month": 11, "count": -2.597 },
+      { "month": 12, "count": -1.612 }
+    ]
+  },
+  {
+    "year": 1779,
+    "bins": [
+      { "month": 1, "count": -1.457 },
+      { "month": 2, "count": 1.086 },
+      { "month": 3, "count": 0.678 },
+      { "month": 4, "count": 1.014 },
+      { "month": 5, "count": 2.468 },
+      { "month": 6, "count": -1.502 },
+      { "month": 7, "count": -1.236 },
+      { "month": 8, "count": -0.315 },
+      { "month": 9, "count": 0.324 },
+      { "month": 10, "count": -0.383 },
+      { "month": 11, "count": -0.38 },
+      { "month": 12, "count": -1.195 }
+    ]
+  },
+  {
+    "year": 1780,
+    "bins": [
+      { "month": 1, "count": -0.198 },
+      { "month": 2, "count": 0.528 },
+      { "month": 3, "count": 0.002 },
+      { "month": 4, "count": 5.228 },
+      { "month": 5, "count": 4.325 },
+      { "month": 6, "count": 0.853 },
+      { "month": 7, "count": 1.515 },
+      { "month": 8, "count": -0.953 },
+      { "month": 9, "count": -3.162 },
+      { "month": 10, "count": 0.134 },
+      { "month": 11, "count": 0.794 },
+      { "month": 12, "count": -0.805 }
+    ]
+  },
+  {
+    "year": 1781,
+    "bins": [
+      { "month": 1, "count": 0.001 },
+      { "month": 2, "count": -1.052 },
+      { "month": 3, "count": -0.524 },
+      { "month": 4, "count": -1.471 },
+      { "month": 5, "count": -0.154 },
+      { "month": 6, "count": -1.738 },
+      { "month": 7, "count": -0.116 },
+      { "month": 8, "count": 0.221 },
+      { "month": 9, "count": -1.752 },
+      { "month": 10, "count": -0.627 },
+      { "month": 11, "count": 1.683 },
+      { "month": 12, "count": -0.116 }
+    ]
+  },
+  {
+    "year": 1782,
+    "bins": [
+      { "month": 1, "count": -2.017 },
+      { "month": 2, "count": -2.608 },
+      { "month": 3, "count": -2.482 },
+      { "month": 4, "count": 0.317 },
+      { "month": 5, "count": -0.381 },
+      { "month": 6, "count": 0.312 },
+      { "month": 7, "count": -0.431 },
+      { "month": 8, "count": 1.712 },
+      { "month": 9, "count": 0.225 },
+      { "month": 10, "count": -0.158 },
+      { "month": 11, "count": -0.773 },
+      { "month": 12, "count": -2.092 }
+    ]
+  },
+  {
+    "year": 1783,
+    "bins": [
+      { "month": 1, "count": -3.931 },
+      { "month": 2, "count": 2.175 },
+      { "month": 3, "count": -0.518 },
+      { "month": 4, "count": 0.248 },
+      { "month": 5, "count": 0.933 },
+      { "month": 6, "count": 1.079 },
+      { "month": 7, "count": -1.293 },
+      { "month": 8, "count": 0.096 },
+      { "month": 9, "count": -2.013 },
+      { "month": 10, "count": -1.768 },
+      { "month": 11, "count": -3.749 },
+      { "month": 12, "count": -1.309 }
+    ]
+  },
+  {
+    "year": 1784,
+    "bins": [
+      { "month": 1, "count": 0.346 },
+      { "month": 2, "count": -2.024 },
+      { "month": 3, "count": -1.245 },
+      { "month": 4, "count": -0.212 },
+      { "month": 5, "count": -1.418 },
+      { "month": 6, "count": -0.758 },
+      { "month": 7, "count": 0.581 },
+      { "month": 8, "count": 1.399 },
+      { "month": 9, "count": -1.832 },
+      { "month": 10, "count": -2.333 },
+      { "month": 11, "count": -1.457 },
+      { "month": 12, "count": -0.007 }
+    ]
+  },
+  {
+    "year": 1785,
+    "bins": [
+      { "month": 1, "count": -1.618 },
+      { "month": 2, "count": -2.031 },
+      { "month": 3, "count": -3.298 },
+      { "month": 4, "count": -2.012 },
+      { "month": 5, "count": -1.466 },
+      { "month": 6, "count": 0.261 },
+      { "month": 7, "count": 0.143 },
+      { "month": 8, "count": 0.63 },
+      { "month": 9, "count": -1.579 },
+      { "month": 10, "count": -1.851 },
+      { "month": 11, "count": -0.413 },
+      { "month": 12, "count": -1.639 }
+    ]
+  },
+  {
+    "year": 1786,
+    "bins": [
+      { "month": 1, "count": -1.701 },
+      { "month": 2, "count": -0.425 },
+      { "month": 3, "count": 0.104 },
+      { "month": 4, "count": 0.993 },
+      { "month": 5, "count": 0.21 },
+      { "month": 6, "count": -0.406 },
+      { "month": 7, "count": 0.979 },
+      { "month": 8, "count": 0.674 },
+      { "month": 9, "count": 0.359 },
+      { "month": 10, "count": -1.409 },
+      { "month": 11, "count": -0.223 },
+      { "month": 12, "count": -2.728 }
+    ]
+  },
+  {
+    "year": 1787,
+    "bins": [
+      { "month": 1, "count": 0.369 },
+      { "month": 2, "count": -0.51 },
+      { "month": 3, "count": -0.518 },
+      { "month": 4, "count": -0.553 },
+      { "month": 5, "count": 0.03 },
+      { "month": 6, "count": 0.827 },
+      { "month": 7, "count": -0.996 },
+      { "month": 8, "count": -0.358 },
+      { "month": 9, "count": -1.69 },
+      { "month": 10, "count": -1.4 },
+      { "month": 11, "count": -0.173 },
+      { "month": 12, "count": -1.684 }
+    ]
+  },
+  {
+    "year": 1788,
+    "bins": [
+      { "month": 1, "count": -1.777 },
+      { "month": 2, "count": 0.557 },
+      { "month": 3, "count": 0.013 },
+      { "month": 4, "count": 0.271 },
+      { "month": 5, "count": -1.011 },
+      { "month": 6, "count": 0.289 },
+      { "month": 7, "count": 2.156 },
+      { "month": 8, "count": 0.016 },
+      { "month": 9, "count": -0.343 },
+      { "month": 10, "count": 0.168 },
+      { "month": 11, "count": 0.07 },
+      { "month": 12, "count": -2.04 }
+    ]
+  },
+  {
+    "year": 1789,
+    "bins": [
+      { "month": 1, "count": 1.328 },
+      { "month": 2, "count": -1.413 },
+      { "month": 3, "count": -1.405 },
+      { "month": 4, "count": -0.636 },
+      { "month": 5, "count": 0.289 },
+      { "month": 6, "count": -0.005 },
+      { "month": 7, "count": 1.127 },
+      { "month": 8, "count": -0.04 },
+      { "month": 9, "count": -0.034 },
+      { "month": 10, "count": -1.79 },
+      { "month": 11, "count": -0.015 },
+      { "month": 12, "count": -0.358 }
+    ]
+  },
+  {
+    "year": 1790,
+    "bins": [
+      { "month": 1, "count": -0.062 },
+      { "month": 2, "count": -0.152 },
+      { "month": 3, "count": -0.734 },
+      { "month": 4, "count": -2.314 },
+      { "month": 5, "count": -1.04 },
+      { "month": 6, "count": 0.269 },
+      { "month": 7, "count": -0.604 },
+      { "month": 8, "count": 0.102 },
+      { "month": 9, "count": -0.814 },
+      { "month": 10, "count": -0.595 },
+      { "month": 11, "count": -0.676 },
+      { "month": 12, "count": -0.756 }
+    ]
+  },
+  {
+    "year": 1791,
+    "bins": [
+      { "month": 1, "count": -1.137 },
+      { "month": 2, "count": 0.414 },
+      { "month": 3, "count": -0.532 },
+      { "month": 4, "count": 0.705 },
+      { "month": 5, "count": -1.516 },
+      { "month": 6, "count": -0.236 },
+      { "month": 7, "count": -0.743 },
+      { "month": 8, "count": -0.099 },
+      { "month": 9, "count": -0.368 },
+      { "month": 10, "count": -1.159 },
+      { "month": 11, "count": 0.092 },
+      { "month": 12, "count": 0.05 }
+    ]
+  },
+  {
+    "year": 1792,
+    "bins": [
+      { "month": 1, "count": -2.252 },
+      { "month": 2, "count": 0.502 },
+      { "month": 3, "count": -0.941 },
+      { "month": 4, "count": -0.447 },
+      { "month": 5, "count": -0.045 },
+      { "month": 6, "count": 0.103 },
+      { "month": 7, "count": -0.193 },
+      { "month": 8, "count": -1.615 },
+      { "month": 9, "count": 0.759 },
+      { "month": 10, "count": -1.168 },
+      { "month": 11, "count": -0.852 },
+      { "month": 12, "count": -0.274 }
+    ]
+  },
+  {
+    "year": 1793,
+    "bins": [
+      { "month": 1, "count": -1.909 },
+      { "month": 2, "count": 1.685 },
+      { "month": 3, "count": -0.287 },
+      { "month": 4, "count": 0.259 },
+      { "month": 5, "count": -0.357 },
+      { "month": 6, "count": -0.341 },
+      { "month": 7, "count": -0.05 },
+      { "month": 8, "count": -0.66 },
+      { "month": 9, "count": 0.101 },
+      { "month": 10, "count": -0.849 },
+      { "month": 11, "count": -0.582 },
+      { "month": 12, "count": -1.669 }
+    ]
+  },
+  {
+    "year": 1794,
+    "bins": [
+      { "month": 1, "count": 0.986 },
+      { "month": 2, "count": 0.416 },
+      { "month": 3, "count": 0.295 },
+      { "month": 4, "count": 0.932 },
+      { "month": 5, "count": 1.007 },
+      { "month": 6, "count": -1.597 },
+      { "month": 7, "count": -1.539 },
+      { "month": 8, "count": -0.341 },
+      { "month": 9, "count": -0.112 },
+      { "month": 10, "count": -0.169 },
+      { "month": 11, "count": -0.931 },
+      { "month": 12, "count": -0.735 }
+    ]
+  },
+  {
+    "year": 1795,
+    "bins": [
+      { "month": 1, "count": 0.342 },
+      { "month": 2, "count": 1.383 },
+      { "month": 3, "count": 0.425 },
+      { "month": 4, "count": 0.472 },
+      { "month": 5, "count": -0.322 },
+      { "month": 6, "count": -0.192 },
+      { "month": 7, "count": -0.044 },
+      { "month": 8, "count": -0.608 },
+      { "month": 9, "count": -0.814 },
+      { "month": 10, "count": -1.412 },
+      { "month": 11, "count": -0.931 },
+      { "month": 12, "count": -1.012 }
+    ]
+  },
+  {
+    "year": 1796,
+    "bins": [
+      { "month": 1, "count": 0.396 },
+      { "month": 2, "count": -0.354 },
+      { "month": 3, "count": -1.786 },
+      { "month": 4, "count": -0.572 },
+      { "month": 5, "count": 0.006 },
+      { "month": 6, "count": 0.739 },
+      { "month": 7, "count": -0.012 },
+      { "month": 8, "count": 0.995 },
+      { "month": 9, "count": 0.074 },
+      { "month": 10, "count": -0.309 },
+      { "month": 11, "count": -0.463 },
+      { "month": 12, "count": -2.333 }
+    ]
+  },
+  {
+    "year": 1797,
+    "bins": [
+      { "month": 1, "count": 1.873 },
+      { "month": 2, "count": 1.764 },
+      { "month": 3, "count": -1.297 },
+      { "month": 4, "count": -1.767 },
+      { "month": 5, "count": -0.934 },
+      { "month": 6, "count": 0.384 },
+      { "month": 7, "count": -0.189 },
+      { "month": 8, "count": 0.313 },
+      { "month": 9, "count": 0.546 },
+      { "month": 10, "count": 0.033 },
+      { "month": 11, "count": -1.372 },
+      { "month": 12, "count": -0.346 }
+    ]
+  },
+  {
+    "year": 1798,
+    "bins": [
+      { "month": 1, "count": 0.152 },
+      { "month": 2, "count": 0.089 },
+      { "month": 3, "count": 1.737 },
+      { "month": 4, "count": -0.256 },
+      { "month": 5, "count": 0.501 },
+      { "month": 6, "count": -0.181 },
+      { "month": 7, "count": 0.713 },
+      { "month": 8, "count": 1.046 },
+      { "month": 9, "count": -0.281 },
+      { "month": 10, "count": -0.526 },
+      { "month": 11, "count": -0.086 },
+      { "month": 12, "count": -1.598 }
+    ]
+  },
+  {
+    "year": 1799,
+    "bins": [
+      { "month": 1, "count": -0.458 },
+      { "month": 2, "count": -0.901 },
+      { "month": 3, "count": -1.269 },
+      { "month": 4, "count": 0.408 },
+      { "month": 5, "count": 0.045 },
+      { "month": 6, "count": 0.216 },
+      { "month": 7, "count": 0.555 },
+      { "month": 8, "count": 0.289 },
+      { "month": 9, "count": 0.365 },
+      { "month": 10, "count": 0.358 },
+      { "month": 11, "count": 0.142 },
+      { "month": 12, "count": -0.083 }
+    ]
+  },
+  {
+    "year": 1800,
+    "bins": [
+      { "month": 1, "count": 0.407 },
+      { "month": 2, "count": 0.599 },
+      { "month": 3, "count": -0.685 },
+      { "month": 4, "count": 0.629 },
+      { "month": 5, "count": -0.239 },
+      { "month": 6, "count": 0.125 },
+      { "month": 7, "count": -0.575 },
+      { "month": 8, "count": -0.132 },
+      { "month": 9, "count": -1.141 },
+      { "month": 10, "count": 0.264 },
+      { "month": 11, "count": -0.635 },
+      { "month": 12, "count": 0.192 }
+    ]
+  },
+  {
+    "year": 1801,
+    "bins": [
+      { "month": 1, "count": 0.179 },
+      { "month": 2, "count": 0.087 },
+      { "month": 3, "count": 1.205 },
+      { "month": 4, "count": -0.898 },
+      { "month": 5, "count": 0.872 },
+      { "month": 6, "count": -0.952 },
+      { "month": 7, "count": 0.345 },
+      { "month": 8, "count": -0.6 },
+      { "month": 9, "count": -0.479 },
+      { "month": 10, "count": -0.144 },
+      { "month": 11, "count": -0.499 },
+      { "month": 12, "count": 0.829 }
+    ]
+  },
+  {
+    "year": 1802,
+    "bins": [
+      { "month": 1, "count": 1.149 },
+      { "month": 2, "count": -0.244 },
+      { "month": 3, "count": -0.027 },
+      { "month": 4, "count": -0.696 },
+      { "month": 5, "count": -0.699 },
+      { "month": 6, "count": 1.024 },
+      { "month": 7, "count": 0.284 },
+      { "month": 8, "count": 0.278 },
+      { "month": 9, "count": -0.167 },
+      { "month": 10, "count": 0.448 },
+      { "month": 11, "count": -0.717 },
+      { "month": 12, "count": -0.723 }
+    ]
+  },
+  {
+    "year": 1803,
+    "bins": [
+      { "month": 1, "count": -2.024 },
+      { "month": 2, "count": -1.719 },
+      { "month": 3, "count": -0.338 },
+      { "month": 4, "count": 0.874 },
+      { "month": 5, "count": 0.57 },
+      { "month": 6, "count": 0.352 },
+      { "month": 7, "count": 0.807 },
+      { "month": 8, "count": 1.587 },
+      { "month": 9, "count": 0.358 },
+      { "month": 10, "count": -0.351 },
+      { "month": 11, "count": -0.394 },
+      { "month": 12, "count": -1.508 }
+    ]
+  },
+  {
+    "year": 1804,
+    "bins": [
+      { "month": 1, "count": -0.118 },
+      { "month": 2, "count": -1.185 },
+      { "month": 3, "count": -0.93 },
+      { "month": 4, "count": 1.639 },
+      { "month": 5, "count": 0.799 },
+      { "month": 6, "count": 0.369 },
+      { "month": 7, "count": 1.471 },
+      { "month": 8, "count": 0.792 },
+      { "month": 9, "count": 0.516 },
+      { "month": 10, "count": -0.018 },
+      { "month": 11, "count": 0.841 },
+      { "month": 12, "count": -1.435 }
+    ]
+  },
+  {
+    "year": 1805,
+    "bins": [
+      { "month": 1, "count": 0.208 },
+      { "month": 2, "count": -0.57 },
+      { "month": 3, "count": 0.423 },
+      { "month": 4, "count": -0.255 },
+      { "month": 5, "count": -0.236 },
+      { "month": 6, "count": 0.599 },
+      { "month": 7, "count": 0.394 },
+      { "month": 8, "count": 1.454 },
+      { "month": 9, "count": 0.034 },
+      { "month": 10, "count": -1.537 },
+      { "month": 11, "count": -1.693 },
+      { "month": 12, "count": 0.467 }
+    ]
+  },
+  {
+    "year": 1806,
+    "bins": [
+      { "month": 1, "count": 0.247 },
+      { "month": 2, "count": -0.394 },
+      { "month": 3, "count": -0.677 },
+      { "month": 4, "count": -0.446 },
+      { "month": 5, "count": 0.139 },
+      { "month": 6, "count": -1.074 },
+      { "month": 7, "count": -0.41 },
+      { "month": 8, "count": 0.735 },
+      { "month": 9, "count": 0.513 },
+      { "month": 10, "count": -0.878 },
+      { "month": 11, "count": -1.023 },
+      { "month": 12, "count": 0.257 }
+    ]
+  },
+  {
+    "year": 1807,
+    "bins": [
+      { "month": 1, "count": -1.51 },
+      { "month": 2, "count": 0.904 },
+      { "month": 3, "count": -0.524 },
+      { "month": 4, "count": -1.444 },
+      { "month": 5, "count": -1.962 },
+      { "month": 6, "count": -0.2 },
+      { "month": 7, "count": -0.193 },
+      { "month": 8, "count": -0.071 },
+      { "month": 9, "count": 0.541 },
+      { "month": 10, "count": -0.431 },
+      { "month": 11, "count": -0.246 },
+      { "month": 12, "count": 0.691 }
+    ]
+  },
+  {
+    "year": 1808,
+    "bins": [
+      { "month": 1, "count": -1.43 },
+      { "month": 2, "count": -1.041 },
+      { "month": 3, "count": -1.04 },
+      { "month": 4, "count": -0.978 },
+      { "month": 5, "count": -2.043 },
+      { "month": 6, "count": -0.182 },
+      { "month": 7, "count": 0.097 },
+      { "month": 8, "count": -0.768 },
+      { "month": 9, "count": 0.726 },
+      { "month": 10, "count": -1.402 },
+      { "month": 11, "count": -1.84 },
+      { "month": 12, "count": -2.843 }
+    ]
+  },
+  {
+    "year": 1809,
+    "bins": [
+      { "month": 1, "count": -2.324 },
+      { "month": 2, "count": -2.283 },
+      { "month": 3, "count": -1.949 },
+      { "month": 4, "count": -0.519 },
+      { "month": 5, "count": -2.022 },
+      { "month": 6, "count": -0.462 },
+      { "month": 7, "count": -1.685 },
+      { "month": 8, "count": -0.924 },
+      { "month": 9, "count": -1.06 },
+      { "month": 10, "count": -0.599 },
+      { "month": 11, "count": -3.131 },
+      { "month": 12, "count": -1.777 }
+    ]
+  },
+  {
+    "year": 1810,
+    "bins": [
+      { "month": 1, "count": -1.55 },
+      { "month": 2, "count": -0.625 },
+      { "month": 3, "count": -0.391 },
+      { "month": 4, "count": -1.818 },
+      { "month": 5, "count": -2.22 },
+      { "month": 6, "count": -1.503 },
+      { "month": 7, "count": -1.768 },
+      { "month": 8, "count": -1.755 },
+      { "month": 9, "count": -2.886 },
+      { "month": 10, "count": -2.618 },
+      { "month": 11, "count": -2.3 },
+      { "month": 12, "count": -1.019 }
+    ]
+  },
+  {
+    "year": 1811,
+    "bins": [
+      { "month": 1, "count": -1.305 },
+      { "month": 2, "count": -2.629 },
+      { "month": 3, "count": -2.125 },
+      { "month": 4, "count": -2.036 },
+      { "month": 5, "count": -1.85 },
+      { "month": 6, "count": -1.348 },
+      { "month": 7, "count": -2.407 },
+      { "month": 8, "count": -0.483 },
+      { "month": 9, "count": -1.675 },
+      { "month": 10, "count": -2.723 },
+      { "month": 11, "count": -2.595 },
+      { "month": 12, "count": -0.409 }
+    ]
+  },
+  {
+    "year": 1812,
+    "bins": [
+      { "month": 1, "count": -1.513 },
+      { "month": 2, "count": -3.022 },
+      { "month": 3, "count": -3.282 },
+      { "month": 4, "count": -1.432 },
+      { "month": 5, "count": -1.848 },
+      { "month": 6, "count": -1.531 },
+      { "month": 7, "count": -0.033 },
+      { "month": 8, "count": 1.206 },
+      { "month": 9, "count": -1.886 },
+      { "month": 10, "count": -1.631 },
+      { "month": 11, "count": -1.686 },
+      { "month": 12, "count": -2.423 }
+    ]
+  },
+  {
+    "year": 1813,
+    "bins": [
+      { "month": 1, "count": -4.085 },
+      { "month": 2, "count": -0.951 },
+      { "month": 3, "count": -3.764 },
+      { "month": 4, "count": -0.232 },
+      { "month": 5, "count": -0.002 },
+      { "month": 6, "count": -0.302 },
+      { "month": 7, "count": 0.06 },
+      { "month": 8, "count": -0.788 },
+      { "month": 9, "count": 0.272 },
+      { "month": 10, "count": -0.57 },
+      { "month": 11, "count": 0.685 },
+      { "month": 12, "count": -1.491 }
+    ]
+  },
+  {
+    "year": 1814,
+    "bins": [
+      { "month": 1, "count": -1.059 },
+      { "month": 2, "count": -1.529 },
+      { "month": 3, "count": -2.687 },
+      { "month": 4, "count": -1.215 },
+      { "month": 5, "count": -1.954 },
+      { "month": 6, "count": -0.734 },
+      { "month": 7, "count": -1.878 },
+      { "month": 8, "count": -1.197 },
+      { "month": 9, "count": -1.394 },
+      { "month": 10, "count": -1.913 },
+      { "month": 11, "count": 0.602 },
+      { "month": 12, "count": 2.232 }
+    ]
+  },
+  {
+    "year": 1815,
+    "bins": [
+      { "month": 1, "count": -0.515 },
+      { "month": 2, "count": -0.945 },
+      { "month": 3, "count": -1.723 },
+      { "month": 4, "count": -1.814 },
+      { "month": 5, "count": -1.607 },
+      { "month": 6, "count": -2.405 },
+      { "month": 7, "count": -0.006 },
+      { "month": 8, "count": -0.667 },
+      { "month": 9, "count": -0.922 },
+      { "month": 10, "count": -2.059 },
+      { "month": 11, "count": -1.985 },
+      { "month": 12, "count": -2.463 }
+    ]
+  },
+  {
+    "year": 1816,
+    "bins": [
+      { "month": 1, "count": 0.197 },
+      { "month": 2, "count": -2.509 },
+      { "month": 3, "count": -1.455 },
+      { "month": 4, "count": -0.82 },
+      { "month": 5, "count": -0.814 },
+      { "month": 6, "count": -1.774 },
+      { "month": 7, "count": -2.154 },
+      { "month": 8, "count": -1.326 },
+      { "month": 9, "count": -1.676 },
+      { "month": 10, "count": -3.418 },
+      { "month": 11, "count": -2.011 },
+      { "month": 12, "count": -2.646 }
+    ]
+  },
+  {
+    "year": 1817,
+    "bins": [
+      { "month": 1, "count": -1.015 },
+      { "month": 2, "count": 0.451 },
+      { "month": 3, "count": -0.808 },
+      { "month": 4, "count": -0.566 },
+      { "month": 5, "count": -1.952 },
+      { "month": 6, "count": -2.315 },
+      { "month": 7, "count": -2.352 },
+      { "month": 8, "count": -0.479 },
+      { "month": 9, "count": -3.25 },
+      { "month": 10, "count": -3.031 },
+      { "month": 11, "count": -1.459 },
+      { "month": 12, "count": -3.406 }
+    ]
+  },
+  {
+    "year": 1818,
+    "bins": [
+      { "month": 1, "count": -1.408 },
+      { "month": 2, "count": -2.476 },
+      { "month": 3, "count": 0.184 },
+      { "month": 4, "count": 1.431 },
+      { "month": 5, "count": -0.268 },
+      { "month": 6, "count": 0.192 },
+      { "month": 7, "count": -0.975 },
+      { "month": 8, "count": -0.76 },
+      { "month": 9, "count": -1.483 },
+      { "month": 10, "count": -2.552 },
+      { "month": 11, "count": -1.054 },
+      { "month": 12, "count": -1.148 }
+    ]
+  },
+  {
+    "year": 1819,
+    "bins": [
+      { "month": 1, "count": -1.61 },
+      { "month": 2, "count": -1.029 },
+      { "month": 3, "count": -2.448 },
+      { "month": 4, "count": -1.375 },
+      { "month": 5, "count": -1.56 },
+      { "month": 6, "count": -1.064 },
+      { "month": 7, "count": -1.467 },
+      { "month": 8, "count": -1.619 },
+      { "month": 9, "count": -1.221 },
+      { "month": 10, "count": 0.069 },
+      { "month": 11, "count": -0.902 },
+      { "month": 12, "count": -1.824 }
+    ]
+  },
+  {
+    "year": 1820,
+    "bins": [
+      { "month": 1, "count": -1.401 },
+      { "month": 2, "count": -1.058 },
+      { "month": 3, "count": -0.769 },
+      { "month": 4, "count": 0.306 },
+      { "month": 5, "count": 0.189 },
+      { "month": 6, "count": -0.299 },
+      { "month": 7, "count": -1.171 },
+      { "month": 8, "count": -2.05 },
+      { "month": 9, "count": -1.017 },
+      { "month": 10, "count": -1.284 },
+      { "month": 11, "count": -1.655 },
+      { "month": 12, "count": -2.345 }
+    ]
+  },
+  {
+    "year": 1821,
+    "bins": [
+      { "month": 1, "count": 0.396 },
+      { "month": 2, "count": 0.45 },
+      { "month": 3, "count": 0.013 },
+      { "month": 4, "count": -0.74 },
+      { "month": 5, "count": -0.2 },
+      { "month": 6, "count": -1.03 },
+      { "month": 7, "count": -1.521 },
+      { "month": 8, "count": -0.932 },
+      { "month": 9, "count": -2.023 },
+      { "month": 10, "count": -0.765 },
+      { "month": 11, "count": -0.528 },
+      { "month": 12, "count": -0.918 }
+    ]
+  },
+  {
+    "year": 1822,
+    "bins": [
+      { "month": 1, "count": 0.186 },
+      { "month": 2, "count": 1.206 },
+      { "month": 3, "count": 2.333 },
+      { "month": 4, "count": -0.236 },
+      { "month": 5, "count": -0.991 },
+      { "month": 6, "count": -1.008 },
+      { "month": 7, "count": -0.354 },
+      { "month": 8, "count": -0.825 },
+      { "month": 9, "count": -1.488 },
+      { "month": 10, "count": -1.539 },
+      { "month": 11, "count": -1.615 },
+      { "month": 12, "count": -2.67 }
+    ]
+  },
+  {
+    "year": 1823,
+    "bins": [
+      { "month": 1, "count": -0.809 },
+      { "month": 2, "count": -1.296 },
+      { "month": 3, "count": -0.374 },
+      { "month": 4, "count": -0.801 },
+      { "month": 5, "count": -0.888 },
+      { "month": 6, "count": 0.298 },
+      { "month": 7, "count": -0.331 },
+      { "month": 8, "count": -0.884 },
+      { "month": 9, "count": -1.948 },
+      { "month": 10, "count": -1.647 },
+      { "month": 11, "count": -1.596 },
+      { "month": 12, "count": -1.665 }
+    ]
+  },
+  {
+    "year": 1824,
+    "bins": [
+      { "month": 1, "count": 0.068 },
+      { "month": 2, "count": -0.587 },
+      { "month": 3, "count": -0.081 },
+      { "month": 4, "count": -0.079 },
+      { "month": 5, "count": -0.317 },
+      { "month": 6, "count": -0.196 },
+      { "month": 7, "count": 0.294 },
+      { "month": 8, "count": -0.597 },
+      { "month": 9, "count": -0.625 },
+      { "month": 10, "count": -1.097 },
+      { "month": 11, "count": -0.243 },
+      { "month": 12, "count": 1.449 }
+    ]
+  },
+  {
+    "year": 1825,
+    "bins": [
+      { "month": 1, "count": 0.618 },
+      { "month": 2, "count": -0.175 },
+      { "month": 3, "count": -0.075 },
+      { "month": 4, "count": 0.525 },
+      { "month": 5, "count": -0.703 },
+      { "month": 6, "count": 0.126 },
+      { "month": 7, "count": -0.522 },
+      { "month": 8, "count": -0.758 },
+      { "month": 9, "count": -1.031 },
+      { "month": 10, "count": -1.267 },
+      { "month": 11, "count": -0.004 },
+      { "month": 12, "count": -0.51 }
+    ]
+  },
+  {
+    "year": 1826,
+    "bins": [
+      { "month": 1, "count": -0.581 },
+      { "month": 2, "count": -1.642 },
+      { "month": 3, "count": -0.477 },
+      { "month": 4, "count": 0.005 },
+      { "month": 5, "count": 0.409 },
+      { "month": 6, "count": -0.625 },
+      { "month": 7, "count": -0.106 },
+      { "month": 8, "count": -0.961 },
+      { "month": 9, "count": -0.986 },
+      { "month": 10, "count": -0.783 },
+      { "month": 11, "count": 0.619 },
+      { "month": 12, "count": 1.352 }
+    ]
+  },
+  {
+    "year": 1827,
+    "bins": [
+      { "month": 1, "count": 1.104 },
+      { "month": 2, "count": 1.228 },
+      { "month": 3, "count": 0.786 },
+      { "month": 4, "count": 1.039 },
+      { "month": 5, "count": 0.394 },
+      { "month": 6, "count": -0.071 },
+      { "month": 7, "count": 0.121 },
+      { "month": 8, "count": -0.365 },
+      { "month": 9, "count": -1.296 },
+      { "month": 10, "count": -0.731 },
+      { "month": 11, "count": 0.182 },
+      { "month": 12, "count": -0.832 }
+    ]
+  },
+  {
+    "year": 1828,
+    "bins": [
+      { "month": 1, "count": -1.923 },
+      { "month": 2, "count": -1.328 },
+      { "month": 3, "count": 0.414 },
+      { "month": 4, "count": 0.336 },
+      { "month": 5, "count": -0.2 },
+      { "month": 6, "count": 0.456 },
+      { "month": 7, "count": -0.177 },
+      { "month": 8, "count": -0.454 },
+      { "month": 9, "count": -2.191 },
+      { "month": 10, "count": -0.703 },
+      { "month": 11, "count": -0.153 },
+      { "month": 12, "count": -0.689 }
+    ]
+  },
+  {
+    "year": 1829,
+    "bins": [
+      { "month": 1, "count": -0.588 },
+      { "month": 2, "count": -1.568 },
+      { "month": 3, "count": -0.353 },
+      { "month": 4, "count": -0.647 },
+      { "month": 5, "count": -0.154 },
+      { "month": 6, "count": -0.813 },
+      { "month": 7, "count": -0.355 },
+      { "month": 8, "count": -0.682 },
+      { "month": 9, "count": -1.662 },
+      { "month": 10, "count": -0.564 },
+      { "month": 11, "count": -1.116 },
+      { "month": 12, "count": -1.135 }
+    ]
+  },
+  {
+    "year": 1830,
+    "bins": [
+      { "month": 1, "count": 0.337 },
+      { "month": 2, "count": 0.771 },
+      { "month": 3, "count": -1.04 },
+      { "month": 4, "count": 0.32 },
+      { "month": 5, "count": -1.296 },
+      { "month": 6, "count": -0.841 },
+      { "month": 7, "count": 0.399 },
+      { "month": 8, "count": -0.69 },
+      { "month": 9, "count": -1.743 },
+      { "month": 10, "count": -1.358 },
+      { "month": 11, "count": 1.35 },
+      { "month": 12, "count": 0.849 }
+    ]
+  },
+  {
+    "year": 1831,
+    "bins": [
+      { "month": 1, "count": -0.453 },
+      { "month": 2, "count": -0.831 },
+      { "month": 3, "count": -0.933 },
+      { "month": 4, "count": -0.789 },
+      { "month": 5, "count": -0.546 },
+      { "month": 6, "count": -0.521 },
+      { "month": 7, "count": -0.978 },
+      { "month": 8, "count": -1.578 },
+      { "month": 9, "count": -2.324 },
+      { "month": 10, "count": -1.575 },
+      { "month": 11, "count": -1.729 },
+      { "month": 12, "count": -1.366 }
+    ]
+  },
+  {
+    "year": 1832,
+    "bins": [
+      { "month": 1, "count": -0.962 },
+      { "month": 2, "count": -1.616 },
+      { "month": 3, "count": -0.849 },
+      { "month": 4, "count": -0.527 },
+      { "month": 5, "count": -1.236 },
+      { "month": 6, "count": -0.897 },
+      { "month": 7, "count": -0.834 },
+      { "month": 8, "count": -2.247 },
+      { "month": 9, "count": -1.943 },
+      { "month": 10, "count": -0.89 },
+      { "month": 11, "count": -1.948 },
+      { "month": 12, "count": -2.953 }
+    ]
+  },
+  {
+    "year": 1833,
+    "bins": [
+      { "month": 1, "count": -0.71 },
+      { "month": 2, "count": -0.577 },
+      { "month": 3, "count": -1.012 },
+      { "month": 4, "count": -0.636 },
+      { "month": 5, "count": -0.971 },
+      { "month": 6, "count": -0.712 },
+      { "month": 7, "count": -0.864 },
+      { "month": 8, "count": -0.948 },
+      { "month": 9, "count": -1.076 },
+      { "month": 10, "count": -1.554 },
+      { "month": 11, "count": 0.43 },
+      { "month": 12, "count": -1.015 }
+    ]
+  },
+  {
+    "year": 1834,
+    "bins": [
+      { "month": 1, "count": -2.335 },
+      { "month": 2, "count": -1.041 },
+      { "month": 3, "count": 0.17 },
+      { "month": 4, "count": -0.496 },
+      { "month": 5, "count": -0.344 },
+      { "month": 6, "count": -0.937 },
+      { "month": 7, "count": -0.413 },
+      { "month": 8, "count": -0.764 },
+      { "month": 9, "count": -0.819 },
+      { "month": 10, "count": -0.765 },
+      { "month": 11, "count": 0.256 },
+      { "month": 12, "count": -0.573 }
+    ]
+  },
+  {
+    "year": 1835,
+    "bins": [
+      { "month": 1, "count": -0.165 },
+      { "month": 2, "count": -0.452 },
+      { "month": 3, "count": -1.034 },
+      { "month": 4, "count": -0.772 },
+      { "month": 5, "count": -1.401 },
+      { "month": 6, "count": -1.685 },
+      { "month": 7, "count": -1.57 },
+      { "month": 8, "count": -1.877 },
+      { "month": 9, "count": -2.454 },
+      { "month": 10, "count": -1.596 },
+      { "month": 11, "count": -1.815 },
+      { "month": 12, "count": -2.495 }
+    ]
+  },
+  {
+    "year": 1836,
+    "bins": [
+      { "month": 1, "count": -1.044 },
+      { "month": 2, "count": -1.05 },
+      { "month": 3, "count": -0.151 },
+      { "month": 4, "count": -1.24 },
+      { "month": 5, "count": -1.331 },
+      { "month": 6, "count": -1.123 },
+      { "month": 7, "count": -1.002 },
+      { "month": 8, "count": -1.74 },
+      { "month": 9, "count": -1.577 },
+      { "month": 10, "count": -0.652 },
+      { "month": 11, "count": -2.323 },
+      { "month": 12, "count": -0.828 }
+    ]
+  },
+  {
+    "year": 1837,
+    "bins": [
+      { "month": 1, "count": -0.784 },
+      { "month": 2, "count": -0.789 },
+      { "month": 3, "count": -1.679 },
+      { "month": 4, "count": -2.33 },
+      { "month": 5, "count": -1.61 },
+      { "month": 6, "count": -1.589 },
+      { "month": 7, "count": -1.064 },
+      { "month": 8, "count": -1.118 },
+      { "month": 9, "count": -1.536 },
+      { "month": 10, "count": -1.767 },
+      { "month": 11, "count": -1.989 },
+      { "month": 12, "count": -1.427 }
+    ]
+  },
+  {
+    "year": 1838,
+    "bins": [
+      { "month": 1, "count": -3.28 },
+      { "month": 2, "count": -1.888 },
+      { "month": 3, "count": -1.791 },
+      { "month": 4, "count": -1.193 },
+      { "month": 5, "count": -1.635 },
+      { "month": 6, "count": -0.983 },
+      { "month": 7, "count": -0.287 },
+      { "month": 8, "count": -0.569 },
+      { "month": 9, "count": -1.256 },
+      { "month": 10, "count": -0.871 },
+      { "month": 11, "count": -0.993 },
+      { "month": 12, "count": -1.09 }
+    ]
+  },
+  {
+    "year": 1839,
+    "bins": [
+      { "month": 1, "count": -0.579 },
+      { "month": 2, "count": 0.052 },
+      { "month": 3, "count": -2.948 },
+      { "month": 4, "count": -0.739 },
+      { "month": 5, "count": -1.34 },
+      { "month": 6, "count": -1.191 },
+      { "month": 7, "count": -0.253 },
+      { "month": 8, "count": -0.085 },
+      { "month": 9, "count": -1.497 },
+      { "month": 10, "count": -1.213 },
+      { "month": 11, "count": -2.305 },
+      { "month": 12, "count": -2.639 }
+    ]
+  },
+  {
+    "year": 1840,
+    "bins": [
+      { "month": 1, "count": -0.154 },
+      { "month": 2, "count": -1.242 },
+      { "month": 3, "count": -1.456 },
+      { "month": 4, "count": -0.6 },
+      { "month": 5, "count": -0.388 },
+      { "month": 6, "count": -0.324 },
+      { "month": 7, "count": 0.078 },
+      { "month": 8, "count": -1.027 },
+      { "month": 9, "count": -1.311 },
+      { "month": 10, "count": -1.911 },
+      { "month": 11, "count": -2.095 },
+      { "month": 12, "count": -1.753 }
+    ]
+  },
+  {
+    "year": 1841,
+    "bins": [
+      { "month": 1, "count": -2.02 },
+      { "month": 2, "count": -0.853 },
+      { "month": 3, "count": -2.13 },
+      { "month": 4, "count": -1.762 },
+      { "month": 5, "count": -0.777 },
+      { "month": 6, "count": -0.686 },
+      { "month": 7, "count": -0.086 },
+      { "month": 8, "count": -0.416 },
+      { "month": 9, "count": -1.365 },
+      { "month": 10, "count": -0.619 },
+      { "month": 11, "count": -1.44 },
+      { "month": 12, "count": -1.118 }
+    ]
+  },
+  {
+    "year": 1842,
+    "bins": [
+      { "month": 1, "count": -0.992 },
+      { "month": 2, "count": -0.397 },
+      { "month": 3, "count": 0.264 },
+      { "month": 4, "count": -0.211 },
+      { "month": 5, "count": -1.027 },
+      { "month": 6, "count": -1.118 },
+      { "month": 7, "count": -1 },
+      { "month": 8, "count": -0.879 },
+      { "month": 9, "count": -1.308 },
+      { "month": 10, "count": -1.061 },
+      { "month": 11, "count": -1.347 },
+      { "month": 12, "count": 0.062 }
+    ]
+  },
+  {
+    "year": 1843,
+    "bins": [
+      { "month": 1, "count": 0.37 },
+      { "month": 2, "count": 0.604 },
+      { "month": 3, "count": -0.672 },
+      { "month": 4, "count": -0.637 },
+      { "month": 5, "count": -1.477 },
+      { "month": 6, "count": -1.176 },
+      { "month": 7, "count": -0.581 },
+      { "month": 8, "count": -0.781 },
+      { "month": 9, "count": -0.911 },
+      { "month": 10, "count": -0.646 },
+      { "month": 11, "count": -1.237 },
+      { "month": 12, "count": 0.109 }
+    ]
+  },
+  {
+    "year": 1844,
+    "bins": [
+      { "month": 1, "count": -0.721 },
+      { "month": 2, "count": -1.28 },
+      { "month": 3, "count": -0.666 },
+      { "month": 4, "count": -1.079 },
+      { "month": 5, "count": -1.404 },
+      { "month": 6, "count": -0.86 },
+      { "month": 7, "count": -0.686 },
+      { "month": 8, "count": -1.022 },
+      { "month": 9, "count": -1.421 },
+      { "month": 10, "count": -0.659 },
+      { "month": 11, "count": -1.768 },
+      { "month": 12, "count": -1.764 }
+    ]
+  },
+  {
+    "year": 1845,
+    "bins": [
+      { "month": 1, "count": 0.065 },
+      { "month": 2, "count": -1.619 },
+      { "month": 3, "count": -0.759 },
+      { "month": 4, "count": -0.297 },
+      { "month": 5, "count": -1.055 },
+      { "month": 6, "count": -0.83 },
+      { "month": 7, "count": -0.269 },
+      { "month": 8, "count": -0.506 },
+      { "month": 9, "count": -0.975 },
+      { "month": 10, "count": -1.564 },
+      { "month": 11, "count": -0.967 },
+      { "month": 12, "count": -1.956 }
+    ]
+  },
+  {
+    "year": 1846,
+    "bins": [
+      { "month": 1, "count": 0.573 },
+      { "month": 2, "count": 0.145 },
+      { "month": 3, "count": 0.92 },
+      { "month": 4, "count": -0.989 },
+      { "month": 5, "count": -0.595 },
+      { "month": 6, "count": -0.158 },
+      { "month": 7, "count": 0.357 },
+      { "month": 8, "count": 0.092 },
+      { "month": 9, "count": -0.446 },
+      { "month": 10, "count": -1.115 },
+      { "month": 11, "count": -1.131 },
+      { "month": 12, "count": 0.163 }
+    ]
+  },
+  {
+    "year": 1847,
+    "bins": [
+      { "month": 1, "count": 0.119 },
+      { "month": 2, "count": 0.352 },
+      { "month": 3, "count": -1.333 },
+      { "month": 4, "count": -0.45 },
+      { "month": 5, "count": -0.851 },
+      { "month": 6, "count": -0.837 },
+      { "month": 7, "count": -0.288 },
+      { "month": 8, "count": -0.61 },
+      { "month": 9, "count": -0.558 },
+      { "month": 10, "count": -0.709 },
+      { "month": 11, "count": -0.579 },
+      { "month": 12, "count": -1.936 }
+    ]
+  },
+  {
+    "year": 1848,
+    "bins": [
+      { "month": 1, "count": -2.126 },
+      { "month": 2, "count": 0.489 },
+      { "month": 3, "count": -0.6 },
+      { "month": 4, "count": -0.332 },
+      { "month": 5, "count": -0.895 },
+      { "month": 6, "count": -0.428 },
+      { "month": 7, "count": -0.074 },
+      { "month": 8, "count": -0.753 },
+      { "month": 9, "count": -1.196 },
+      { "month": 10, "count": -0.672 },
+      { "month": 11, "count": -0.857 },
+      { "month": 12, "count": -1.554 }
+    ]
+  },
+  {
+    "year": 1849,
+    "bins": [
+      { "month": 1, "count": -0.635 },
+      { "month": 2, "count": -0.598 },
+      { "month": 3, "count": -0.07 },
+      { "month": 4, "count": -1.404 },
+      { "month": 5, "count": -1.319 },
+      { "month": 6, "count": -0.665 },
+      { "month": 7, "count": -0.08 },
+      { "month": 8, "count": -0.411 },
+      { "month": 9, "count": -1.103 },
+      { "month": 10, "count": -0.434 },
+      { "month": 11, "count": -0.388 },
+      { "month": 12, "count": -1.726 }
+    ]
+  },
+  {
+    "year": 1850,
+    "bins": [
+      { "month": 1, "count": -1.886 },
+      { "month": 2, "count": -0.194 },
+      { "month": 3, "count": -0.432 },
+      { "month": 4, "count": -1.219 },
+      { "month": 5, "count": -1.475 },
+      { "month": 6, "count": -0.513 },
+      { "month": 7, "count": -0.04 },
+      { "month": 8, "count": 0.017 },
+      { "month": 9, "count": -0.691 },
+      { "month": 10, "count": -1.24 },
+      { "month": 11, "count": -1.434 },
+      { "month": 12, "count": -0.864 }
+    ]
+  },
+  {
+    "year": 1851,
+    "bins": [
+      { "month": 1, "count": -0.22 },
+      { "month": 2, "count": -0.762 },
+      { "month": 3, "count": -1.22 },
+      { "month": 4, "count": -1.165 },
+      { "month": 5, "count": -0.372 },
+      { "month": 6, "count": -0.26 },
+      { "month": 7, "count": -0.027 },
+      { "month": 8, "count": -0.305 },
+      { "month": 9, "count": -0.566 },
+      { "month": 10, "count": -0.229 },
+      { "month": 11, "count": -1.212 },
+      { "month": 12, "count": -0.551 }
+    ]
+  },
+  {
+    "year": 1852,
+    "bins": [
+      { "month": 1, "count": -0.289 },
+      { "month": 2, "count": -0.763 },
+      { "month": 3, "count": -1.538 },
+      { "month": 4, "count": -0.956 },
+      { "month": 5, "count": -0.319 },
+      { "month": 6, "count": -0.527 },
+      { "month": 7, "count": -0.06 },
+      { "month": 8, "count": -0.754 },
+      { "month": 9, "count": -0.755 },
+      { "month": 10, "count": -0.429 },
+      { "month": 11, "count": -1.565 },
+      { "month": 12, "count": 0.102 }
+    ]
+  },
+  {
+    "year": 1853,
+    "bins": [
+      { "month": 1, "count": -0.856 },
+      { "month": 2, "count": -1.058 },
+      { "month": 3, "count": -1.312 },
+      { "month": 4, "count": -0.913 },
+      { "month": 5, "count": -0.523 },
+      { "month": 6, "count": -0.277 },
+      { "month": 7, "count": 0.084 },
+      { "month": 8, "count": -0.102 },
+      { "month": 9, "count": -0.513 },
+      { "month": 10, "count": -0.81 },
+      { "month": 11, "count": -1.38 },
+      { "month": 12, "count": -0.82 }
+    ]
+  },
+  {
+    "year": 1854,
+    "bins": [
+      { "month": 1, "count": -1.374 },
+      { "month": 2, "count": -1.353 },
+      { "month": 3, "count": -0.713 },
+      { "month": 4, "count": -0.813 },
+      { "month": 5, "count": -0.404 },
+      { "month": 6, "count": -0.862 },
+      { "month": 7, "count": 0.088 },
+      { "month": 8, "count": -0.171 },
+      { "month": 9, "count": -0.711 },
+      { "month": 10, "count": 0.422 },
+      { "month": 11, "count": -0.42 },
+      { "month": 12, "count": -0.223 }
+    ]
+  },
+  {
+    "year": 1855,
+    "bins": [
+      { "month": 1, "count": -0.153 },
+      { "month": 2, "count": -0.279 },
+      { "month": 3, "count": -0.78 },
+      { "month": 4, "count": 0.151 },
+      { "month": 5, "count": -0.272 },
+      { "month": 6, "count": -0.66 },
+      { "month": 7, "count": -0.613 },
+      { "month": 8, "count": -0.483 },
+      { "month": 9, "count": -1.066 },
+      { "month": 10, "count": -0.878 },
+      { "month": 11, "count": -0.968 },
+      { "month": 12, "count": -1.421 }
+    ]
+  },
+  {
+    "year": 1856,
+    "bins": [
+      { "month": 1, "count": 0.132 },
+      { "month": 2, "count": -1.019 },
+      { "month": 3, "count": -1.01 },
+      { "month": 4, "count": -0.67 },
+      { "month": 5, "count": -0.911 },
+      { "month": 6, "count": -0.106 },
+      { "month": 7, "count": -0.434 },
+      { "month": 8, "count": -0.973 },
+      { "month": 9, "count": -1.24 },
+      { "month": 10, "count": -1.21 },
+      { "month": 11, "count": -0.751 },
+      { "month": 12, "count": -0.234 }
+    ]
+  },
+  {
+    "year": 1857,
+    "bins": [
+      { "month": 1, "count": -0.76 },
+      { "month": 2, "count": -0.735 },
+      { "month": 3, "count": -1.074 },
+      { "month": 4, "count": -1.599 },
+      { "month": 5, "count": -1.548 },
+      { "month": 6, "count": -0.964 },
+      { "month": 7, "count": -0.526 },
+      { "month": 8, "count": -0.769 },
+      { "month": 9, "count": -1.119 },
+      { "month": 10, "count": -1.135 },
+      { "month": 11, "count": -0.865 },
+      { "month": 12, "count": -0.109 }
+    ]
+  },
+  {
+    "year": 1858,
+    "bins": [
+      { "month": 1, "count": 0.096 },
+      { "month": 2, "count": -0.959 },
+      { "month": 3, "count": -0.545 },
+      { "month": 4, "count": -0.143 },
+      { "month": 5, "count": -0.561 },
+      { "month": 6, "count": -0.591 },
+      { "month": 7, "count": -0.757 },
+      { "month": 8, "count": -0.74 },
+      { "month": 9, "count": -1.056 },
+      { "month": 10, "count": -0.473 },
+      { "month": 11, "count": -0.109 },
+      { "month": 12, "count": -1.19 }
+    ]
+  },
+  {
+    "year": 1859,
+    "bins": [
+      { "month": 1, "count": -0.589 },
+      { "month": 2, "count": -0.61 },
+      { "month": 3, "count": -0.33 },
+      { "month": 4, "count": 0.135 },
+      { "month": 5, "count": 0.041 },
+      { "month": 6, "count": -0.412 },
+      { "month": 7, "count": -0.617 },
+      { "month": 8, "count": -0.743 },
+      { "month": 9, "count": -1.081 },
+      { "month": 10, "count": -0.451 },
+      { "month": 11, "count": -0.181 },
+      { "month": 12, "count": -0.295 }
+    ]
+  },
+  {
+    "year": 1860,
+    "bins": [
+      { "month": 1, "count": -0.588 },
+      { "month": 2, "count": -0.634 },
+      { "month": 3, "count": -1.924 },
+      { "month": 4, "count": -0.66 },
+      { "month": 5, "count": -0.334 },
+      { "month": 6, "count": -0.289 },
+      { "month": 7, "count": -0.23 },
+      { "month": 8, "count": -0.156 },
+      { "month": 9, "count": -0.237 },
+      { "month": 10, "count": -0.569 },
+      { "month": 11, "count": -1.1 },
+      { "month": 12, "count": -2.054 }
+    ]
+  },
+  {
+    "year": 1861,
+    "bins": [
+      { "month": 1, "count": -2.232 },
+      { "month": 2, "count": -1.127 },
+      { "month": 3, "count": -0.878 },
+      { "month": 4, "count": -0.916 },
+      { "month": 5, "count": -0.904 },
+      { "month": 6, "count": -0.544 },
+      { "month": 7, "count": -0.478 },
+      { "month": 8, "count": -0.294 },
+      { "month": 9, "count": -0.739 },
+      { "month": 10, "count": -0.808 },
+      { "month": 11, "count": -0.411 },
+      { "month": 12, "count": -0.825 }
+    ]
+  },
+  {
+    "year": 1862,
+    "bins": [
+      { "month": 1, "count": -1.959 },
+      { "month": 2, "count": -1.457 },
+      { "month": 3, "count": -0.968 },
+      { "month": 4, "count": -1.163 },
+      { "month": 5, "count": -0.67 },
+      { "month": 6, "count": -0.696 },
+      { "month": 7, "count": -0.489 },
+      { "month": 8, "count": -0.738 },
+      { "month": 9, "count": -1.114 },
+      { "month": 10, "count": -0.981 },
+      { "month": 11, "count": -1.343 },
+      { "month": 12, "count": -2.01 }
+    ]
+  },
+  {
+    "year": 1863,
+    "bins": [
+      { "month": 1, "count": 0.409 },
+      { "month": 2, "count": 0.038 },
+      { "month": 3, "count": -0.686 },
+      { "month": 4, "count": -0.459 },
+      { "month": 5, "count": -0.407 },
+      { "month": 6, "count": -0.78 },
+      { "month": 7, "count": -0.678 },
+      { "month": 8, "count": -0.672 },
+      { "month": 9, "count": -0.932 },
+      { "month": 10, "count": -1.055 },
+      { "month": 11, "count": -0.741 },
+      { "month": 12, "count": -0.992 }
+    ]
+  },
+  {
+    "year": 1864,
+    "bins": [
+      { "month": 1, "count": -1.112 },
+      { "month": 2, "count": -0.776 },
+      { "month": 3, "count": -0.757 },
+      { "month": 4, "count": -0.883 },
+      { "month": 5, "count": -0.439 },
+      { "month": 6, "count": -0.19 },
+      { "month": 7, "count": -0.268 },
+      { "month": 8, "count": -0.502 },
+      { "month": 9, "count": -0.758 },
+      { "month": 10, "count": -0.481 },
+      { "month": 11, "count": -0.888 },
+      { "month": 12, "count": -1.407 }
+    ]
+  },
+  {
+    "year": 1865,
+    "bins": [
+      { "month": 1, "count": 0.326 },
+      { "month": 2, "count": -1.117 },
+      { "month": 3, "count": -1.348 },
+      { "month": 4, "count": -1.083 },
+      { "month": 5, "count": -0.478 },
+      { "month": 6, "count": -0.328 },
+      { "month": 7, "count": -0.213 },
+      { "month": 8, "count": -0.353 },
+      { "month": 9, "count": -0.345 },
+      { "month": 10, "count": -0.152 },
+      { "month": 11, "count": 0.007 },
+      { "month": 12, "count": -1.035 }
+    ]
+  },
+  {
+    "year": 1866,
+    "bins": [
+      { "month": 1, "count": 0.258 },
+      { "month": 2, "count": -1.022 },
+      { "month": 3, "count": -0.982 },
+      { "month": 4, "count": -0.509 },
+      { "month": 5, "count": -0.525 },
+      { "month": 6, "count": -0.754 },
+      { "month": 7, "count": 0.131 },
+      { "month": 8, "count": -0.437 },
+      { "month": 9, "count": -0.629 },
+      { "month": 10, "count": -0.803 },
+      { "month": 11, "count": -0.248 },
+      { "month": 12, "count": 0.472 }
+    ]
+  },
+  {
+    "year": 1867,
+    "bins": [
+      { "month": 1, "count": -0.196 },
+      { "month": 2, "count": -0.635 },
+      { "month": 3, "count": -0.927 },
+      { "month": 4, "count": -0.147 },
+      { "month": 5, "count": -0.922 },
+      { "month": 6, "count": -0.285 },
+      { "month": 7, "count": -0.239 },
+      { "month": 8, "count": -0.449 },
+      { "month": 9, "count": -0.388 },
+      { "month": 10, "count": -0.095 },
+      { "month": 11, "count": 0.812 },
+      { "month": 12, "count": 0.22 }
+    ]
+  },
+  {
+    "year": 1868,
+    "bins": [
+      { "month": 1, "count": -0.849 },
+      { "month": 2, "count": -1.507 },
+      { "month": 3, "count": -0.943 },
+      { "month": 4, "count": -0.25 },
+      { "month": 5, "count": -0.135 },
+      { "month": 6, "count": -0.464 },
+      { "month": 7, "count": 0.027 },
+      { "month": 8, "count": -0.251 },
+      { "month": 9, "count": -0.54 },
+      { "month": 10, "count": 0.109 },
+      { "month": 11, "count": -1.012 },
+      { "month": 12, "count": -0.428 }
+    ]
+  },
+  {
+    "year": 1869,
+    "bins": [
+      { "month": 1, "count": -0.542 },
+      { "month": 2, "count": 0.453 },
+      { "month": 3, "count": -1.269 },
+      { "month": 4, "count": -0.465 },
+      { "month": 5, "count": -0.179 },
+      { "month": 6, "count": -0.063 },
+      { "month": 7, "count": -0.141 },
+      { "month": 8, "count": 0.027 },
+      { "month": 9, "count": 0.092 },
+      { "month": 10, "count": -0.288 },
+      { "month": 11, "count": -0.392 },
+      { "month": 12, "count": -1.01 }
+    ]
+  },
+  {
+    "year": 1870,
+    "bins": [
+      { "month": 1, "count": -0.617 },
+      { "month": 2, "count": -1.169 },
+      { "month": 3, "count": -0.764 },
+      { "month": 4, "count": -0.544 },
+      { "month": 5, "count": -0.146 },
+      { "month": 6, "count": 0.074 },
+      { "month": 7, "count": 0.12 },
+      { "month": 8, "count": -0.484 },
+      { "month": 9, "count": -0.187 },
+      { "month": 10, "count": -0.493 },
+      { "month": 11, "count": -0.542 },
+      { "month": 12, "count": -1.463 }
+    ]
+  },
+  {
+    "year": 1871,
+    "bins": [
+      { "month": 1, "count": -1.244 },
+      { "month": 2, "count": -1.573 },
+      { "month": 3, "count": -0.661 },
+      { "month": 4, "count": -0.078 },
+      { "month": 5, "count": -0.624 },
+      { "month": 6, "count": -0.508 },
+      { "month": 7, "count": -0.176 },
+      { "month": 8, "count": -0.031 },
+      { "month": 9, "count": -0.451 },
+      { "month": 10, "count": -0.241 },
+      { "month": 11, "count": -1.095 },
+      { "month": 12, "count": -0.563 }
+    ]
+  },
+  {
+    "year": 1872,
+    "bins": [
+      { "month": 1, "count": -1.039 },
+      { "month": 2, "count": -0.951 },
+      { "month": 3, "count": -0.515 },
+      { "month": 4, "count": -0.592 },
+      { "month": 5, "count": -0.234 },
+      { "month": 6, "count": -0.543 },
+      { "month": 7, "count": -0.202 },
+      { "month": 8, "count": -0.161 },
+      { "month": 9, "count": -0.22 },
+      { "month": 10, "count": -0.101 },
+      { "month": 11, "count": -0.831 },
+      { "month": 12, "count": -1.091 }
+    ]
+  },
+  {
+    "year": 1873,
+    "bins": [
+      { "month": 1, "count": -0.688 },
+      { "month": 2, "count": -0.147 },
+      { "month": 3, "count": -0.755 },
+      { "month": 4, "count": -0.926 },
+      { "month": 5, "count": -0.402 },
+      { "month": 6, "count": -0.163 },
+      { "month": 7, "count": -0.179 },
+      { "month": 8, "count": -0.207 },
+      { "month": 9, "count": -0.684 },
+      { "month": 10, "count": -0.071 },
+      { "month": 11, "count": -0.381 },
+      { "month": 12, "count": 0.102 }
+    ]
+  },
+  {
+    "year": 1874,
+    "bins": [
+      { "month": 1, "count": -0.041 },
+      { "month": 2, "count": -0.254 },
+      { "month": 3, "count": -1.232 },
+      { "month": 4, "count": -0.204 },
+      { "month": 5, "count": -0.116 },
+      { "month": 6, "count": -0.266 },
+      { "month": 7, "count": -0.335 },
+      { "month": 8, "count": -0.117 },
+      { "month": 9, "count": -0.001 },
+      { "month": 10, "count": -0.189 },
+      { "month": 11, "count": -0.396 },
+      { "month": 12, "count": -0.273 }
+    ]
+  },
+  {
+    "year": 1875,
+    "bins": [
+      { "month": 1, "count": -1.147 },
+      { "month": 2, "count": -1.035 },
+      { "month": 3, "count": -1.132 },
+      { "month": 4, "count": -0.761 },
+      { "month": 5, "count": -0.63 },
+      { "month": 6, "count": -0.391 },
+      { "month": 7, "count": -0.285 },
+      { "month": 8, "count": -0.523 },
+      { "month": 9, "count": -0.801 },
+      { "month": 10, "count": -0.692 },
+      { "month": 11, "count": -1.548 },
+      { "month": 12, "count": -0.992 }
+    ]
+  },
+  {
+    "year": 1876,
+    "bins": [
+      { "month": 1, "count": -0.816 },
+      { "month": 2, "count": -0.648 },
+      { "month": 3, "count": -0.631 },
+      { "month": 4, "count": -0.175 },
+      { "month": 5, "count": -0.687 },
+      { "month": 6, "count": -0.414 },
+      { "month": 7, "count": -0.105 },
+      { "month": 8, "count": -0.425 },
+      { "month": 9, "count": -0.437 },
+      { "month": 10, "count": -0.327 },
+      { "month": 11, "count": -1.009 },
+      { "month": 12, "count": -1.464 }
+    ]
+  },
+  {
+    "year": 1877,
+    "bins": [
+      { "month": 1, "count": -0.317 },
+      { "month": 2, "count": -0.318 },
+      { "month": 3, "count": -0.064 },
+      { "month": 4, "count": -0.346 },
+      { "month": 5, "count": -0.346 },
+      { "month": 6, "count": -0.175 },
+      { "month": 7, "count": 0.225 },
+      { "month": 8, "count": 0.234 },
+      { "month": 9, "count": -0.032 },
+      { "month": 10, "count": -0.024 },
+      { "month": 11, "count": 0.193 },
+      { "month": 12, "count": -0.66 }
+    ]
+  },
+  {
+    "year": 1878,
+    "bins": [
+      { "month": 1, "count": -0.639 },
+      { "month": 2, "count": 0.454 },
+      { "month": 3, "count": 1.24 },
+      { "month": 4, "count": 0.534 },
+      { "month": 5, "count": -0.358 },
+      { "month": 6, "count": 0.262 },
+      { "month": 7, "count": 0.42 },
+      { "month": 8, "count": 0.209 },
+      { "month": 9, "count": 0.073 },
+      { "month": 10, "count": -0.035 },
+      { "month": 11, "count": 0.268 },
+      { "month": 12, "count": -0.324 }
+    ]
+  },
+  {
+    "year": 1879,
+    "bins": [
+      { "month": 1, "count": -0.331 },
+      { "month": 2, "count": -0.521 },
+      { "month": 3, "count": -0.454 },
+      { "month": 4, "count": -0.628 },
+      { "month": 5, "count": -0.606 },
+      { "month": 6, "count": -0.336 },
+      { "month": 7, "count": -0.16 },
+      { "month": 8, "count": -0.675 },
+      { "month": 9, "count": -0.665 },
+      { "month": 10, "count": -0.119 },
+      { "month": 11, "count": -0.613 },
+      { "month": 12, "count": -1.092 }
+    ]
+  },
+  {
+    "year": 1880,
+    "bins": [
+      { "month": 1, "count": -0.875 },
+      { "month": 2, "count": -1.195 },
+      { "month": 3, "count": -0.749 },
+      { "month": 4, "count": -0.887 },
+      { "month": 5, "count": -0.293 },
+      { "month": 6, "count": -0.316 },
+      { "month": 7, "count": -0.276 },
+      { "month": 8, "count": -0.134 },
+      { "month": 9, "count": -0.742 },
+      { "month": 10, "count": -0.599 },
+      { "month": 11, "count": -0.259 },
+      { "month": 12, "count": -0.507 }
+    ]
+  },
+  {
+    "year": 1881,
+    "bins": [
+      { "month": 1, "count": -0.151 },
+      { "month": 2, "count": -0.612 },
+      { "month": 3, "count": -0.343 },
+      { "month": 4, "count": -0.02 },
+      { "month": 5, "count": -0.19 },
+      { "month": 6, "count": -0.828 },
+      { "month": 7, "count": -0.17 },
+      { "month": 8, "count": -0.203 },
+      { "month": 9, "count": -0.448 },
+      { "month": 10, "count": -0.428 },
+      { "month": 11, "count": -0.855 },
+      { "month": 12, "count": -0.484 }
+    ]
+  },
+  {
+    "year": 1882,
+    "bins": [
+      { "month": 1, "count": 0.375 },
+      { "month": 2, "count": -0.011 },
+      { "month": 3, "count": -0.316 },
+      { "month": 4, "count": -0.659 },
+      { "month": 5, "count": -0.482 },
+      { "month": 6, "count": -0.737 },
+      { "month": 7, "count": -0.645 },
+      { "month": 8, "count": -0.215 },
+      { "month": 9, "count": -0.406 },
+      { "month": 10, "count": -0.849 },
+      { "month": 11, "count": -1.055 },
+      { "month": 12, "count": -1.45 }
+    ]
+  },
+  {
+    "year": 1883,
+    "bins": [
+      { "month": 1, "count": -1.13 },
+      { "month": 2, "count": -1.314 },
+      { "month": 3, "count": -0.397 },
+      { "month": 4, "count": -0.649 },
+      { "month": 5, "count": -0.517 },
+      { "month": 6, "count": -0.233 },
+      { "month": 7, "count": -0.379 },
+      { "month": 8, "count": -0.652 },
+      { "month": 9, "count": -0.789 },
+      { "month": 10, "count": -0.354 },
+      { "month": 11, "count": -1.201 },
+      { "month": 12, "count": -0.355 }
+    ]
+  },
+  {
+    "year": 1884,
+    "bins": [
+      { "month": 1, "count": -0.462 },
+      { "month": 2, "count": -0.745 },
+      { "month": 3, "count": -1.448 },
+      { "month": 4, "count": -1.142 },
+      { "month": 5, "count": -1.168 },
+      { "month": 6, "count": -0.986 },
+      { "month": 7, "count": -0.713 },
+      { "month": 8, "count": -0.624 },
+      { "month": 9, "count": -0.858 },
+      { "month": 10, "count": -0.693 },
+      { "month": 11, "count": -0.97 },
+      { "month": 12, "count": -0.605 }
+    ]
+  },
+  {
+    "year": 1885,
+    "bins": [
+      { "month": 1, "count": -1.533 },
+      { "month": 2, "count": -0.912 },
+      { "month": 3, "count": -0.69 },
+      { "month": 4, "count": -1.004 },
+      { "month": 5, "count": -0.782 },
+      { "month": 6, "count": -0.806 },
+      { "month": 7, "count": -0.39 },
+      { "month": 8, "count": -0.555 },
+      { "month": 9, "count": -0.653 },
+      { "month": 10, "count": -0.524 },
+      { "month": 11, "count": -0.855 },
+      { "month": 12, "count": 0.045 }
+    ]
+  },
+  {
+    "year": 1886,
+    "bins": [
+      { "month": 1, "count": -1.111 },
+      { "month": 2, "count": -1.371 },
+      { "month": 3, "count": -1.033 },
+      { "month": 4, "count": -0.413 },
+      { "month": 5, "count": -0.605 },
+      { "month": 6, "count": -0.744 },
+      { "month": 7, "count": -0.191 },
+      { "month": 8, "count": -0.583 },
+      { "month": 9, "count": -0.504 },
+      { "month": 10, "count": -0.673 },
+      { "month": 11, "count": -0.852 },
+      { "month": 12, "count": -0.123 }
+    ]
+  },
+  {
+    "year": 1887,
+    "bins": [
+      { "month": 1, "count": -1.728 },
+      { "month": 2, "count": -1.099 },
+      { "month": 3, "count": -0.718 },
+      { "month": 4, "count": -0.526 },
+      { "month": 5, "count": -0.519 },
+      { "month": 6, "count": -0.677 },
+      { "month": 7, "count": -0.364 },
+      { "month": 8, "count": -0.775 },
+      { "month": 9, "count": -0.396 },
+      { "month": 10, "count": -0.526 },
+      { "month": 11, "count": -0.545 },
+      { "month": 12, "count": -0.726 }
+    ]
+  },
+  {
+    "year": 1888,
+    "bins": [
+      { "month": 1, "count": -0.838 },
+      { "month": 2, "count": -1.111 },
+      { "month": 3, "count": -0.964 },
+      { "month": 4, "count": -0.464 },
+      { "month": 5, "count": -0.726 },
+      { "month": 6, "count": -0.651 },
+      { "month": 7, "count": -0.145 },
+      { "month": 8, "count": -0.365 },
+      { "month": 9, "count": -0.404 },
+      { "month": 10, "count": -0.066 },
+      { "month": 11, "count": -0.283 },
+      { "month": 12, "count": -0.361 }
+    ]
+  },
+  {
+    "year": 1889,
+    "bins": [
+      { "month": 1, "count": -0.795 },
+      { "month": 2, "count": 0.275 },
+      { "month": 3, "count": 0.033 },
+      { "month": 4, "count": 0.275 },
+      { "month": 5, "count": -0.117 },
+      { "month": 6, "count": -0.221 },
+      { "month": 7, "count": -0.174 },
+      { "month": 8, "count": -0.391 },
+      { "month": 9, "count": -0.542 },
+      { "month": 10, "count": -0.403 },
+      { "month": 11, "count": -1.106 },
+      { "month": 12, "count": -0.503 }
+    ]
+  },
+  {
+    "year": 1890,
+    "bins": [
+      { "month": 1, "count": -0.704 },
+      { "month": 2, "count": -0.697 },
+      { "month": 3, "count": -1.034 },
+      { "month": 4, "count": -0.565 },
+      { "month": 5, "count": -0.898 },
+      { "month": 6, "count": -0.644 },
+      { "month": 7, "count": -0.345 },
+      { "month": 8, "count": -0.612 },
+      { "month": 9, "count": -0.589 },
+      { "month": 10, "count": -0.087 },
+      { "month": 11, "count": -1.019 },
+      { "month": 12, "count": -0.646 }
+    ]
+  },
+  {
+    "year": 1891,
+    "bins": [
+      { "month": 1, "count": -0.874 },
+      { "month": 2, "count": -1.283 },
+      { "month": 3, "count": -0.515 },
+      { "month": 4, "count": -0.703 },
+      { "month": 5, "count": -0.554 },
+      { "month": 6, "count": -0.646 },
+      { "month": 7, "count": -0.474 },
+      { "month": 8, "count": -0.424 },
+      { "month": 9, "count": -0.378 },
+      { "month": 10, "count": -0.531 },
+      { "month": 11, "count": -0.994 },
+      { "month": 12, "count": 0.015 }
+    ]
+  },
+  {
+    "year": 1892,
+    "bins": [
+      { "month": 1, "count": -0.594 },
+      { "month": 2, "count": -0.352 },
+      { "month": 3, "count": -0.921 },
+      { "month": 4, "count": -0.746 },
+      { "month": 5, "count": -0.725 },
+      { "month": 6, "count": -0.264 },
+      { "month": 7, "count": -0.52 },
+      { "month": 8, "count": -0.477 },
+      { "month": 9, "count": -0.351 },
+      { "month": 10, "count": 0.021 },
+      { "month": 11, "count": -1.241 },
+      { "month": 12, "count": -0.682 }
+    ]
+  },
+  {
+    "year": 1893,
+    "bins": [
+      { "month": 1, "count": -2.088 },
+      { "month": 2, "count": -1.553 },
+      { "month": 3, "count": -0.316 },
+      { "month": 4, "count": -0.312 },
+      { "month": 5, "count": -0.604 },
+      { "month": 6, "count": -0.468 },
+      { "month": 7, "count": -0.088 },
+      { "month": 8, "count": -0.443 },
+      { "month": 9, "count": -0.341 },
+      { "month": 10, "count": -0.095 },
+      { "month": 11, "count": -0.194 },
+      { "month": 12, "count": -0.429 }
+    ]
+  },
+  {
+    "year": 1894,
+    "bins": [
+      { "month": 1, "count": -0.849 },
+      { "month": 2, "count": -0.235 },
+      { "month": 3, "count": -0.137 },
+      { "month": 4, "count": -0.652 },
+      { "month": 5, "count": -0.397 },
+      { "month": 6, "count": -0.682 },
+      { "month": 7, "count": -0.399 },
+      { "month": 8, "count": -0.413 },
+      { "month": 9, "count": -0.521 },
+      { "month": 10, "count": -0.127 },
+      { "month": 11, "count": -0.656 },
+      { "month": 12, "count": -0.47 }
+    ]
+  },
+  {
+    "year": 1895,
+    "bins": [
+      { "month": 1, "count": -1.256 },
+      { "month": 2, "count": -1.167 },
+      { "month": 3, "count": -0.602 },
+      { "month": 4, "count": -0.067 },
+      { "month": 5, "count": -0.473 },
+      { "month": 6, "count": -0.462 },
+      { "month": 7, "count": -0.339 },
+      { "month": 8, "count": -0.376 },
+      { "month": 9, "count": -0.349 },
+      { "month": 10, "count": -0.14 },
+      { "month": 11, "count": -0.351 },
+      { "month": 12, "count": -0.128 }
+    ]
+  },
+  {
+    "year": 1896,
+    "bins": [
+      { "month": 1, "count": -0.268 },
+      { "month": 2, "count": -0.472 },
+      { "month": 3, "count": -0.959 },
+      { "month": 4, "count": -0.933 },
+      { "month": 5, "count": -0.419 },
+      { "month": 6, "count": -0.161 },
+      { "month": 7, "count": -0.118 },
+      { "month": 8, "count": -0.238 },
+      { "month": 9, "count": -0.19 },
+      { "month": 10, "count": 0.194 },
+      { "month": 11, "count": -0.732 },
+      { "month": 12, "count": -0.241 }
+    ]
+  },
+  {
+    "year": 1897,
+    "bins": [
+      { "month": 1, "count": -0.661 },
+      { "month": 2, "count": -0.733 },
+      { "month": 3, "count": -0.938 },
+      { "month": 4, "count": -0.025 },
+      { "month": 5, "count": 0.03 },
+      { "month": 6, "count": -0.175 },
+      { "month": 7, "count": 0.014 },
+      { "month": 8, "count": -0.161 },
+      { "month": 9, "count": -0.078 },
+      { "month": 10, "count": 0.059 },
+      { "month": 11, "count": -0.489 },
+      { "month": 12, "count": -0.386 }
+    ]
+  },
+  {
+    "year": 1898,
+    "bins": [
+      { "month": 1, "count": 0.221 },
+      { "month": 2, "count": -0.834 },
+      { "month": 3, "count": -1.51 },
+      { "month": 4, "count": -0.354 },
+      { "month": 5, "count": -0.519 },
+      { "month": 6, "count": -0.178 },
+      { "month": 7, "count": -0.25 },
+      { "month": 8, "count": -0.318 },
+      { "month": 9, "count": -0.354 },
+      { "month": 10, "count": -0.483 },
+      { "month": 11, "count": -0.655 },
+      { "month": 12, "count": -0.219 }
+    ]
+  },
+  {
+    "year": 1899,
+    "bins": [
+      { "month": 1, "count": -0.064 },
+      { "month": 2, "count": -0.813 },
+      { "month": 3, "count": -0.756 },
+      { "month": 4, "count": -0.121 },
+      { "month": 5, "count": -0.292 },
+      { "month": 6, "count": -0.62 },
+      { "month": 7, "count": -0.227 },
+      { "month": 8, "count": -0.173 },
+      { "month": 9, "count": 0.03 },
+      { "month": 10, "count": 0.132 },
+      { "month": 11, "count": 0.454 },
+      { "month": 12, "count": -0.636 }
+    ]
+  },
+  {
+    "year": 1900,
+    "bins": [
+      { "month": 1, "count": -1.083 },
+      { "month": 2, "count": -0.177 },
+      { "month": 3, "count": 0.157 },
+      { "month": 4, "count": -0.057 },
+      { "month": 5, "count": 0.01 },
+      { "month": 6, "count": -0.133 },
+      { "month": 7, "count": -0.181 },
+      { "month": 8, "count": -0.056 },
+      { "month": 9, "count": -0.139 },
+      { "month": 10, "count": 0.402 },
+      { "month": 11, "count": -0.259 },
+      { "month": 12, "count": 0.045 }
+    ]
+  },
+  {
+    "year": 1901,
+    "bins": [
+      { "month": 1, "count": -0.367 },
+      { "month": 2, "count": -0.092 },
+      { "month": 3, "count": 0.339 },
+      { "month": 4, "count": 0.208 },
+      { "month": 5, "count": -0.162 },
+      { "month": 6, "count": -0.091 },
+      { "month": 7, "count": -0.019 },
+      { "month": 8, "count": -0.063 },
+      { "month": 9, "count": -0.125 },
+      { "month": 10, "count": -0.267 },
+      { "month": 11, "count": -0.155 },
+      { "month": 12, "count": -0.324 }
+    ]
+  },
+  {
+    "year": 1902,
+    "bins": [
+      { "month": 1, "count": 0.004 },
+      { "month": 2, "count": 0.393 },
+      { "month": 3, "count": -0.44 },
+      { "month": 4, "count": -0.344 },
+      { "month": 5, "count": -0.418 },
+      { "month": 6, "count": -0.273 },
+      { "month": 7, "count": -0.126 },
+      { "month": 8, "count": -0.273 },
+      { "month": 9, "count": -0.348 },
+      { "month": 10, "count": -0.487 },
+      { "month": 11, "count": -0.91 },
+      { "month": 12, "count": -0.933 }
+    ]
+  },
+  {
+    "year": 1903,
+    "bins": [
+      { "month": 1, "count": -0.082 },
+      { "month": 2, "count": 0.317 },
+      { "month": 3, "count": -0.327 },
+      { "month": 4, "count": -0.412 },
+      { "month": 5, "count": -0.503 },
+      { "month": 6, "count": -0.572 },
+      { "month": 7, "count": -0.338 },
+      { "month": 8, "count": -0.422 },
+      { "month": 9, "count": -0.513 },
+      { "month": 10, "count": -0.473 },
+      { "month": 11, "count": -0.625 },
+      { "month": 12, "count": -0.725 }
+    ]
+  },
+  {
+    "year": 1904,
+    "bins": [
+      { "month": 1, "count": -0.936 },
+      { "month": 2, "count": -0.842 },
+      { "month": 3, "count": -0.778 },
+      { "month": 4, "count": -0.63 },
+      { "month": 5, "count": -0.514 },
+      { "month": 6, "count": -0.507 },
+      { "month": 7, "count": -0.531 },
+      { "month": 8, "count": -0.413 },
+      { "month": 9, "count": -0.675 },
+      { "month": 10, "count": -0.457 },
+      { "month": 11, "count": 0.058 },
+      { "month": 12, "count": -0.33 }
+    ]
+  },
+  {
+    "year": 1905,
+    "bins": [
+      { "month": 1, "count": -0.298 },
+      { "month": 2, "count": -1.285 },
+      { "month": 3, "count": -0.667 },
+      { "month": 4, "count": -0.578 },
+      { "month": 5, "count": -0.351 },
+      { "month": 6, "count": -0.348 },
+      { "month": 7, "count": -0.266 },
+      { "month": 8, "count": -0.284 },
+      { "month": 9, "count": -0.239 },
+      { "month": 10, "count": -0.172 },
+      { "month": 11, "count": 0.097 },
+      { "month": 12, "count": -0.275 }
+    ]
+  },
+  {
+    "year": 1906,
+    "bins": [
+      { "month": 1, "count": -0.469 },
+      { "month": 2, "count": -0.861 },
+      { "month": 3, "count": -0.411 },
+      { "month": 4, "count": 0.317 },
+      { "month": 5, "count": -0.079 },
+      { "month": 6, "count": -0.144 },
+      { "month": 7, "count": -0.241 },
+      { "month": 8, "count": -0.185 },
+      { "month": 9, "count": -0.301 },
+      { "month": 10, "count": 0.02 },
+      { "month": 11, "count": -0.6 },
+      { "month": 12, "count": 0.134 }
+    ]
+  },
+  {
+    "year": 1907,
+    "bins": [
+      { "month": 1, "count": -0.729 },
+      { "month": 2, "count": -1.032 },
+      { "month": 3, "count": -0.701 },
+      { "month": 4, "count": -0.734 },
+      { "month": 5, "count": -0.968 },
+      { "month": 6, "count": -0.746 },
+      { "month": 7, "count": -0.619 },
+      { "month": 8, "count": -0.535 },
+      { "month": 9, "count": -0.434 },
+      { "month": 10, "count": -0.026 },
+      { "month": 11, "count": -0.929 },
+      { "month": 12, "count": -0.679 }
+    ]
+  },
+  {
+    "year": 1908,
+    "bins": [
+      { "month": 1, "count": -0.319 },
+      { "month": 2, "count": -0.391 },
+      { "month": 3, "count": -1.17 },
+      { "month": 4, "count": -0.492 },
+      { "month": 5, "count": -0.228 },
+      { "month": 6, "count": -0.218 },
+      { "month": 7, "count": -0.208 },
+      { "month": 8, "count": -0.519 },
+      { "month": 9, "count": -0.131 },
+      { "month": 10, "count": -0.408 },
+      { "month": 11, "count": -0.874 },
+      { "month": 12, "count": -0.571 }
+    ]
+  },
+  {
+    "year": 1909,
+    "bins": [
+      { "month": 1, "count": -1.168 },
+      { "month": 2, "count": -0.492 },
+      { "month": 3, "count": -0.721 },
+      { "month": 4, "count": -0.813 },
+      { "month": 5, "count": -0.752 },
+      { "month": 6, "count": -0.557 },
+      { "month": 7, "count": -0.334 },
+      { "month": 8, "count": -0.135 },
+      { "month": 9, "count": -0.209 },
+      { "month": 10, "count": -0.078 },
+      { "month": 11, "count": 0.118 },
+      { "month": 12, "count": -0.393 }
+    ]
+  },
+  {
+    "year": 1910,
+    "bins": [
+      { "month": 1, "count": -0.185 },
+      { "month": 2, "count": -0.394 },
+      { "month": 3, "count": -0.717 },
+      { "month": 4, "count": -0.219 },
+      { "month": 5, "count": -0.37 },
+      { "month": 6, "count": -0.387 },
+      { "month": 7, "count": -0.094 },
+      { "month": 8, "count": -0.214 },
+      { "month": 9, "count": -0.381 },
+      { "month": 10, "count": -0.282 },
+      { "month": 11, "count": -0.804 },
+      { "month": 12, "count": -0.93 }
+    ]
+  },
+  {
+    "year": 1911,
+    "bins": [
+      { "month": 1, "count": -0.897 },
+      { "month": 2, "count": -0.729 },
+      { "month": 3, "count": -0.952 },
+      { "month": 4, "count": -0.35 },
+      { "month": 5, "count": -0.562 },
+      { "month": 6, "count": -0.493 },
+      { "month": 7, "count": -0.326 },
+      { "month": 8, "count": -0.407 },
+      { "month": 9, "count": -0.484 },
+      { "month": 10, "count": -0.031 },
+      { "month": 11, "count": -0.183 },
+      { "month": 12, "count": -0.236 }
+    ]
+  },
+  {
+    "year": 1912,
+    "bins": [
+      { "month": 1, "count": -0.156 },
+      { "month": 2, "count": 0.139 },
+      { "month": 3, "count": -0.957 },
+      { "month": 4, "count": -0.124 },
+      { "month": 5, "count": -0.116 },
+      { "month": 6, "count": -0.113 },
+      { "month": 7, "count": -0.676 },
+      { "month": 8, "count": -0.829 },
+      { "month": 9, "count": -0.873 },
+      { "month": 10, "count": -0.922 },
+      { "month": 11, "count": -0.621 },
+      { "month": 12, "count": -0.577 }
+    ]
+  },
+  {
+    "year": 1913,
+    "bins": [
+      { "month": 1, "count": -0.477 },
+      { "month": 2, "count": -0.81 },
+      { "month": 3, "count": -0.803 },
+      { "month": 4, "count": -0.32 },
+      { "month": 5, "count": -0.609 },
+      { "month": 6, "count": -0.518 },
+      { "month": 7, "count": -0.258 },
+      { "month": 8, "count": -0.169 },
+      { "month": 9, "count": -0.367 },
+      { "month": 10, "count": -0.24 },
+      { "month": 11, "count": -0.116 },
+      { "month": 12, "count": 0.481 }
+    ]
+  },
+  {
+    "year": 1914,
+    "bins": [
+      { "month": 1, "count": 0.847 },
+      { "month": 2, "count": 0.058 },
+      { "month": 3, "count": -0.384 },
+      { "month": 4, "count": -0.273 },
+      { "month": 5, "count": -0.085 },
+      { "month": 6, "count": -0.038 },
+      { "month": 7, "count": -0.125 },
+      { "month": 8, "count": -0.188 },
+      { "month": 9, "count": -0.198 },
+      { "month": 10, "count": 0.118 },
+      { "month": 11, "count": -0.368 },
+      { "month": 12, "count": 0.025 }
+    ]
+  },
+  {
+    "year": 1915,
+    "bins": [
+      { "month": 1, "count": -0.283 },
+      { "month": 2, "count": 0.061 },
+      { "month": 3, "count": -0.187 },
+      { "month": 4, "count": 0.347 },
+      { "month": 5, "count": 0.125 },
+      { "month": 6, "count": -0.194 },
+      { "month": 7, "count": 0.051 },
+      { "month": 8, "count": -0.108 },
+      { "month": 9, "count": -0.216 },
+      { "month": 10, "count": -0.276 },
+      { "month": 11, "count": 0.051 },
+      { "month": 12, "count": -0.02 }
+    ]
+  },
+  {
+    "year": 1916,
+    "bins": [
+      { "month": 1, "count": 0.019 },
+      { "month": 2, "count": -0.253 },
+      { "month": 3, "count": -0.48 },
+      { "month": 4, "count": -0.271 },
+      { "month": 5, "count": -0.345 },
+      { "month": 6, "count": -0.574 },
+      { "month": 7, "count": -0.34 },
+      { "month": 8, "count": -0.333 },
+      { "month": 9, "count": -0.394 },
+      { "month": 10, "count": -0.268 },
+      { "month": 11, "count": -0.547 },
+      { "month": 12, "count": -1.334 }
+    ]
+  },
+  {
+    "year": 1917,
+    "bins": [
+      { "month": 1, "count": -0.461 },
+      { "month": 2, "count": -0.856 },
+      { "month": 3, "count": -0.848 },
+      { "month": 4, "count": -0.49 },
+      { "month": 5, "count": -0.924 },
+      { "month": 6, "count": -0.62 },
+      { "month": 7, "count": -0.154 },
+      { "month": 8, "count": -0.404 },
+      { "month": 9, "count": -0.382 },
+      { "month": 10, "count": -0.74 },
+      { "month": 11, "count": -0.333 },
+      { "month": 12, "count": -1.406 }
+    ]
+  },
+  {
+    "year": 1918,
+    "bins": [
+      { "month": 1, "count": -0.674 },
+      { "month": 2, "count": -0.744 },
+      { "month": 3, "count": -0.506 },
+      { "month": 4, "count": -0.699 },
+      { "month": 5, "count": -0.81 },
+      { "month": 6, "count": -0.587 },
+      { "month": 7, "count": -0.393 },
+      { "month": 8, "count": -0.479 },
+      { "month": 9, "count": -0.224 },
+      { "month": 10, "count": 0.149 },
+      { "month": 11, "count": -0.47 },
+      { "month": 12, "count": -0.827 }
+    ]
+  },
+  {
+    "year": 1919,
+    "bins": [
+      { "month": 1, "count": -0.418 },
+      { "month": 2, "count": -0.353 },
+      { "month": 3, "count": -0.569 },
+      { "month": 4, "count": 0.154 },
+      { "month": 5, "count": -0.38 },
+      { "month": 6, "count": -0.303 },
+      { "month": 7, "count": -0.132 },
+      { "month": 8, "count": -0.118 },
+      { "month": 9, "count": -0.134 },
+      { "month": 10, "count": 0.083 },
+      { "month": 11, "count": -0.635 },
+      { "month": 12, "count": -0.447 }
+    ]
+  },
+  {
+    "year": 1920,
+    "bins": [
+      { "month": 1, "count": 0.239 },
+      { "month": 2, "count": -0.461 },
+      { "month": 3, "count": -0.108 },
+      { "month": 4, "count": -0.084 },
+      { "month": 5, "count": -0.234 },
+      { "month": 6, "count": -0.44 },
+      { "month": 7, "count": -0.181 },
+      { "month": 8, "count": -0.255 },
+      { "month": 9, "count": -0.324 },
+      { "month": 10, "count": -0.254 },
+      { "month": 11, "count": -0.58 },
+      { "month": 12, "count": -1.038 }
+    ]
+  },
+  {
+    "year": 1921,
+    "bins": [
+      { "month": 1, "count": 0.357 },
+      { "month": 2, "count": -0.088 },
+      { "month": 3, "count": -0.242 },
+      { "month": 4, "count": -0.025 },
+      { "month": 5, "count": -0.112 },
+      { "month": 6, "count": -0.086 },
+      { "month": 7, "count": 0.017 },
+      { "month": 8, "count": -0.344 },
+      { "month": 9, "count": -0.241 },
+      { "month": 10, "count": 0.008 },
+      { "month": 11, "count": -0.266 },
+      { "month": 12, "count": 0.008 }
+    ]
+  },
+  {
+    "year": 1922,
+    "bins": [
+      { "month": 1, "count": -0.446 },
+      { "month": 2, "count": -0.838 },
+      { "month": 3, "count": -0.17 },
+      { "month": 4, "count": 0.049 },
+      { "month": 5, "count": -0.251 },
+      { "month": 6, "count": -0.192 },
+      { "month": 7, "count": -0.127 },
+      { "month": 8, "count": -0.343 },
+      { "month": 9, "count": -0.355 },
+      { "month": 10, "count": -0.22 },
+      { "month": 11, "count": -0.087 },
+      { "month": 12, "count": 0.001 }
+    ]
+  },
+  {
+    "year": 1923,
+    "bins": [
+      { "month": 1, "count": -0.131 },
+      { "month": 2, "count": -0.644 },
+      { "month": 3, "count": -0.458 },
+      { "month": 4, "count": -0.593 },
+      { "month": 5, "count": -0.493 },
+      { "month": 6, "count": -0.227 },
+      { "month": 7, "count": -0.436 },
+      { "month": 8, "count": -0.311 },
+      { "month": 9, "count": -0.241 },
+      { "month": 10, "count": 0.249 },
+      { "month": 11, "count": 0.223 },
+      { "month": 12, "count": 0.213 }
+    ]
+  },
+  {
+    "year": 1924,
+    "bins": [
+      { "month": 1, "count": -0.268 },
+      { "month": 2, "count": -0.304 },
+      { "month": 3, "count": 0.026 },
+      { "month": 4, "count": -0.364 },
+      { "month": 5, "count": -0.147 },
+      { "month": 6, "count": -0.171 },
+      { "month": 7, "count": -0.113 },
+      { "month": 8, "count": -0.258 },
+      { "month": 9, "count": -0.158 },
+      { "month": 10, "count": -0.068 },
+      { "month": 11, "count": 0.245 },
+      { "month": 12, "count": -0.183 }
+    ]
+  },
+  {
+    "year": 1925,
+    "bins": [
+      { "month": 1, "count": -0.316 },
+      { "month": 2, "count": -0.514 },
+      { "month": 3, "count": -0.224 },
+      { "month": 4, "count": 0.097 },
+      { "month": 5, "count": -0.306 },
+      { "month": 6, "count": -0.442 },
+      { "month": 7, "count": -0.348 },
+      { "month": 8, "count": -0.148 },
+      { "month": 9, "count": -0.132 },
+      { "month": 10, "count": -0.076 },
+      { "month": 11, "count": 0.2 },
+      { "month": 12, "count": 0.716 }
+    ]
+  },
+  {
+    "year": 1926,
+    "bins": [
+      { "month": 1, "count": 0.856 },
+      { "month": 2, "count": 0.513 },
+      { "month": 3, "count": 0.514 },
+      { "month": 4, "count": -0.111 },
+      { "month": 5, "count": -0.389 },
+      { "month": 6, "count": -0.238 },
+      { "month": 7, "count": -0.23 },
+      { "month": 8, "count": -0.029 },
+      { "month": 9, "count": -0.039 },
+      { "month": 10, "count": 0.306 },
+      { "month": 11, "count": 0.161 },
+      { "month": 12, "count": -0.318 }
+    ]
+  },
+  {
+    "year": 1927,
+    "bins": [
+      { "month": 1, "count": -0.247 },
+      { "month": 2, "count": -0.15 },
+      { "month": 3, "count": -0.603 },
+      { "month": 4, "count": -0.254 },
+      { "month": 5, "count": -0.201 },
+      { "month": 6, "count": -0.253 },
+      { "month": 7, "count": -0.082 },
+      { "month": 8, "count": -0.205 },
+      { "month": 9, "count": 0.141 },
+      { "month": 10, "count": 0.618 },
+      { "month": 11, "count": 0.2 },
+      { "month": 12, "count": -0.416 }
+    ]
+  },
+  {
+    "year": 1928,
+    "bins": [
+      { "month": 1, "count": 0.44 },
+      { "month": 2, "count": 0.14 },
+      { "month": 3, "count": -0.307 },
+      { "month": 4, "count": -0.09 },
+      { "month": 5, "count": -0.178 },
+      { "month": 6, "count": -0.417 },
+      { "month": 7, "count": -0.117 },
+      { "month": 8, "count": -0.237 },
+      { "month": 9, "count": -0.089 },
+      { "month": 10, "count": 0.206 },
+      { "month": 11, "count": 0.178 },
+      { "month": 12, "count": 0.195 }
+    ]
+  },
+  {
+    "year": 1929,
+    "bins": [
+      { "month": 1, "count": -0.562 },
+      { "month": 2, "count": -1.059 },
+      { "month": 3, "count": -0.176 },
+      { "month": 4, "count": -0.233 },
+      { "month": 5, "count": -0.451 },
+      { "month": 6, "count": -0.609 },
+      { "month": 7, "count": -0.459 },
+      { "month": 8, "count": -0.244 },
+      { "month": 9, "count": -0.316 },
+      { "month": 10, "count": 0.2 },
+      { "month": 11, "count": 0.053 },
+      { "month": 12, "count": -1.085 }
+    ]
+  },
+  {
+    "year": 1930,
+    "bins": [
+      { "month": 1, "count": -0.211 },
+      { "month": 2, "count": -0.062 },
+      { "month": 3, "count": 0.206 },
+      { "month": 4, "count": -0.167 },
+      { "month": 5, "count": -0.248 },
+      { "month": 6, "count": -0.197 },
+      { "month": 7, "count": 0.047 },
+      { "month": 8, "count": -0.013 },
+      { "month": 9, "count": -0.261 },
+      { "month": 10, "count": -0.034 },
+      { "month": 11, "count": 0.419 },
+      { "month": 12, "count": 0.144 }
+    ]
+  },
+  {
+    "year": 1931,
+    "bins": [
+      { "month": 1, "count": 0.143 },
+      { "month": 2, "count": -0.52 },
+      { "month": 3, "count": -0.101 },
+      { "month": 4, "count": -0.192 },
+      { "month": 5, "count": -0.351 },
+      { "month": 6, "count": 0.039 },
+      { "month": 7, "count": 0.179 },
+      { "month": 8, "count": 0.204 },
+      { "month": 9, "count": 0.158 },
+      { "month": 10, "count": 0.652 },
+      { "month": 11, "count": 0.091 },
+      { "month": 12, "count": 0.35 }
+    ]
+  },
+  {
+    "year": 1932,
+    "bins": [
+      { "month": 1, "count": 0.999 },
+      { "month": 2, "count": -0.237 },
+      { "month": 3, "count": -0.384 },
+      { "month": 4, "count": 0.418 },
+      { "month": 5, "count": -0.131 },
+      { "month": 6, "count": -0.15 },
+      { "month": 7, "count": -0.036 },
+      { "month": 8, "count": -0.189 },
+      { "month": 9, "count": 0.184 },
+      { "month": 10, "count": 0.404 },
+      { "month": 11, "count": -0.228 },
+      { "month": 12, "count": -0.142 }
+    ]
+  },
+  {
+    "year": 1933,
+    "bins": [
+      { "month": 1, "count": -0.442 },
+      { "month": 2, "count": -0.566 },
+      { "month": 3, "count": -0.445 },
+      { "month": 4, "count": -0.212 },
+      { "month": 5, "count": -0.295 },
+      { "month": 6, "count": -0.407 },
+      { "month": 7, "count": -0.17 },
+      { "month": 8, "count": -0.159 },
+      { "month": 9, "count": -0.252 },
+      { "month": 10, "count": -0.026 },
+      { "month": 11, "count": -0.226 },
+      { "month": 12, "count": -0.554 }
+    ]
+  },
+  {
+    "year": 1934,
+    "bins": [
+      { "month": 1, "count": -0.125 },
+      { "month": 2, "count": 0.495 },
+      { "month": 3, "count": -0.479 },
+      { "month": 4, "count": -0.308 },
+      { "month": 5, "count": 0.146 },
+      { "month": 6, "count": -0.087 },
+      { "month": 7, "count": -0.046 },
+      { "month": 8, "count": -0.128 },
+      { "month": 9, "count": -0.374 },
+      { "month": 10, "count": 0.169 },
+      { "month": 11, "count": 0.288 },
+      { "month": 12, "count": 0.335 }
+    ]
+  },
+  {
+    "year": 1935,
+    "bins": [
+      { "month": 1, "count": -0.423 },
+      { "month": 2, "count": 0.908 },
+      { "month": 3, "count": 0.082 },
+      { "month": 4, "count": -0.549 },
+      { "month": 5, "count": -0.435 },
+      { "month": 6, "count": -0.18 },
+      { "month": 7, "count": -0.062 },
+      { "month": 8, "count": -0.13 },
+      { "month": 9, "count": -0.116 },
+      { "month": 10, "count": 0.253 },
+      { "month": 11, "count": -0.685 },
+      { "month": 12, "count": -0.228 }
+    ]
+  },
+  {
+    "year": 1936,
+    "bins": [
+      { "month": 1, "count": -0.325 },
+      { "month": 2, "count": -0.706 },
+      { "month": 3, "count": -0.255 },
+      { "month": 4, "count": -0.194 },
+      { "month": 5, "count": -0.073 },
+      { "month": 6, "count": -0.159 },
+      { "month": 7, "count": 0.219 },
+      { "month": 8, "count": -0.064 },
+      { "month": 9, "count": -0.112 },
+      { "month": 10, "count": 0.186 },
+      { "month": 11, "count": 0.115 },
+      { "month": 12, "count": 0.261 }
+    ]
+  },
+  {
+    "year": 1937,
+    "bins": [
+      { "month": 1, "count": -0.165 },
+      { "month": 2, "count": 0.326 },
+      { "month": 3, "count": -0.443 },
+      { "month": 4, "count": -0.209 },
+      { "month": 5, "count": 0.063 },
+      { "month": 6, "count": 0.068 },
+      { "month": 7, "count": -0.049 },
+      { "month": 8, "count": 0.084 },
+      { "month": 9, "count": 0.277 },
+      { "month": 10, "count": 0.446 },
+      { "month": 11, "count": 0.207 },
+      { "month": 12, "count": -0.192 }
+    ]
+  },
+  {
+    "year": 1938,
+    "bins": [
+      { "month": 1, "count": 0.306 },
+      { "month": 2, "count": 0.186 },
+      { "month": 3, "count": 0.317 },
+      { "month": 4, "count": 0.574 },
+      { "month": 5, "count": 0.089 },
+      { "month": 6, "count": -0.218 },
+      { "month": 7, "count": 0.079 },
+      { "month": 8, "count": 0.025 },
+      { "month": 9, "count": 0.296 },
+      { "month": 10, "count": 0.513 },
+      { "month": 11, "count": 0.416 },
+      { "month": 12, "count": -0.138 }
+    ]
+  },
+  {
+    "year": 1939,
+    "bins": [
+      { "month": 1, "count": 0.329 },
+      { "month": 2, "count": 0.036 },
+      { "month": 3, "count": -0.394 },
+      { "month": 4, "count": -0.027 },
+      { "month": 5, "count": 0.152 },
+      { "month": 6, "count": -0.008 },
+      { "month": 7, "count": -0.023 },
+      { "month": 8, "count": -0.005 },
+      { "month": 9, "count": -0.184 },
+      { "month": 10, "count": -0.071 },
+      { "month": 11, "count": 0.057 },
+      { "month": 12, "count": 1.303 }
+    ]
+  },
+  {
+    "year": 1940,
+    "bins": [
+      { "month": 1, "count": -0.272 },
+      { "month": 2, "count": 0.202 },
+      { "month": 3, "count": 0.095 },
+      { "month": 4, "count": 0.401 },
+      { "month": 5, "count": -0.038 },
+      { "month": 6, "count": 0.061 },
+      { "month": 7, "count": 0.144 },
+      { "month": 8, "count": -0.104 },
+      { "month": 9, "count": 0.135 },
+      { "month": 10, "count": 0.189 },
+      { "month": 11, "count": -0.042 },
+      { "month": 12, "count": 0.507 }
+    ]
+  },
+  {
+    "year": 1941,
+    "bins": [
+      { "month": 1, "count": 0.148 },
+      { "month": 2, "count": 0.464 },
+      { "month": 3, "count": -0.106 },
+      { "month": 4, "count": 0.228 },
+      { "month": 5, "count": 0.117 },
+      { "month": 6, "count": 0.096 },
+      { "month": 7, "count": 0.287 },
+      { "month": 8, "count": 0.09 },
+      { "month": 9, "count": -0.313 },
+      { "month": 10, "count": 0.425 },
+      { "month": 11, "count": -0.179 },
+      { "month": 12, "count": 0.056 }
+    ]
+  },
+  {
+    "year": 1942,
+    "bins": [
+      { "month": 1, "count": 0.513 },
+      { "month": 2, "count": -0.339 },
+      { "month": 3, "count": -0.007 },
+      { "month": 4, "count": 0.069 },
+      { "month": 5, "count": -0.032 },
+      { "month": 6, "count": 0.059 },
+      { "month": 7, "count": -0.165 },
+      { "month": 8, "count": -0.148 },
+      { "month": 9, "count": 0.005 },
+      { "month": 10, "count": 0.346 },
+      { "month": 11, "count": 0.267 },
+      { "month": 12, "count": 0.297 }
+    ]
+  },
+  {
+    "year": 1943,
+    "bins": [
+      { "month": 1, "count": -0.191 },
+      { "month": 2, "count": 0.316 },
+      { "month": 3, "count": -0.193 },
+      { "month": 4, "count": 0.279 },
+      { "month": 5, "count": 0.105 },
+      { "month": 6, "count": -0.378 },
+      { "month": 7, "count": 0.035 },
+      { "month": 8, "count": -0.178 },
+      { "month": 9, "count": -0.05 },
+      { "month": 10, "count": 0.621 },
+      { "month": 11, "count": 0.137 },
+      { "month": 12, "count": 0.579 }
+    ]
+  },
+  {
+    "year": 1944,
+    "bins": [
+      { "month": 1, "count": 0.92 },
+      { "month": 2, "count": 0.375 },
+      { "month": 3, "count": 0.215 },
+      { "month": 4, "count": 0.077 },
+      { "month": 5, "count": -0.053 },
+      { "month": 6, "count": -0.065 },
+      { "month": 7, "count": 0.027 },
+      { "month": 8, "count": 0.064 },
+      { "month": 9, "count": 0.303 },
+      { "month": 10, "count": 0.533 },
+      { "month": 11, "count": -0.032 },
+      { "month": 12, "count": -0.216 }
+    ]
+  },
+  {
+    "year": 1945,
+    "bins": [
+      { "month": 1, "count": -0.045 },
+      { "month": 2, "count": -0.55 },
+      { "month": 3, "count": -0.119 },
+      { "month": 4, "count": 0.32 },
+      { "month": 5, "count": -0.288 },
+      { "month": 6, "count": -0.203 },
+      { "month": 7, "count": -0.203 },
+      { "month": 8, "count": 0.375 },
+      { "month": 9, "count": 0.096 },
+      { "month": 10, "count": 0.303 },
+      { "month": 11, "count": -0.045 },
+      { "month": 12, "count": -0.495 }
+    ]
+  },
+  {
+    "year": 1946,
+    "bins": [
+      { "month": 1, "count": 0.383 },
+      { "month": 2, "count": 0.259 },
+      { "month": 3, "count": -0.059 },
+      { "month": 4, "count": 0.487 },
+      { "month": 5, "count": -0.014 },
+      { "month": 6, "count": -0.238 },
+      { "month": 7, "count": 0 },
+      { "month": 8, "count": -0.116 },
+      { "month": 9, "count": -0.073 },
+      { "month": 10, "count": 0.017 },
+      { "month": 11, "count": 0.123 },
+      { "month": 12, "count": -0.502 }
+    ]
+  },
+  {
+    "year": 1947,
+    "bins": [
+      { "month": 1, "count": -0.001 },
+      { "month": 2, "count": 0.076 },
+      { "month": 3, "count": 0.483 },
+      { "month": 4, "count": 0.339 },
+      { "month": 5, "count": -0.038 },
+      { "month": 6, "count": -0.065 },
+      { "month": 7, "count": -0.067 },
+      { "month": 8, "count": -0.1 },
+      { "month": 9, "count": 0.03 },
+      { "month": 10, "count": 0.743 },
+      { "month": 11, "count": 0.305 },
+      { "month": 12, "count": 0.014 }
+    ]
+  },
+  {
+    "year": 1948,
+    "bins": [
+      { "month": 1, "count": 0.786 },
+      { "month": 2, "count": 0.006 },
+      { "month": 3, "count": -0.405 },
+      { "month": 4, "count": 0.15 },
+      { "month": 5, "count": 0.169 },
+      { "month": 6, "count": 0.138 },
+      { "month": 7, "count": 0.034 },
+      { "month": 8, "count": -0.044 },
+      { "month": 9, "count": 0.021 },
+      { "month": 10, "count": 0.306 },
+      { "month": 11, "count": 0.076 },
+      { "month": 12, "count": -0.159 }
+    ]
+  },
+  {
+    "year": 1949,
+    "bins": [
+      { "month": 1, "count": 0.613 },
+      { "month": 2, "count": -0.455 },
+      { "month": 3, "count": -0.251 },
+      { "month": 4, "count": -0.011 },
+      { "month": 5, "count": -0.056 },
+      { "month": 6, "count": -0.308 },
+      { "month": 7, "count": -0.205 },
+      { "month": 8, "count": -0.102 },
+      { "month": 9, "count": -0.167 },
+      { "month": 10, "count": 0.258 },
+      { "month": 11, "count": 0.04 },
+      { "month": 12, "count": -0.192 }
+    ]
+  },
+  {
+    "year": 1950,
+    "bins": [
+      { "month": 1, "count": -0.6 },
+      { "month": 2, "count": -0.503 },
+      { "month": 3, "count": -0.086 },
+      { "month": 4, "count": -0.233 },
+      { "month": 5, "count": -0.074 },
+      { "month": 6, "count": -0.147 },
+      { "month": 7, "count": -0.275 },
+      { "month": 8, "count": -0.504 },
+      { "month": 9, "count": -0.182 },
+      { "month": 10, "count": -0.116 },
+      { "month": 11, "count": -0.736 },
+      { "month": 12, "count": -0.113 }
+    ]
+  },
+  {
+    "year": 1951,
+    "bins": [
+      { "month": 1, "count": -0.492 },
+      { "month": 2, "count": -0.903 },
+      { "month": 3, "count": -0.241 },
+      { "month": 4, "count": 0.012 },
+      { "month": 5, "count": 0.143 },
+      { "month": 6, "count": -0.221 },
+      { "month": 7, "count": -0.124 },
+      { "month": 8, "count": 0.073 },
+      { "month": 9, "count": 0.191 },
+      { "month": 10, "count": 0.405 },
+      { "month": 11, "count": 0.099 },
+      { "month": 12, "count": 0.679 }
+    ]
+  },
+  {
+    "year": 1952,
+    "bins": [
+      { "month": 1, "count": 0.438 },
+      { "month": 2, "count": 0.182 },
+      { "month": 3, "count": -0.363 },
+      { "month": 4, "count": 0.11 },
+      { "month": 5, "count": 0 },
+      { "month": 6, "count": -0.077 },
+      { "month": 7, "count": 0.145 },
+      { "month": 8, "count": 0.032 },
+      { "month": 9, "count": 0.109 },
+      { "month": 10, "count": -0.104 },
+      { "month": 11, "count": -0.682 },
+      { "month": 12, "count": 0.014 }
+    ]
+  },
+  {
+    "year": 1953,
+    "bins": [
+      { "month": 1, "count": 0.354 },
+      { "month": 2, "count": 0.427 },
+      { "month": 3, "count": 0.391 },
+      { "month": 4, "count": 0.539 },
+      { "month": 5, "count": 0.153 },
+      { "month": 6, "count": 0.094 },
+      { "month": 7, "count": -0.022 },
+      { "month": 8, "count": 0.129 },
+      { "month": 9, "count": 0.081 },
+      { "month": 10, "count": 0.343 },
+      { "month": 11, "count": -0.191 },
+      { "month": 12, "count": 0.343 }
+    ]
+  },
+  {
+    "year": 1954,
+    "bins": [
+      { "month": 1, "count": -0.559 },
+      { "month": 2, "count": -0.187 },
+      { "month": 3, "count": -0.169 },
+      { "month": 4, "count": -0.191 },
+      { "month": 5, "count": -0.371 },
+      { "month": 6, "count": -0.12 },
+      { "month": 7, "count": -0.157 },
+      { "month": 8, "count": -0.068 },
+      { "month": 9, "count": -0.019 },
+      { "month": 10, "count": 0.285 },
+      { "month": 11, "count": 0.482 },
+      { "month": 12, "count": -0.096 }
+    ]
+  },
+  {
+    "year": 1955,
+    "bins": [
+      { "month": 1, "count": 0.798 },
+      { "month": 2, "count": -0.085 },
+      { "month": 3, "count": -0.747 },
+      { "month": 4, "count": -0.213 },
+      { "month": 5, "count": -0.17 },
+      { "month": 6, "count": 0.035 },
+      { "month": 7, "count": -0.173 },
+      { "month": 8, "count": 0.35 },
+      { "month": 9, "count": -0.169 },
+      { "month": 10, "count": 0.477 },
+      { "month": 11, "count": -0.148 },
+      { "month": 12, "count": -0.351 }
+    ]
+  },
+  {
+    "year": 1956,
+    "bins": [
+      { "month": 1, "count": -0.14 },
+      { "month": 2, "count": -0.442 },
+      { "month": 3, "count": -0.43 },
+      { "month": 4, "count": -0.428 },
+      { "month": 5, "count": -0.639 },
+      { "month": 6, "count": -0.357 },
+      { "month": 7, "count": -0.241 },
+      { "month": 8, "count": -0.756 },
+      { "month": 9, "count": -0.334 },
+      { "month": 10, "count": -0.323 },
+      { "month": 11, "count": -0.369 },
+      { "month": 12, "count": -0.05 }
+    ]
+  },
+  {
+    "year": 1957,
+    "bins": [
+      { "month": 1, "count": -0.125 },
+      { "month": 2, "count": -0.086 },
+      { "month": 3, "count": -0.282 },
+      { "month": 4, "count": 0.016 },
+      { "month": 5, "count": -0.113 },
+      { "month": 6, "count": 0.255 },
+      { "month": 7, "count": -0.282 },
+      { "month": 8, "count": 0.143 },
+      { "month": 9, "count": 0.189 },
+      { "month": 10, "count": 0.229 },
+      { "month": 11, "count": 0.276 },
+      { "month": 12, "count": 0.681 }
+    ]
+  },
+  {
+    "year": 1958,
+    "bins": [
+      { "month": 1, "count": 0.958 },
+      { "month": 2, "count": 0.475 },
+      { "month": 3, "count": 0.125 },
+      { "month": 4, "count": 0.167 },
+      { "month": 5, "count": 0.152 },
+      { "month": 6, "count": -0.34 },
+      { "month": 7, "count": 0.021 },
+      { "month": 8, "count": -0.342 },
+      { "month": 9, "count": -0.282 },
+      { "month": 10, "count": 0.116 },
+      { "month": 11, "count": 0.148 },
+      { "month": 12, "count": 0.172 }
+    ]
+  },
+  {
+    "year": 1959,
+    "bins": [
+      { "month": 1, "count": 0.34 },
+      { "month": 2, "count": 0.113 },
+      { "month": 3, "count": 0.529 },
+      { "month": 4, "count": 0.466 },
+      { "month": 5, "count": -0.038 },
+      { "month": 6, "count": 0.052 },
+      { "month": 7, "count": 0.036 },
+      { "month": 8, "count": -0.08 },
+      { "month": 9, "count": -0.187 },
+      { "month": 10, "count": -0.101 },
+      { "month": 11, "count": -0.347 },
+      { "month": 12, "count": 0.127 }
+    ]
+  },
+  {
+    "year": 1960,
+    "bins": [
+      { "month": 1, "count": 0.103 },
+      { "month": 2, "count": 0.588 },
+      { "month": 3, "count": -1.012 },
+      { "month": 4, "count": -0.221 },
+      { "month": 5, "count": -0.498 },
+      { "month": 6, "count": -0.045 },
+      { "month": 7, "count": -0.219 },
+      { "month": 8, "count": -0.115 },
+      { "month": 9, "count": -0.035 },
+      { "month": 10, "count": 0.232 },
+      { "month": 11, "count": -0.276 },
+      { "month": 12, "count": 0.604 }
+    ]
+  },
+  {
+    "year": 1961,
+    "bins": [
+      { "month": 1, "count": 0.318 },
+      { "month": 2, "count": 0.462 },
+      { "month": 3, "count": 0.252 },
+      { "month": 4, "count": 0.298 },
+      { "month": 5, "count": 0.257 },
+      { "month": 6, "count": 0.171 },
+      { "month": 7, "count": -0.122 },
+      { "month": 8, "count": -0.075 },
+      { "month": 9, "count": 0.117 },
+      { "month": 10, "count": 0.06 },
+      { "month": 11, "count": 0.099 },
+      { "month": 12, "count": -0.144 }
+    ]
+  },
+  {
+    "year": 1962,
+    "bins": [
+      { "month": 1, "count": 0.387 },
+      { "month": 2, "count": 0.476 },
+      { "month": 3, "count": 0.204 },
+      { "month": 4, "count": 0.186 },
+      { "month": 5, "count": -0.232 },
+      { "month": 6, "count": -0.098 },
+      { "month": 7, "count": -0.194 },
+      { "month": 8, "count": -0.209 },
+      { "month": 9, "count": -0.104 },
+      { "month": 10, "count": 0.201 },
+      { "month": 11, "count": 0.186 },
+      { "month": 12, "count": 0.28 }
+    ]
+  },
+  {
+    "year": 1963,
+    "bins": [
+      { "month": 1, "count": 0.285 },
+      { "month": 2, "count": 0.794 },
+      { "month": 3, "count": -0.227 },
+      { "month": 4, "count": -0.195 },
+      { "month": 5, "count": -0.325 },
+      { "month": 6, "count": -0.123 },
+      { "month": 7, "count": 0.098 },
+      { "month": 8, "count": 0.375 },
+      { "month": 9, "count": 0.425 },
+      { "month": 10, "count": 0.689 },
+      { "month": 11, "count": 0.447 },
+      { "month": 12, "count": 0.109 }
+    ]
+  },
+  {
+    "year": 1964,
+    "bins": [
+      { "month": 1, "count": 0.26 },
+      { "month": 2, "count": -0.196 },
+      { "month": 3, "count": -0.467 },
+      { "month": 4, "count": -0.438 },
+      { "month": 5, "count": -0.456 },
+      { "month": 6, "count": -0.066 },
+      { "month": 7, "count": -0.107 },
+      { "month": 8, "count": -0.25 },
+      { "month": 9, "count": -0.526 },
+      { "month": 10, "count": -0.439 },
+      { "month": 11, "count": -0.119 },
+      { "month": 12, "count": -0.198 }
+    ]
+  },
+  {
+    "year": 1965,
+    "bins": [
+      { "month": 1, "count": 0.238 },
+      { "month": 2, "count": -0.197 },
+      { "month": 3, "count": -0.152 },
+      { "month": 4, "count": -0.369 },
+      { "month": 5, "count": -0.147 },
+      { "month": 6, "count": -0.218 },
+      { "month": 7, "count": -0.333 },
+      { "month": 8, "count": -0.116 },
+      { "month": 9, "count": -0.39 },
+      { "month": 10, "count": 0.228 },
+      { "month": 11, "count": -0.244 },
+      { "month": 12, "count": 0.114 }
+    ]
+  },
+  {
+    "year": 1966,
+    "bins": [
+      { "month": 1, "count": -0.14 },
+      { "month": 2, "count": 0.062 },
+      { "month": 3, "count": 0.2 },
+      { "month": 4, "count": -0.195 },
+      { "month": 5, "count": -0.17 },
+      { "month": 6, "count": 0.064 },
+      { "month": 7, "count": 0.17 },
+      { "month": 8, "count": -0.188 },
+      { "month": 9, "count": 0.017 },
+      { "month": 10, "count": -0.101 },
+      { "month": 11, "count": -0.134 },
+      { "month": 12, "count": -0.274 }
+    ]
+  },
+  {
+    "year": 1967,
+    "bins": [
+      { "month": 1, "count": 0.097 },
+      { "month": 2, "count": -0.322 },
+      { "month": 3, "count": 0.077 },
+      { "month": 4, "count": 0.09 },
+      { "month": 5, "count": 0.29 },
+      { "month": 6, "count": -0.336 },
+      { "month": 7, "count": -0.061 },
+      { "month": 8, "count": -0.126 },
+      { "month": 9, "count": -0.074 },
+      { "month": 10, "count": 0.541 },
+      { "month": 11, "count": 0.071 },
+      { "month": 12, "count": 0.254 }
+    ]
+  },
+  {
+    "year": 1968,
+    "bins": [
+      { "month": 1, "count": -0.267 },
+      { "month": 2, "count": 0.02 },
+      { "month": 3, "count": 0.787 },
+      { "month": 4, "count": 0.096 },
+      { "month": 5, "count": -0.299 },
+      { "month": 6, "count": -0.317 },
+      { "month": 7, "count": -0.37 },
+      { "month": 8, "count": -0.435 },
+      { "month": 9, "count": -0.511 },
+      { "month": 10, "count": 0.188 },
+      { "month": 11, "count": -0.202 },
+      { "month": 12, "count": -0.413 }
+    ]
+  },
+  {
+    "year": 1969,
+    "bins": [
+      { "month": 1, "count": -0.648 },
+      { "month": 2, "count": -0.753 },
+      { "month": 3, "count": -0.192 },
+      { "month": 4, "count": 0.22 },
+      { "month": 5, "count": -0.019 },
+      { "month": 6, "count": -0.054 },
+      { "month": 7, "count": -0.185 },
+      { "month": 8, "count": -0.114 },
+      { "month": 9, "count": -0.081 },
+      { "month": 10, "count": 0.238 },
+      { "month": 11, "count": 0.326 },
+      { "month": 12, "count": 0.55 }
+    ]
+  },
+  {
+    "year": 1970,
+    "bins": [
+      { "month": 1, "count": 0.219 },
+      { "month": 2, "count": 0.517 },
+      { "month": 3, "count": -0.062 },
+      { "month": 4, "count": 0.232 },
+      { "month": 5, "count": -0.167 },
+      { "month": 6, "count": -0.027 },
+      { "month": 7, "count": -0.008 },
+      { "month": 8, "count": -0.275 },
+      { "month": 9, "count": 0.153 },
+      { "month": 10, "count": 0.099 },
+      { "month": 11, "count": -0.048 },
+      { "month": 12, "count": -0.122 }
+    ]
+  },
+  {
+    "year": 1971,
+    "bins": [
+      { "month": 1, "count": 0.35 },
+      { "month": 2, "count": -0.34 },
+      { "month": 3, "count": -0.318 },
+      { "month": 4, "count": -0.014 },
+      { "month": 5, "count": -0.161 },
+      { "month": 6, "count": -0.437 },
+      { "month": 7, "count": -0.267 },
+      { "month": 8, "count": -0.049 },
+      { "month": 9, "count": 0.016 },
+      { "month": 10, "count": 0.134 },
+      { "month": 11, "count": 0.199 },
+      { "month": 12, "count": 0.216 }
+    ]
+  },
+  {
+    "year": 1972,
+    "bins": [
+      { "month": 1, "count": -0.725 },
+      { "month": 2, "count": -0.6 },
+      { "month": 3, "count": -0.031 },
+      { "month": 4, "count": -0.014 },
+      { "month": 5, "count": -0.204 },
+      { "month": 6, "count": -0.02 },
+      { "month": 7, "count": -0.175 },
+      { "month": 8, "count": 0.245 },
+      { "month": 9, "count": -0.222 },
+      { "month": 10, "count": 0.096 },
+      { "month": 11, "count": -0.295 },
+      { "month": 12, "count": 0.141 }
+    ]
+  },
+  {
+    "year": 1973,
+    "bins": [
+      { "month": 1, "count": 0.414 },
+      { "month": 2, "count": 0.676 },
+      { "month": 3, "count": 0.489 },
+      { "month": 4, "count": 0.584 },
+      { "month": 5, "count": 0.386 },
+      { "month": 6, "count": 0.29 },
+      { "month": 7, "count": 0.02 },
+      { "month": 8, "count": -0.059 },
+      { "month": 9, "count": -0.004 },
+      { "month": 10, "count": 0.351 },
+      { "month": 11, "count": 0.12 },
+      { "month": 12, "count": 0.185 }
+    ]
+  },
+  {
+    "year": 1974,
+    "bins": [
+      { "month": 1, "count": -0.348 },
+      { "month": 2, "count": -0.641 },
+      { "month": 3, "count": -0.131 },
+      { "month": 4, "count": 0.029 },
+      { "month": 5, "count": -0.179 },
+      { "month": 6, "count": -0.146 },
+      { "month": 7, "count": -0.118 },
+      { "month": 8, "count": 0.089 },
+      { "month": 9, "count": -0.384 },
+      { "month": 10, "count": -0.159 },
+      { "month": 11, "count": -0.186 },
+      { "month": 12, "count": -0.105 }
+    ]
+  },
+  {
+    "year": 1975,
+    "bins": [
+      { "month": 1, "count": 0.437 },
+      { "month": 2, "count": 0.171 },
+      { "month": 3, "count": 0.385 },
+      { "month": 4, "count": 0.229 },
+      { "month": 5, "count": 0.376 },
+      { "month": 6, "count": 0.024 },
+      { "month": 7, "count": -0.049 },
+      { "month": 8, "count": -0.421 },
+      { "month": 9, "count": 0.027 },
+      { "month": 10, "count": 0.065 },
+      { "month": 11, "count": -0.191 },
+      { "month": 12, "count": 0.027 }
+    ]
+  },
+  {
+    "year": 1976,
+    "bins": [
+      { "month": 1, "count": 0.274 },
+      { "month": 2, "count": -0.17 },
+      { "month": 3, "count": -0.804 },
+      { "month": 4, "count": -0.078 },
+      { "month": 5, "count": -0.43 },
+      { "month": 6, "count": -0.446 },
+      { "month": 7, "count": -0.249 },
+      { "month": 8, "count": -0.413 },
+      { "month": 9, "count": -0.234 },
+      { "month": 10, "count": -0.735 },
+      { "month": 11, "count": -0.436 },
+      { "month": 12, "count": 0.04 }
+    ]
+  },
+  {
+    "year": 1977,
+    "bins": [
+      { "month": 1, "count": -0.104 },
+      { "month": 2, "count": 0.259 },
+      { "month": 3, "count": 0.374 },
+      { "month": 4, "count": 0.491 },
+      { "month": 5, "count": 0.403 },
+      { "month": 6, "count": 0.355 },
+      { "month": 7, "count": 0.228 },
+      { "month": 8, "count": 0.168 },
+      { "month": 9, "count": -0.262 },
+      { "month": 10, "count": -0.099 },
+      { "month": 11, "count": 0.432 },
+      { "month": 12, "count": 0.082 }
+    ]
+  },
+  {
+    "year": 1978,
+    "bins": [
+      { "month": 1, "count": 0.09 },
+      { "month": 2, "count": 0.25 },
+      { "month": 3, "count": 0.281 },
+      { "month": 4, "count": 0.438 },
+      { "month": 5, "count": 0.036 },
+      { "month": 6, "count": -0.307 },
+      { "month": 7, "count": -0.038 },
+      { "month": 8, "count": -0.616 },
+      { "month": 9, "count": -0.088 },
+      { "month": 10, "count": 0.094 },
+      { "month": 11, "count": 0.253 },
+      { "month": 12, "count": 0.086 }
+    ]
+  },
+  {
+    "year": 1979,
+    "bins": [
+      { "month": 1, "count": 0.077 },
+      { "month": 2, "count": -0.388 },
+      { "month": 3, "count": 0.149 },
+      { "month": 4, "count": 0.093 },
+      { "month": 5, "count": -0.173 },
+      { "month": 6, "count": -0.037 },
+      { "month": 7, "count": -0.295 },
+      { "month": 8, "count": -0.077 },
+      { "month": 9, "count": 0.136 },
+      { "month": 10, "count": 0.341 },
+      { "month": 11, "count": 0.195 },
+      { "month": 12, "count": 0.956 }
+    ]
+  },
+  {
+    "year": 1980,
+    "bins": [
+      { "month": 1, "count": 0.354 },
+      { "month": 2, "count": 0.467 },
+      { "month": 3, "count": 0.052 },
+      { "month": 4, "count": 0.57 },
+      { "month": 5, "count": 0.386 },
+      { "month": 6, "count": 0.062 },
+      { "month": 7, "count": 0.328 },
+      { "month": 8, "count": 0.276 },
+      { "month": 9, "count": 0.216 },
+      { "month": 10, "count": 0.315 },
+      { "month": 11, "count": 0.591 },
+      { "month": 12, "count": 0.375 }
+    ]
+  },
+  {
+    "year": 1981,
+    "bins": [
+      { "month": 1, "count": 1.168 },
+      { "month": 2, "count": 0.813 },
+      { "month": 3, "count": 0.918 },
+      { "month": 4, "count": 0.603 },
+      { "month": 5, "count": 0.191 },
+      { "month": 6, "count": 0.245 },
+      { "month": 7, "count": 0.331 },
+      { "month": 8, "count": 0.577 },
+      { "month": 9, "count": 0.111 },
+      { "month": 10, "count": 0.129 },
+      { "month": 11, "count": 0.184 },
+      { "month": 12, "count": 0.866 }
+    ]
+  },
+  {
+    "year": 1982,
+    "bins": [
+      { "month": 1, "count": -0.049 },
+      { "month": 2, "count": 0.063 },
+      { "month": 3, "count": -0.448 },
+      { "month": 4, "count": 0.105 },
+      { "month": 5, "count": -0.037 },
+      { "month": 6, "count": -0.283 },
+      { "month": 7, "count": 0.139 },
+      { "month": 8, "count": -0.118 },
+      { "month": 9, "count": -0.085 },
+      { "month": 10, "count": -0.017 },
+      { "month": 11, "count": -0.142 },
+      { "month": 12, "count": 0.691 }
+    ]
+  },
+  {
+    "year": 1983,
+    "bins": [
+      { "month": 1, "count": 0.833 },
+      { "month": 2, "count": 0.576 },
+      { "month": 3, "count": 0.37 },
+      { "month": 4, "count": 0.337 },
+      { "month": 5, "count": 0.367 },
+      { "month": 6, "count": -0.049 },
+      { "month": 7, "count": 0.005 },
+      { "month": 8, "count": 0.377 },
+      { "month": 9, "count": 0.578 },
+      { "month": 10, "count": 0.226 },
+      { "month": 11, "count": 0.672 },
+      { "month": 12, "count": 0.178 }
+    ]
+  },
+  {
+    "year": 1984,
+    "bins": [
+      { "month": 1, "count": 0.325 },
+      { "month": 2, "count": -0.122 },
+      { "month": 3, "count": 0.34 },
+      { "month": 4, "count": 0.067 },
+      { "month": 5, "count": 0.609 },
+      { "month": 6, "count": -0.134 },
+      { "month": 7, "count": 0.018 },
+      { "month": 8, "count": 0.047 },
+      { "month": 9, "count": -0.112 },
+      { "month": 10, "count": 0.123 },
+      { "month": 11, "count": -0.274 },
+      { "month": 12, "count": -0.442 }
+    ]
+  },
+  {
+    "year": 1985,
+    "bins": [
+      { "month": 1, "count": 0.416 },
+      { "month": 2, "count": -0.512 },
+      { "month": 3, "count": 0.126 },
+      { "month": 4, "count": 0.281 },
+      { "month": 5, "count": 0.061 },
+      { "month": 6, "count": 0.029 },
+      { "month": 7, "count": -0.41 },
+      { "month": 8, "count": 0.131 },
+      { "month": 9, "count": -0.157 },
+      { "month": 10, "count": 0.086 },
+      { "month": 11, "count": -0.13 },
+      { "month": 12, "count": 0.181 }
+    ]
+  },
+  {
+    "year": 1986,
+    "bins": [
+      { "month": 1, "count": 0.71 },
+      { "month": 2, "count": 0.792 },
+      { "month": 3, "count": 0.439 },
+      { "month": 4, "count": 0.517 },
+      { "month": 5, "count": 0.228 },
+      { "month": 6, "count": -0.069 },
+      { "month": 7, "count": -0.105 },
+      { "month": 8, "count": 0.029 },
+      { "month": 9, "count": -0.322 },
+      { "month": 10, "count": 0.031 },
+      { "month": 11, "count": -0.175 },
+      { "month": 12, "count": 0.137 }
+    ]
+  },
+  {
+    "year": 1987,
+    "bins": [
+      { "month": 1, "count": 0.531 },
+      { "month": 2, "count": 0.918 },
+      { "month": 3, "count": -0.091 },
+      { "month": 4, "count": 0.235 },
+      { "month": 5, "count": 0.147 },
+      { "month": 6, "count": 0.396 },
+      { "month": 7, "count": 0.482 },
+      { "month": 8, "count": -0.027 },
+      { "month": 9, "count": 0.327 },
+      { "month": 10, "count": 0.352 },
+      { "month": 11, "count": -0.044 },
+      { "month": 12, "count": 0.846 }
+    ]
+  },
+  {
+    "year": 1988,
+    "bins": [
+      { "month": 1, "count": 0.857 },
+      { "month": 2, "count": 0.226 },
+      { "month": 3, "count": 0.611 },
+      { "month": 4, "count": 0.636 },
+      { "month": 5, "count": 0.483 },
+      { "month": 6, "count": 0.559 },
+      { "month": 7, "count": 0.392 },
+      { "month": 8, "count": 0.625 },
+      { "month": 9, "count": 0.562 },
+      { "month": 10, "count": 0.742 },
+      { "month": 11, "count": 0.21 },
+      { "month": 12, "count": 0.725 }
+    ]
+  },
+  {
+    "year": 1989,
+    "bins": [
+      { "month": 1, "count": 0.115 },
+      { "month": 2, "count": 0.414 },
+      { "month": 3, "count": 0.466 },
+      { "month": 4, "count": 0.334 },
+      { "month": 5, "count": -0.092 },
+      { "month": 6, "count": -0.089 },
+      { "month": 7, "count": 0.191 },
+      { "month": 8, "count": 0.214 },
+      { "month": 9, "count": 0.289 },
+      { "month": 10, "count": 0.502 },
+      { "month": 11, "count": 0.092 },
+      { "month": 12, "count": 0.78 }
+    ]
+  },
+  {
+    "year": 1990,
+    "bins": [
+      { "month": 1, "count": 0.638 },
+      { "month": 2, "count": 0.467 },
+      { "month": 3, "count": 1.407 },
+      { "month": 4, "count": 0.798 },
+      { "month": 5, "count": 0.442 },
+      { "month": 6, "count": 0.369 },
+      { "month": 7, "count": 0.373 },
+      { "month": 8, "count": 0.179 },
+      { "month": 9, "count": 0.073 },
+      { "month": 10, "count": 0.627 },
+      { "month": 11, "count": 0.822 },
+      { "month": 12, "count": 0.788 }
+    ]
+  },
+  {
+    "year": 1991,
+    "bins": [
+      { "month": 1, "count": 0.59 },
+      { "month": 2, "count": 0.839 },
+      { "month": 3, "count": 0.242 },
+      { "month": 4, "count": 0.869 },
+      { "month": 5, "count": 0.234 },
+      { "month": 6, "count": 0.72 },
+      { "month": 7, "count": 0.582 },
+      { "month": 8, "count": 0.407 },
+      { "month": 9, "count": 0.556 },
+      { "month": 10, "count": 0.498 },
+      { "month": 11, "count": 0.345 },
+      { "month": 12, "count": 0.406 }
+    ]
+  },
+  {
+    "year": 1992,
+    "bins": [
+      { "month": 1, "count": 0.966 },
+      { "month": 2, "count": 0.715 },
+      { "month": 3, "count": 0.632 },
+      { "month": 4, "count": 0.206 },
+      { "month": 5, "count": 0.145 },
+      { "month": 6, "count": 0.048 },
+      { "month": 7, "count": -0.269 },
+      { "month": 8, "count": -0.15 },
+      { "month": 9, "count": -0.454 },
+      { "month": 10, "count": 0.091 },
+      { "month": 11, "count": -0.195 },
+      { "month": 12, "count": 0.44 }
+    ]
+  },
+  {
+    "year": 1993,
+    "bins": [
+      { "month": 1, "count": 0.701 },
+      { "month": 2, "count": 0.533 },
+      { "month": 3, "count": 0.602 },
+      { "month": 4, "count": 0.312 },
+      { "month": 5, "count": 0.081 },
+      { "month": 6, "count": -0.014 },
+      { "month": 7, "count": 0.184 },
+      { "month": 8, "count": -0.085 },
+      { "month": 9, "count": -0.2 },
+      { "month": 10, "count": 0.357 },
+      { "month": 11, "count": -0.358 },
+      { "month": 12, "count": 0.4 }
+    ]
+  },
+  {
+    "year": 1994,
+    "bins": [
+      { "month": 1, "count": 0.407 },
+      { "month": 2, "count": -0.403 },
+      { "month": 3, "count": 0.397 },
+      { "month": 4, "count": 0.643 },
+      { "month": 5, "count": 0.293 },
+      { "month": 6, "count": 0.621 },
+      { "month": 7, "count": 0.239 },
+      { "month": 8, "count": 0.052 },
+      { "month": 9, "count": 0.402 },
+      { "month": 10, "count": 0.773 },
+      { "month": 11, "count": 0.695 },
+      { "month": 12, "count": 0.477 }
+    ]
+  },
+  {
+    "year": 1995,
+    "bins": [
+      { "month": 1, "count": 0.933 },
+      { "month": 2, "count": 1.448 },
+      { "month": 3, "count": 0.633 },
+      { "month": 4, "count": 0.606 },
+      { "month": 5, "count": 0.191 },
+      { "month": 6, "count": 0.643 },
+      { "month": 7, "count": 0.715 },
+      { "month": 8, "count": 0.706 },
+      { "month": 9, "count": 0.457 },
+      { "month": 10, "count": 0.857 },
+      { "month": 11, "count": 0.66 },
+      { "month": 12, "count": 0.492 }
+    ]
+  },
+  {
+    "year": 1996,
+    "bins": [
+      { "month": 1, "count": 0.259 },
+      { "month": 2, "count": 0.805 },
+      { "month": 3, "count": 0.198 },
+      { "month": 4, "count": 0.316 },
+      { "month": 5, "count": 0.211 },
+      { "month": 6, "count": 0.133 },
+      { "month": 7, "count": 0.416 },
+      { "month": 8, "count": 0.677 },
+      { "month": 9, "count": 0.168 },
+      { "month": 10, "count": 0.274 },
+      { "month": 11, "count": 0.458 },
+      { "month": 12, "count": 0.692 }
+    ]
+  },
+  {
+    "year": 1997,
+    "bins": [
+      { "month": 1, "count": 0.563 },
+      { "month": 2, "count": 0.549 },
+      { "month": 3, "count": 0.66 },
+      { "month": 4, "count": 0.49 },
+      { "month": 5, "count": 0.203 },
+      { "month": 6, "count": 0.596 },
+      { "month": 7, "count": 0.157 },
+      { "month": 8, "count": 0.331 },
+      { "month": 9, "count": 0.563 },
+      { "month": 10, "count": 0.857 },
+      { "month": 11, "count": 0.746 },
+      { "month": 12, "count": 0.788 }
+    ]
+  },
+  {
+    "year": 1998,
+    "bins": [
+      { "month": 1, "count": 0.758 },
+      { "month": 2, "count": 1.604 },
+      { "month": 3, "count": 0.684 },
+      { "month": 4, "count": 1.002 },
+      { "month": 5, "count": 0.903 },
+      { "month": 6, "count": 0.988 },
+      { "month": 7, "count": 0.919 },
+      { "month": 8, "count": 0.949 },
+      { "month": 9, "count": 0.542 },
+      { "month": 10, "count": 0.7 },
+      { "month": 11, "count": 0.314 },
+      { "month": 12, "count": 1.032 }
+    ]
+  },
+  {
+    "year": 1999,
+    "bins": [
+      { "month": 1, "count": 0.943 },
+      { "month": 2, "count": 1.474 },
+      { "month": 3, "count": 0.183 },
+      { "month": 4, "count": 0.459 },
+      { "month": 5, "count": 0.308 },
+      { "month": 6, "count": 0.494 },
+      { "month": 7, "count": 0.458 },
+      { "month": 8, "count": 0.419 },
+      { "month": 9, "count": 0.589 },
+      { "month": 10, "count": 0.737 },
+      { "month": 11, "count": 0.501 },
+      { "month": 12, "count": 0.934 }
+    ]
+  },
+  {
+    "year": 2000,
+    "bins": [
+      { "month": 1, "count": 0.352 },
+      { "month": 2, "count": 0.948 },
+      { "month": 3, "count": 0.865 },
+      { "month": 4, "count": 1.185 },
+      { "month": 5, "count": 0.491 },
+      { "month": 6, "count": 0.542 },
+      { "month": 7, "count": 0.425 },
+      { "month": 8, "count": 0.58 },
+      { "month": 9, "count": 0.42 },
+      { "month": 10, "count": 0.231 },
+      { "month": 11, "count": 0.226 },
+      { "month": 12, "count": 0.233 }
+    ]
+  },
+  {
+    "year": 2001,
+    "bins": [
+      { "month": 1, "count": 0.734 },
+      { "month": 2, "count": 0.501 },
+      { "month": 3, "count": 0.872 },
+      { "month": 4, "count": 0.862 },
+      { "month": 5, "count": 0.872 },
+      { "month": 6, "count": 0.556 },
+      { "month": 7, "count": 0.732 },
+      { "month": 8, "count": 0.502 },
+      { "month": 9, "count": 0.615 },
+      { "month": 10, "count": 0.677 },
+      { "month": 11, "count": 1.232 },
+      { "month": 12, "count": 0.88 }
+    ]
+  },
+  {
+    "year": 2002,
+    "bins": [
+      { "month": 1, "count": 1.424 },
+      { "month": 2, "count": 1.481 },
+      { "month": 3, "count": 1.431 },
+      { "month": 4, "count": 0.858 },
+      { "month": 5, "count": 0.863 },
+      { "month": 6, "count": 0.528 },
+      { "month": 7, "count": 0.921 },
+      { "month": 8, "count": 0.634 },
+      { "month": 9, "count": 0.802 },
+      { "month": 10, "count": 0.725 },
+      { "month": 11, "count": 0.806 },
+      { "month": 12, "count": 0.409 }
+    ]
+  },
+  {
+    "year": 2003,
+    "bins": [
+      { "month": 1, "count": 1.384 },
+      { "month": 2, "count": 0.879 },
+      { "month": 3, "count": 0.72 },
+      { "month": 4, "count": 0.784 },
+      { "month": 5, "count": 0.769 },
+      { "month": 6, "count": 0.463 },
+      { "month": 7, "count": 0.558 },
+      { "month": 8, "count": 0.756 },
+      { "month": 9, "count": 0.772 },
+      { "month": 10, "count": 1.168 },
+      { "month": 11, "count": 0.626 },
+      { "month": 12, "count": 1.516 }
+    ]
+  },
+  {
+    "year": 2004,
+    "bins": [
+      { "month": 1, "count": 0.918 },
+      { "month": 2, "count": 1.284 },
+      { "month": 3, "count": 0.99 },
+      { "month": 4, "count": 0.869 },
+      { "month": 5, "count": 0.181 },
+      { "month": 6, "count": 0.331 },
+      { "month": 7, "count": -0.098 },
+      { "month": 8, "count": 0.267 },
+      { "month": 9, "count": 0.528 },
+      { "month": 10, "count": 0.878 },
+      { "month": 11, "count": 1.223 },
+      { "month": 12, "count": 0.638 }
+    ]
+  },
+  {
+    "year": 2005,
+    "bins": [
+      { "month": 1, "count": 1.211 },
+      { "month": 2, "count": 0.716 },
+      { "month": 3, "count": 1.223 },
+      { "month": 4, "count": 1.246 },
+      { "month": 5, "count": 0.851 },
+      { "month": 6, "count": 0.94 },
+      { "month": 7, "count": 0.779 },
+      { "month": 8, "count": 0.602 },
+      { "month": 9, "count": 1.093 },
+      { "month": 10, "count": 1.333 },
+      { "month": 11, "count": 1.314 },
+      { "month": 12, "count": 1.257 }
+    ]
+  },
+  {
+    "year": 2006,
+    "bins": [
+      { "month": 1, "count": 0.709 },
+      { "month": 2, "count": 1.235 },
+      { "month": 3, "count": 0.999 },
+      { "month": 4, "count": 0.691 },
+      { "month": 5, "count": 0.398 },
+      { "month": 6, "count": 0.884 },
+      { "month": 7, "count": 0.626 },
+      { "month": 8, "count": 0.99 },
+      { "month": 9, "count": 0.731 },
+      { "month": 10, "count": 1.044 },
+      { "month": 11, "count": 0.858 },
+      { "month": 12, "count": 1.358 }
+    ]
+  },
+  {
+    "year": 2007,
+    "bins": [
+      { "month": 1, "count": 1.989 },
+      { "month": 2, "count": 1.032 },
+      { "month": 3, "count": 1.167 },
+      { "month": 4, "count": 1.472 },
+      { "month": 5, "count": 1.131 },
+      { "month": 6, "count": 0.76 },
+      { "month": 7, "count": 0.801 },
+      { "month": 8, "count": 0.822 },
+      { "month": 9, "count": 0.801 },
+      { "month": 10, "count": 1.082 },
+      { "month": 11, "count": 1 },
+      { "month": 12, "count": 0.903 }
+    ]
+  },
+  {
+    "year": 2008,
+    "bins": [
+      { "month": 1, "count": 0.277 },
+      { "month": 2, "count": 0.387 },
+      { "month": 3, "count": 1.595 },
+      { "month": 4, "count": 0.915 },
+      { "month": 5, "count": 0.651 },
+      { "month": 6, "count": 0.602 },
+      { "month": 7, "count": 0.753 },
+      { "month": 8, "count": 0.433 },
+      { "month": 9, "count": 0.656 },
+      { "month": 10, "count": 1.143 },
+      { "month": 11, "count": 1.122 },
+      { "month": 12, "count": 0.76 }
+    ]
+  },
+  {
+    "year": 2009,
+    "bins": [
+      { "month": 1, "count": 1.086 },
+      { "month": 2, "count": 0.88 },
+      { "month": 3, "count": 0.756 },
+      { "month": 4, "count": 1.005 },
+      { "month": 5, "count": 0.727 },
+      { "month": 6, "count": 0.653 },
+      { "month": 7, "count": 0.795 },
+      { "month": 8, "count": 0.728 },
+      { "month": 9, "count": 1.019 },
+      { "month": 10, "count": 0.882 },
+      { "month": 11, "count": 0.93 },
+      { "month": 12, "count": 0.68 }
+    ]
+  },
+  {
+    "year": 2010,
+    "bins": [
+      { "month": 1, "count": 1.145 },
+      { "month": 2, "count": 1.189 },
+      { "month": 3, "count": 1.424 },
+      { "month": 4, "count": 1.304 },
+      { "month": 5, "count": 1.009 },
+      { "month": 6, "count": 0.905 },
+      { "month": 7, "count": 0.795 },
+      { "month": 8, "count": 0.837 },
+      { "month": 9, "count": 0.726 },
+      { "month": 10, "count": 1.206 },
+      { "month": 11, "count": 1.408 },
+      { "month": 12, "count": 0.67 }
+    ]
+  },
+  {
+    "year": 2011,
+    "bins": [
+      { "month": 1, "count": 0.716 },
+      { "month": 2, "count": 0.551 },
+      { "month": 3, "count": 0.789 },
+      { "month": 4, "count": 1.121 },
+      { "month": 5, "count": 0.592 },
+      { "month": 6, "count": 0.84 },
+      { "month": 7, "count": 1.054 },
+      { "month": 8, "count": 1.084 },
+      { "month": 9, "count": 0.786 },
+      { "month": 10, "count": 1.106 },
+      { "month": 11, "count": 0.735 },
+      { "month": 12, "count": 1.052 }
+    ]
+  },
+  {
+    "year": 2012,
+    "bins": [
+      { "month": 1, "count": 0.568 },
+      { "month": 2, "count": 0.456 },
+      { "month": 3, "count": 0.703 },
+      { "month": 4, "count": 1.31 },
+      { "month": 5, "count": 1.187 },
+      { "month": 6, "count": 0.935 },
+      { "month": 7, "count": 0.668 },
+      { "month": 8, "count": 0.785 },
+      { "month": 9, "count": 0.93 },
+      { "month": 10, "count": 1.184 },
+      { "month": 11, "count": 1.062 },
+      { "month": 12, "count": 0.473 }
+    ]
+  },
+  {
+    "year": 2013,
+    "bins": [
+      { "month": 1, "count": 1.09 },
+      { "month": 2, "count": 1.022 },
+      { "month": 3, "count": 0.936 },
+      { "month": 4, "count": 0.698 },
+      { "month": 5, "count": 0.804 },
+      { "month": 6, "count": 1.023 },
+      { "month": 7, "count": 0.597 },
+      { "month": 8, "count": 0.824 },
+      { "month": 9, "count": 1.019 },
+      { "month": 10, "count": 1.009 },
+      { "month": 11, "count": 1.347 },
+      { "month": 12, "count": 1.106 }
+    ]
+  },
+  {
+    "year": 2014,
+    "bins": [
+      { "month": 1, "count": 1.132 },
+      { "month": 2, "count": 0.29 },
+      { "month": 3, "count": 1.061 },
+      { "month": 4, "count": 1.23 },
+      { "month": 5, "count": 1.187 },
+      { "month": 6, "count": 0.775 },
+      { "month": 7, "count": 0.442 },
+      { "month": 8, "count": 0.94 },
+      { "month": 9, "count": 0.952 },
+      { "month": 10, "count": 1.1 },
+      { "month": 11, "count": 0.632 },
+      { "month": 12, "count": 1.229 }
+    ]
+  },
+  {
+    "year": 2015,
+    "bins": [
+      { "month": 1, "count": 1.291 },
+      { "month": 2, "count": 1.45 },
+      { "month": 3, "count": 1.414 },
+      { "month": 4, "count": 0.951 },
+      { "month": 5, "count": 0.917 },
+      { "month": 6, "count": 0.977 },
+      { "month": 7, "count": 0.631 },
+      { "month": 8, "count": 0.823 },
+      { "month": 9, "count": 0.87 }
+    ]
+  }
+]

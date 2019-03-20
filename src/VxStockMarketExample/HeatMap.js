@@ -9,7 +9,7 @@ import heatData from "../data/heatmap_data.json";
 let data = heatData;
 
 const hot1 = "#77312f";
-const hot2 = "#f33d15";
+// const hot2 = "#f33d15";
 // const cool1 = "#122549";
 const cool2 = "#b4fbde";
 const bg = "#28272c";
@@ -34,7 +34,7 @@ const max = (data, value = d => d) => {
 // accessors
 // const bins = d => d.bins;
 // Example accessors
-const x = d => d.baseTemperature;
+// const x = d => d.baseTemperature;
 const y = d => d.monthlyVariance;
 const z = d => d.variance;
 // const tempChange = x + z;
@@ -51,10 +51,10 @@ const xScale = scaleLinear({
 const yScale = scaleLinear({
   domain: [0, bucketSizeMax]
 });
-const circleColorScale = scaleLinear({
-  range: [hot1, hot2],
-  domain: [0, colorMax]
-});
+// const circleColorScale = scaleLinear({
+//   range: [hot1, hot2],
+//   domain: [0, colorMax]
+// });
 const rectColorScale = scaleLinear({
   range: [hot1, cool2],
   domain: [0, colorMax]

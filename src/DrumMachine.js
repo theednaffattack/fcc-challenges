@@ -3,7 +3,7 @@ import ReactFCCtest from "react-fcctest";
 import Toggle from "react-toggle";
 import { Box as Base, Flex as BaseFlex, Text } from "rebass";
 import styled from "styled-components";
-import { minHeight, minWidth, space } from "styled-system";
+import { minHeight, minWidth } from "styled-system";
 
 import { DrumPad } from "./DrumPad";
 

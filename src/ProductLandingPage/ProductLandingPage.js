@@ -1,11 +1,9 @@
 import React, { Component } from "react";
 import ReactFCCtest from "react-fcctest";
-import { Box as BoxBase, Button, Flex, Text } from "rebass";
-import IconBase from "react-geomicons";
+import { Box as BoxBase, Flex, Text } from "rebass";
 import styled from "styled-components";
 import { minHeight, space } from "styled-system";
 
-import logo from "../logo.svg";
 import { Video } from "./Video";
 
 const url = "https://www.youtube.com/embed/GNCd_ERZvZM";
@@ -18,10 +16,6 @@ const StickyBox = styled(Flex)`
   @media (max-width: 768px) {
     flex-direction: column;
   }
-`;
-
-const Icon = styled(IconBase)`
-  ${space}
 `;
 
 const NavUl = styled.ul`

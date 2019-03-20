@@ -1,12 +1,9 @@
 import changeCase from "change-case";
 import React from "react";
 import posed from "react-pose";
-import { Box, Flex, Heading, Text } from "rebass";
-import { Link as BaseLink, Router } from "@reach/router";
+import { Heading, Text } from "rebass";
 import styled from "styled-components";
 import { color, space, width, minWidth } from "styled-system";
-
-import { navList } from "./navList";
 
 const SidebarBase = posed.nav({
   open: {
@@ -33,10 +30,6 @@ const StyledList = styled.ul`
   list-style-type: none;
   padding: 0;
   margin: 0;
-`;
-
-const StyledLi = styled.li`
-  border: 2px dotted black;
 `;
 
 const Link = styled.a`

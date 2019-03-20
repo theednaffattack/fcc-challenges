@@ -1,0 +1,55 @@
+[
+  {
+    "year": 2019,
+    "months": [
+      {
+        "month": 0,
+        "variance": -2.3
+      },
+      {
+        "month": 1,
+        "variance": -0.8
+      },
+      {
+        "month": 2,
+        "variance": -2.3
+      },
+      {
+        "month": 3,
+        "variance": -2.3
+      },
+      {
+        "month": 4,
+        "variance": -2.3
+      },
+      {
+        "month": 5,
+        "variance": -2.3
+      },
+      {
+        "month": 6,
+        "variance": -2.3
+      },
+      {
+        "month": 7,
+        "variance": -2.3
+      },
+      {
+        "month": 8,
+        "variance": -2.3
+      },
+      {
+        "month": 9,
+        "variance": -2.3
+      },
+      {
+        "month": 10,
+        "variance": -2.3
+      },
+      {
+        "month": 11,
+        "variance": -2.3
+      }
+    ]
+  }
+]

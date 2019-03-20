@@ -1,9 +1,8 @@
-import React, { Component } from "react";
+import React from "react";
 import Icon from "react-geomicons";
 import ReactFCCtest from "react-fcctest";
 import { Box, Flex, Button, Text } from "rebass";
 import styled from "styled-components";
-import { minHeight, minWidth, space, flexDirection } from "styled-system";
 import CircularProgressbar from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
 
@@ -56,20 +55,20 @@ export default class Timer extends React.Component {
     );
   }
   lengthControl(stateToChange, sign, currentLength, timerLabel) {
-    if (this.state.timerState == "running") return;
-    if (this.state.timerLabel == timerLabel) {
-      if (sign == "-" && currentLength != 1) {
+    if (this.state.timerState === "running") return;
+    if (this.state.timerLabel === timerLabel) {
+      if (sign === "-" && currentLength !== 1) {
         this.setState({ [stateToChange]: currentLength - 1 });
-      } else if (sign == "+" && currentLength != 60) {
+      } else if (sign === "+" && currentLength !== 60) {
         this.setState({ [stateToChange]: currentLength + 1 });
       }
     } else {
-      if (sign == "-" && currentLength != 1) {
+      if (sign === "-" && currentLength !== 1) {
         this.setState({
           [stateToChange]: currentLength - 1,
           timer: currentLength * 60 - 60
         });
-      } else if (sign == "+" && currentLength != 60) {
+      } else if (sign === "+" && currentLength !== 60) {
         this.setState({
           [stateToChange]: currentLength + 1,
           timer: currentLength * 60 + 60
@@ -79,7 +78,7 @@ export default class Timer extends React.Component {
   }
   timerControl() {
     let control =
-      this.state.timerState == "stopped"
+      this.state.timerState === "stopped"
         ? (this.beginCountDown(), this.setState({ timerState: "running" }))
         : (this.setState({ timerState: "stopped" }),
           this.state.intervalID && this.state.intervalID.cancel());
@@ -105,7 +104,7 @@ export default class Timer extends React.Component {
     this.buzzer(timer);
     if (timer < 0) {
       let something =
-        this.state.timerLabel == "Session"
+        this.state.timerLabel === "Session"
           ? (this.state.intervalID && this.state.intervalID.cancel(),
             this.beginCountDown(),
             this.switchTimer(this.state.breakLength * 60, "Break"))

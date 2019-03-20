@@ -87,15 +87,15 @@ export const Bars = D3blackbox(function() {
     .attr("opacity", 0)
     .remove();
 
-  const rect = current
-    .merge(enter)
-    .select("rect")
-    .attr("data-name", this.props.dataName)
-    .attr("data-value", this.props.dataValue)
-    .attr("data-category", this.props.dataCategory)
-    .attr("width", d => d.width)
-    .transition()
-    .duration(1000)
-    .attr("transform", d => `translate(${d.x}, ${d.y})`)
-    .attr("height", d => d.height);
+  // const rect = current
+  //   .merge(enter)
+  //   .select("rect")
+  //   .attr("data-name", this.props.dataName)
+  //   .attr("data-value", this.props.dataValue)
+  //   .attr("data-category", this.props.dataCategory)
+  //   .attr("width", d => d.width)
+  //   .transition()
+  //   .duration(1000)
+  //   .attr("transform", d => `translate(${d.x}, ${d.y})`)
+  //   .attr("height", d => d.height);
 });

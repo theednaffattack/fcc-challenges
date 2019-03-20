@@ -42,7 +42,6 @@ export const XAxis = D3blackbox(function() {
 });
 
 export const YAxis = D3blackbox(function() {
-  const formatMonth = d3.timeFormat("%B");
   const months = [
     "January",
     "February",
@@ -94,14 +93,14 @@ export const Bars = D3blackbox(function() {
     .domain([0, 40, 50, 60, 100])
     .range(["#6A01CF", "#68D1FF", "white", "#FED801", "#FC1F04"]);
 
-  function createColor(percent) {
-    return color(percent);
-  }
+  // function createColor(percent) {
+  //   return color(percent);
+  // }
 
-  const varianceToPercent = d3
-    .scaleLinear()
-    .domain(this.props.xDomain)
-    .range([0, 100]);
+  // const varianceToPercent = d3
+  //   .scaleLinear()
+  //   .domain(this.props.xDomain)
+  //   .range([0, 100]);
 
   const current = parent.selectAll(".bar").data(d => d);
 
@@ -139,12 +138,12 @@ export const Bars = D3blackbox(function() {
     .attr("opacity", 0)
     .remove();
 
-  const rect = current
-    .merge(enter)
-    .select("rect")
-    .attr("width", d => d.width)
-    .transition()
-    .duration(1000)
-    .attr("transform", d => `translate(${d.x}, ${d.y})`)
-    .attr("height", d => this.props.plotHeight / 12);
+  // const rect = current
+  //   .merge(enter)
+  //   .select("rect")
+  //   .attr("width", d => d.width)
+  //   .transition()
+  //   .duration(1000)
+  //   .attr("transform", d => `translate(${d.x}, ${d.y})`)
+  //   .attr("height", d => this.props.plotHeight / 12);
 });

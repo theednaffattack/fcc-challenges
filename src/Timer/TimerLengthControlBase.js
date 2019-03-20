@@ -1,9 +1,6 @@
 import React, { Component } from "react";
 import Icon from "react-geomicons";
-import ReactFCCtest from "react-fcctest";
-import { Box, Flex, Button, Text } from "rebass";
-import styled from "styled-components";
-import { minHeight, minWidth, space, flexDirection } from "styled-system";
+import { Button } from "rebass";
 
 // COMPONENTS:
 export default class TimerLengthControlBase extends Component {

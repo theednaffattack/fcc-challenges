@@ -1,27 +1,17 @@
 import React from "react";
-import {
-  Box,
-  Button as BaseButton,
-  Flex,
-  Heading,
-  Position,
-  Provider,
-  Text
-} from "rebass";
+import { Flex } from "rebass";
 import { render } from "react-dom";
-import { Link as BaseLink, Router } from "@reach/router";
-import styled, { ThemeProvider } from "styled-components";
-import { height, minHeight, space, width } from "styled-system";
+import { Router } from "@reach/router";
+import { ThemeProvider } from "styled-components";
 
 // import Home from "./Home";
 import theme from "./app_styles/theme";
 // import { NavList } from "./SideBar/navList";
-import Nav from "./SideBar/Sidebar";
 import Home from "./Home/";
 import MyMarkdown from "./MyMarkdown";
 import DrumMachine from "./DrumMachine";
 import NewTimerV2 from "./Timer/NewTimer_v2";
-import BarChartWrapper from "./Heatmap/App";
+import HeatMapWrapper from "./Heatmap/App";
 import Treemap from "./Treemap/App";
 import SurveyForm from "./SurveyForm";
 import ProductLandingPage from "./ProductLandingPage";
@@ -29,12 +19,6 @@ import TechnicalDocumentation from "./TechnicalDocumentation";
 import Portfolio from "./Portfolio";
 import VxChart from "./VxStockMarketExample";
 import Calculator from "./Calculator";
-
-const Button = styled(BaseButton)`
-  ${minHeight}
-  ${height}
-  ${space}
-`;
 
 class App extends React.Component {
   constructor(props) {
@@ -81,7 +65,7 @@ class App extends React.Component {
               <MyMarkdown path="/markdown" />
               <DrumMachine path="/drummachine" />
               <NewTimerV2 path="/pomodoro" />
-              <BarChartWrapper path="/heatmap" />
+              <HeatMapWrapper path="/heatmap" />
               <Treemap path="/treemap" />
               <SurveyForm path="/surveyform" />
               <ProductLandingPage path="/productlandingpage" />

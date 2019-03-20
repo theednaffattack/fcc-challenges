@@ -1,5 +1,5 @@
 import React from "react";
-import { Flex as BaseFlex, Text } from "rebass";
+import { Flex as BaseFlex } from "rebass";
 
 import { minHeight, minWidth } from "styled-system";
 import styled from "styled-components";

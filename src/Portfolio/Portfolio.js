@@ -1,28 +1,15 @@
-import changeCase from "change-case";
 import React, { Component } from "react";
 import ReactFCCtest from "react-fcctest";
-import posed from "react-pose";
-import { Box as BaseBox, Card, Flex as BaseFlex, Heading, Text } from "rebass";
+
+import { Card, Flex as BaseFlex, Heading } from "rebass";
 import styled from "styled-components";
-import {
-  borders,
-  color,
-  space,
-  width,
-  height,
-  minHeight,
-  minWidth
-} from "styled-system";
+import { borders, minHeight } from "styled-system";
 
 import NavbarTop from "./NavbarTop";
 // import { ReactComponent } from "*.svg";
 
 const Flex = styled(BaseFlex)`
   ${minHeight}
-  ${borders}
-`;
-
-const Box = styled(BaseBox)`
   ${borders}
 `;
 

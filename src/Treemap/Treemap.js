@@ -1,12 +1,7 @@
-import React, { Component } from "react";
-import ReactFCCtest from "react-fcctest";
-import { Box as Base, Flex as BaseFlex, Text } from "rebass";
-import styled from "styled-components";
-import { minHeight, minWidth, space } from "styled-system";
+import React from "react";
 import * as d3 from "d3";
 
 import { Legend } from "./Legend";
-import { Bars } from "./ChartComponents.js";
 import "./treemap.css";
 // import data from "./flare2.json";
 import data from "./movie_data.json";
@@ -15,12 +10,12 @@ import data from "./movie_data.json";
 import Tooltip from "../TooltipV2/tooltip";
 import "../TooltipV2/styles.css";
 
-const Pree = styled.pre`
-  font-size: 1.5em;
-  ${minHeight}
-  ${minWidth}
-  ${space}
-`;
+// const Pree = styled.pre`
+//   font-size: 1.5em;
+//   ${minHeight}
+//   ${minWidth}
+//   ${space}
+// `;
 
 // const color = d3.scaleOrdinal().range(d3.schemeCategory20c);
 
@@ -67,29 +62,29 @@ export class Treemap extends React.Component {
   //   return { xScale, yScale };
   // }
 
-  updatePlotSize(props) {
-    const plotWidth = props.width - (props.margin.left + props.margin.right);
-    const plotHeight = props.height - (props.margin.top + props.margin.bottom);
+  // updatePlotSize(props) {
+  //   const plotWidth = props.width - (props.margin.left + props.margin.right);
+  //   const plotHeight = props.height - (props.margin.top + props.margin.bottom);
 
-    return { plotWidth, plotHeight };
-  }
+  //   return { plotWidth, plotHeight };
+  // }
 
   color = d3.scaleOrdinal(d3.schemeCategory10); // category20c()
 
   render() {
     // const { xScale, yScale } = this.updateScale(this.props);
 
-    const { plotWidth, plotHeight } = this.updatePlotSize(this.props);
+    // const { plotWidth, plotHeight } = this.updatePlotSize(this.props);
 
     const width = 960;
     const height = 600;
 
-    const margin = {
-      left: "40",
-      top: "40",
-      right: "40",
-      bottom: "40"
-    };
+    // const margin = {
+    //   left: "40",
+    //   top: "40",
+    //   right: "40",
+    //   bottom: "40"
+    // };
 
     const treemap = d3.treemap().size([width, height]);
     // .padding(1);

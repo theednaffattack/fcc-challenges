@@ -1,8 +1,4 @@
-import React, { Component } from "react";
-import ReactFCCtest from "react-fcctest";
-import { Box as Base, Flex as BaseFlex, Text } from "rebass";
-import styled from "styled-components";
-import { minHeight, minWidth, space } from "styled-system";
+import React from "react";
 
 export default ({ hoveredBar, scales, xpos, ypos }) => {
   //   const { xScale, yScale } = scales;
