@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "630174fbb306a967db56",
-    "url": "/static/css/main.dd095cf8.chunk.css"
+    "revision": "bb1e70364dfdc8670a53",
+    "url": "/static/css/main.8ec584ce.chunk.css"
   },
   {
-    "revision": "630174fbb306a967db56",
-    "url": "/static/js/main.630174fb.chunk.js"
+    "revision": "bb1e70364dfdc8670a53",
+    "url": "/static/js/main.bb1e7036.chunk.js"
   },
   {
-    "revision": "fdfcfda2d9b1bf31db52",
-    "url": "/static/js/runtime~main.fdfcfda2.js"
+    "revision": "42ac5946195a7306e2a5",
+    "url": "/static/js/runtime~main.42ac5946.js"
   },
   {
-    "revision": "e8851e4675aeaa70c264",
-    "url": "/static/css/2.3eb117b2.chunk.css"
+    "revision": "8f210193e6aa5e33dba4",
+    "url": "/static/css/2.fc745cbb.chunk.css"
   },
   {
-    "revision": "e8851e4675aeaa70c264",
-    "url": "/static/js/2.e8851e46.chunk.js"
+    "revision": "8f210193e6aa5e33dba4",
+    "url": "/static/js/2.8f210193.chunk.js"
   },
   {
     "revision": "3946f9fe73921f85ce63735196183592",
@@ -92,11 +92,7 @@ self.__precacheManifest = [
     "url": "/static/media/BeepSound.988833bf.wav"
   },
   {
-    "revision": "5d5d9eefa31e5e13a6610d9fa7a283bb",
-    "url": "/static/media/logo.5d5d9eef.svg"
-  },
-  {
-    "revision": "2298c29157a330a4c6f15a0148fd6f7f",
+    "revision": "f879a7a206b77f4ea6db5effccf3b8b3",
     "url": "/index.html"
   }
 ];

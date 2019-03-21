@@ -1,16 +1,19 @@
 import React from "react";
 import { Box, Flex, Heading, Text } from "rebass";
 import { Group } from "@vx/group";
+import { Area, LinePath, Line } from "@vx/shape";
 // import { genBins } from "@vx/mock-data";
-import { scaleLinear, scaleQuantize } from "@vx/scale";
+import { scaleBand, scaleLinear, scaleOrdinal, scaleQuantize } from "@vx/scale";
+import { LegendQuantile, LegendItem, LegendLabel } from "@vx/legend";
 import { AxisLeft, AxisBottom } from "@vx/axis";
 import { HeatmapRect } from "@vx/heatmap";
 import { withTooltip, Tooltip } from "@vx/tooltip";
 import { timeParse, timeFormat } from "d3-time-format";
 
-// import globalTemps from "./globalTemps.json";
+import globalTemps from "./globalTemps.json";
 // import data from "./globalTempETL.json";
 import data from "./ETL2.json";
+import { title } from "change-case";
 
 // const cool1 = "#122549";
 // const cool2 = "#b4fbde";
@@ -21,15 +24,11 @@ const yAxisWidth = 36;
 
 // const data = genBins(16, 16);
 
-// let { baseTemperature, monthlyVariance } = globalTemps;
-// let { baseTemperature, monthlyVariance } = transformedTemps;
-// console.log(JSON.stringify(data));
+let { baseTemperature, monthlyVariance } = globalTemps;
 
-// let months = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
-
-// const getUniqueYears = Array.from(
-//   new Set(monthlyVariance.map(data => data.year))
-// );
+const getUniqueYears = Array.from(
+  new Set(monthlyVariance.map(data => data.year))
+);
 
 // let newData = monthlyVariance.map(rawData => {
 //   return {
@@ -90,6 +89,10 @@ const formatDate = date => format(parseDate(date));
 const bins = d => d.bins;
 const count = d => d.count;
 
+const { log } = console;
+const yearMax = Math.max(...getUniqueYears);
+const yearMin = Math.min(...getUniqueYears);
+
 const monthNames = [
   "January",
   "February",
@@ -105,13 +108,28 @@ const monthNames = [
   "December"
 ];
 
-// const colorMax = max(data, d => max(bins(d), count));
+const colorMax = max(data, d => max(bins(d), count));
 const bucketSizeMax = max(data, d => bins(d).length);
+
+const uniqueRange = getUniqueYears.filter((x, i) => {
+  return i % 10 === 0;
+});
+
+const uniqueRLength = uniqueRange.length;
 
 // scales
 const xScale = scaleLinear({
+  //   domain: [0, data.length]
   domain: [0, data.length]
 });
+
+const bottomScale = scaleOrdinal({
+  domain: [...uniqueRange],
+  range: [0, 30]
+});
+
+const xMap = getUniqueYears.map(item => xScale(item));
+
 const yScale = scaleLinear({
   domain: [bucketSizeMax, 0]
 });
@@ -126,7 +144,7 @@ const yScale = scaleLinear({
 
 // quantileScale
 const rectColorScale = scaleQuantize({
-  domain: [0, 0.15],
+  domain: [0, colorMax],
   range: ["#eb4d70", "#f19938", "#6ce18b", "#78f6ef", "#9096f8"]
 });
 
@@ -140,6 +158,9 @@ export default withTooltip(
     width,
     height,
     separation = 20,
+    xtraSpace = {
+      title: 80
+    },
     margin = {
       top: 10,
       left: 35,
@@ -160,7 +181,7 @@ export default withTooltip(
     }
 
     const xMax = size - margin.right;
-    const yMax = height - margin.bottom - margin.top;
+    const yMax = height - margin.bottom - margin.top - xtraSpace.title;
 
     const binWidth = xMax / data.length;
     const binHeight = yMax / bucketSizeMax;
@@ -180,18 +201,23 @@ export default withTooltip(
     yScale.range([yMax, 0]);
 
     return (
-      <Flex flexDirection="column" width="1020px" mx="auto" bg="white">
+      <Flex flexDirection="column" width="1100px" mx="auto" px={3} bg="white">
         <Heading fontSiz={[3, 4, 5]} mt={3} mx="auto" id="title">
           Monthly Global Land-Surface Temperature
         </Heading>
         <Text mx="auto" id="description">
-          1753 - 2015 base temperature 8.66
+          1753 - 2015
+        </Text>
+        <Text mx="auto" id="descrtiption-too">
+          base temperature {baseTemperature}°C
         </Text>
         {/* {JSON.stringify(this.props)} */}
         <svg width={width} height={height}>
           <rect x={0} y={0} width={width} height={height} rx={14} fill={bg} />
-
-          <Group top={margin.top + 9} left={margin.left + yAxisWidth}>
+          <Group
+            top={margin.top + xtraSpace.title + 9}
+            left={margin.left + yAxisWidth - 1}
+          >
             <HeatmapRect
               data={data}
               xScale={xScale}
@@ -213,9 +239,9 @@ export default withTooltip(
                       <rect
                         key={`heatmap-rect-${bin.row}-${bin.column}`}
                         className="vx-heatmap-rect cell"
-                        data-month="data-month"
-                        data-year="data-year"
-                        data-temp="data-temp"
+                        data-month={bin.bin.month - 1}
+                        data-year={bin.bin.year}
+                        data-temp={bin.bin.count}
                         width={bin.width}
                         height={bin.height}
                         x={bin.x}
@@ -232,8 +258,9 @@ export default withTooltip(
                           event.preventDefault();
 
                           if (tooltipTimeout) clearTimeout(tooltipTimeout);
-                          const top = bin.y + margin.top;
-                          const left = bin.x + bin.width + margin.left;
+                          const top = bin.y + margin.top + xtraSpace.title + 30;
+                          const left =
+                            bin.x + bin.width + margin.left + yAxisWidth + 150;
                           showTooltip({
                             tooltipData: bin,
                             tooltipTop: top,
@@ -247,19 +274,22 @@ export default withTooltip(
               }}
             </HeatmapRect>
           </Group>
-
-          <Group top={margin.top} left={margin.left}>
+          <Group
+            id="y-axis"
+            top={margin.top + xtraSpace.title}
+            left={margin.left}
+          >
             <AxisLeft
               top={margin.top}
               left={margin.left}
               scale={yScale}
               hideZero
               numTicks={numTicksForHeight(height)}
-              label="Months"
+              label="Month"
               labelProps={{
-                fill: "#8e205f",
+                fill: "crimson",
                 textAnchor: "middle",
-                fontSize: 12,
+                fontSize: 18,
                 fontFamily: "Arial"
               }}
               stroke="#1b1a1e"
@@ -267,7 +297,7 @@ export default withTooltip(
               tickLabelProps={(value, index) => ({
                 fill: "#8e205f",
                 textAnchor: "end",
-                fontSize: 10,
+                fontSize: 12,
                 fontFamily: "Arial",
                 dx: "-0.25em",
                 dy: "0.25em"
@@ -276,21 +306,120 @@ export default withTooltip(
                 <text {...tickProps}>{monthNames[formattedValue - 1]}</text>
               )}
             />
+          </Group>
+          <Group
+            left={margin.left}
+            top={margin.top + xtraSpace.title}
+            id="x-axis"
+          >
             <AxisBottom
-              top={height - margin.bottom}
+              top={height - margin.bottom - xtraSpace.title}
               left={margin.left}
               hideZero
+              id="x-axis"
               stroke="purple"
               scale={xScale}
               hideAxisLine={false}
               numTicks={numTicksForWidth(width)}
               label="Year"
+              labelProps={{
+                fill: "crimson",
+                textAnchor: "middle",
+                fontSize: 18,
+                fontFamily: "Arial"
+              }}
+              tickLabelProps={(value, index) => {
+                let ogValue = getUniqueYears[value];
+                return {
+                  ogValue,
+                  index: index,
+                  fill: "#8e205f",
+                  textAnchor: "middle",
+                  fontSize: 12,
+                  fontFamily: "Arial",
+                  dx: "-0.25em",
+                  dy: "0.25em"
+                };
+              }}
+              tickComponent={({
+                formattedValue,
+                ogValue,
+                index,
+                ...tickProps
+              }) => <text {...tickProps}>{ogValue}</text>}
             />
           </Group>
+          ;
         </svg>
+        <div
+          id="legend"
+          style={{
+            position: "absolute",
+            top: margin.top + xtraSpace.title + 20,
+            left: 0,
+            width: "100%",
+            display: "flex",
+            justifyContent: "center",
+            fontSize: "14px"
+          }}
+        >
+          <LegendQuantile
+            scale={rectColorScale}
+            direction="row-reverse"
+            itemDirection="column"
+            labelMargin="0 20px 0 0"
+            shapeMargin="1px 0 0"
+          >
+            {labels => {
+              return labels.map((label, i) => {
+                const size = 15;
+                return (
+                  <LegendItem
+                    key={`legend-${i}`}
+                    onClick={event => {
+                      alert(`clicked: ${JSON.stringify(label)}`);
+                    }}
+                  >
+                    <Flex
+                      alignItems="center"
+                      justifyContent="center"
+                      flexDirection="column"
+                      m={0}
+                    >
+                      <svg
+                        width={150}
+                        height={20}
+                        // style={{ margin: "2px 0" }}
+                      >
+                        <rect
+                          fill={label.value}
+                          //   r={150 / 2}
+                          x={size}
+                          y={size / 2}
+                          width={120}
+                          height={20}
+                        />
+                      </svg>
+                      <LegendLabel align={"left"} margin={"0 4px"}>
+                        {label.extent[0].toFixed(2)}{" "}
+                        {label.extent[1]
+                          ? ` - ${label.extent[1].toFixed(2)}`
+                          : ""}
+                        {/* {JSON.stringify(label)} */}
+                      </LegendLabel>
+                    </Flex>
+                  </LegendItem>
+                );
+              });
+            }}
+          </LegendQuantile>
+        </div>
         {tooltipOpen && (
           <Tooltip
             top={tooltipTop}
+            id="tooltip"
+            data-year={tooltipData.bin.year}
+            className="tooltip"
             left={tooltipLeft}
             style={{
               minWidth: 60,
